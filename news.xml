@@ -2,6 +2,10 @@
 <page title="SuperTux">
   <section title="News">
     <news>
+      <item date="25. October 2004">
+        Better late than never. We now have a Mandrake RPM, Mac OS X binary and
+        a BeOS package in our <a href="download.html">download section</a>.
+      </item>
       <item date="26. August 2004">
         A SuperTux 0.1.2 RPM for RedHat, Fedora and ASP Linux is now available,
         as well as a Windows binary. You can get them from the
