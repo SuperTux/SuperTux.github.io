@@ -87,7 +87,7 @@ directories:
 
 
 upload: content
-	echo rsync -rv -e ssh output/ $(USERNAME)@super-tux.sourceforge.net:/home/groups/s/su/super-tux/htdocs/
+	rsync -rv -e ssh output/ $(USERNAME)@super-tux.sourceforge.net:/home/groups/s/su/super-tux/htdocs/
 
 clean:
 	rm -rf output/*
