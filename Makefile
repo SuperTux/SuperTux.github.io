@@ -1,5 +1,5 @@
 HTMLOUT = \
-  index.html \
+  welcome.html \
   download.html \
   authors.html \
   \
@@ -50,6 +50,7 @@ content: $(OUTFILES) development/default.css
 	cp -v default.css output/milestone1/
 	cp -v milestone1/images/*.jpg output/milestone1/images/
 	cp -v milestone1/images/*.png output/milestone1/images/
+	cp -v milestone1/images/*.gif output/milestone1/images/
 	cp -v development/images/*.jpg output/development/images/
 	cp -v development/images/*.png output/development/images/
 

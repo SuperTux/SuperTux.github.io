@@ -21,7 +21,7 @@
     </subsection>
 
     <subsection title="Mr. Bomb">
-      <picture file="images/mrbomb.png">
+      <picture file="images/mrbomb2.png">
         Pretty much every game has some kind of exploding enemy, so
         SuperTux should have something like that too. For the moment
         this should be our Mr. Bomb, a plain and simple Bomb running
@@ -30,7 +30,7 @@
     </subsection>
 
     <subsection title="Mr. IceBlock">
-      <picture file="images/mriceblock.png">
+      <picture file="images/mriceblock2.png">
         Mr. IceBlock could be the most basic enemy in SuperTux, he
         just walks around without having any 'special attacks' or
         something like that. Jumping on Mr. IceBlock should flatten
@@ -45,6 +45,18 @@
       </picture>
     </subsection>
 
+    <subsection title="Bouncing Snowball">
+      <picture file="images/rollsnow.gif">
+        A bouncing/rolling ball that bounces around on the playfield
+      </picture>
+    </subsection>
+
+    <subsection title="Flying Snowball">
+      <picture file="images/flyingsnow.png">
+        Flies vertically up and down a bit
+      </picture>
+    </subsection>
+
     <subsection title="Mr. Crystal">
       <picture file="images/mrcrystal.png">
         When Tux jumps on MrCrystal, MrCrystal will break into pieces.
@@ -52,9 +64,21 @@
     </subsection>
 
     <subsection title="Spiky">
-      <picture file="images/spiky.png">
+      <picture file="images/spiky3.png">
         Spiky has spikes which makes it impossible for Tux to kill him
         by jumping on him.
+      </picture>
+    </subsection>
+
+    <subsection title="Jumpy Spiky">
+      <picture file="images/jumpy2.png">
+        Moneybag replacement, jumps up and down and is not killable by jumping
+      </picture>
+    </subsection>
+
+    <subsection title="Fish">
+      <picture file="images/fish.png">
+        Jumps up and down
       </picture>
     </subsection>
 
