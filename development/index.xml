@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<page title="SuperTux">
+  <section title="Development">
+    This page should catch should act as a collecting place for ideas,
+    graphics and other stuff surrounding the SuperTux development.
+    None of it should be taken as final, but more as an source of
+    inspiration and brainstorming.
+  </section>
+
+  <section title="Actions">
+    <subsection title="BlowFlyer">
+      <picture file="images/blowflyer.png">
+        The BlowFlyer or BaloonTux action should be a temporary
+        limited action in which Tux fills his body with air (helium?!)
+        and is thus able to fly for a short time, ie as long as he can
+        go without breathing. The end of the flight should be
+        announced by Tux changing color and catching for air.
+      </picture>
+    </subsection>
+
+    <subsection title="Unsorted">
+      <screenshot file="images/actions" />
+      <screenshot file="images/actions2" />
+    </subsection>
+  </section>
+
+  <section title="Enemies">
+    <subsection title="Evil Penguin">
+      <picture file="images/evil_penguin.png">
+        The Evil Penguin should look similar to Tux, it will probally
+        have another color and another shaped bill. Ranges of attack
+        might be something simple such as spitting balls or eggs at
+        Tux. There might even be multiple levels of evil penguins with
+        different behaviours (fire, ice).
+      </picture>
+    </subsection>
+
+    <subsection title="Mr. Bomb">
+      <picture file="images/mrbomb.png">
+        Pretty much every game has some kind of exploding enemy, so
+        SuperTux should have something like that too. For the moment
+        this should be our Mr. Bomb, a plain and simple Bomb running
+        on its tiny feed.
+      </picture>
+    </subsection>
+
+    <subsection title="Unsorted">
+      <screenshot file="images/enemies" />
+    </subsection>
+  </section>
+</page>
