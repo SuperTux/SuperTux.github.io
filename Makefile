@@ -2,7 +2,7 @@ HTMLOUT = \
   welcome.html \
   download.html \
   authors.html \
-  screemshots.html \
+  screenshots.html \
   \
   development/index.html   \
   development/map.html     \
@@ -45,10 +45,11 @@ content: $(OUTFILES) development/default.css
 	mkdir -p output/milestone1/
 	mkdir -p output/development/images/
 	mkdir -p output/milestone1/images/
-	cp -v index.php output/
+	cp -v output/welcome.html output/index.html
 	cp -v default.css output/
 	cp -v default.css output/development/
 	cp -v default.css output/milestone1/
+	cp -v images/*.jpg output/images/
 	cp -v milestone1/images/*.jpg output/milestone1/images/
 	cp -v milestone1/images/*.png output/milestone1/images/
 	cp -v milestone1/images/*.gif output/milestone1/images/
