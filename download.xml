@@ -4,20 +4,21 @@
     <subsection title="SuperTux 0.1.2 - August 24, 2004">
       <ul>
         <li>Source: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.2.tar.bz2?download">supertux-0.1.2.tar.bz2</a></li>
-        <li>RedHat/Fedora/ASP Linux: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.2-rh-fd-asp.i386.rpm?download">supertux-0.1.2.-rh-fd-asp.i386.rpm</a></li>
-        <li>Fedora Core 2: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.2-FC2.i386.rpm?download">supertux-0.1.2-FC2.i386.rpm</a></li>
+        <li>ASP Linux/RedHat/Fedora RPM: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.2-rh-fd-asp.i386.rpm?download">supertux-0.1.2.-rh-fd-asp.i386.rpm</a></li>
+        <li>Fedora Core 2 RPM: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.2-FC2.i386.rpm?download">supertux-0.1.2-FC2.i386.rpm</a></li>
+        <li>Windows Binary: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.2-setup.exe?download">supertux-0.1.2-setup.exe</a></li>
         <li>More packages coming soon.</li>
       </ul>
     </subsection>
     <subsection title="SuperTux (Milestone1) 0.1.1 - May 11, 2004">
       <ul>
         <li>Source: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.1.tar.bz2?download">supertux-0.1.1.tar.bz2</a></li>
-        <li>Windows Binary: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.1-setup.exe?download">supertux-0.1.1-setup.exe</a></li>
-        <li>Mac OS X: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.1-macosx.dmg?download">supertux-0.1.1-macosx.dmg</a></li>
         <li>Autopackage: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.1.package?download">supertux-0.1.1.package</a></li>
+        <li>Fedora Core 2 RPM: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.1-FC2.i386.rpm?download">supertux-0.1.1-FC2.i386.rpm</a></li>
+        <li>Mac OS X: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.1-macosx.dmg?download">supertux-0.1.1-macosx.dmg</a></li>
         <li>SuSE RPM (with OpenGL): <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.1-1.GL.SuSE.i586.rpm?download">supertux-0.1.1-1.GL.SuSE.i586.rpm</a></li>
         <li>SuSE RPM (without OpenGL): <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.1-11.nonGL.SuSE.i586.rpm?download">supertux-0.1.1-11.nonGL.SuSE.i586.rpm</a></li>
-        <li>Fedora Core 2 RPM: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.1-FC2.i386.rpm?download">supertux-0.1.1-FC2.i386.rpm</a></li>
+        <li>Windows Binary: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.1-setup.exe?download">supertux-0.1.1-setup.exe</a></li>
       </ul>
     </subsection>
 

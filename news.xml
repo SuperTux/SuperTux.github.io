@@ -3,9 +3,10 @@
   <section title="News">
     <news>
       <item date="26. August 2004">
-        A SuperTux 0.1.2 RPM for RedHat, Fedora and ASP Linux is now available
-        in our <a href="download.html">download section</a>. More packages
-        are on there way.
+        A SuperTux 0.1.2 RPM for RedHat, Fedora and ASP Linux is now available,
+        as well as a Windows binary. You can get them from the
+        <a href="download.html">download section</a>. More packages are on
+        there way.
       </item>
       <item date="24. August 2004">
         SuperTux 0.1.2 has been released! It features 22 new levels from both 
