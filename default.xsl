@@ -112,11 +112,13 @@
   </xsl:template>
   
   <xsl:template match="news">
-    <xsl:apply-templates />
+    <xsl:apply-templates select="item"/>
   </xsl:template>
 
   <xsl:template match="news/item">
-    <p style="padding: 0em;"><strong><xsl:value-of select="@date" /></strong> - <xsl:apply-templates /></p>
+    <xsl:if test="position() &lt;= 10">
+      <p style="padding: 0em;"><strong><xsl:value-of select="@date" /></strong> - <xsl:apply-templates /></p>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="submenu">
