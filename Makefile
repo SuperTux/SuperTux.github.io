@@ -1,5 +1,6 @@
 HTMLOUT = \
   index.html \
+  download.html \
   \
   development/index.html   \
   development/map.html     \

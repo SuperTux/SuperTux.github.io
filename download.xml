@@ -3,7 +3,8 @@
   <section title="SuperTux">
     <p>
       Lastest version of SuperTux is 0.0.5, released in December 23, 2003.
-      Get it from: <a href=http://prdownloads.sourceforge.net/super-tux/supertux-0.0.5.tar.bz2?download>here</a>.
+      Get it from: <a
+href="http://prdownloads.sourceforge.net/super-tux/supertux-0.0.5.tar.bz2?download">here</a>.
     </p>
     <p>
       The development version can be getted via CVS with the following
