@@ -6,6 +6,18 @@
       Welcome to our SuperTux screenshots album!
     </p>
 
+    <subsection title="SuperTux 0.1.2">
+      <p>
+        This was mostly a release twoards the players. We were asked for levels
+        so many times, so here's our answer. With a brand new Bonus World, more stuff
+        on world map, and a new enemy.
+      </p>
+
+      <center>
+        <screenshot file="images/game1-012" />
+      </center>
+      </subsection>
+
     <subsection title="SuperTux 0.1.1">
       <p>
         This version basically features the built-in editor that
@@ -18,6 +30,7 @@
         <screenshot file="images/game1-011" />
         <screenshot file="images/leveleditor-011" />
       </center>
+      </subsection>
 
       <subsection title="SuperTux Milestone1 aka 0.1.0">
         <p>
