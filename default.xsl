@@ -155,7 +155,7 @@
       </xsl:when>
       <xsl:otherwise>
         <xsl:choose>
-          <xsl:when test="$section='.'">
+          <xsl:when test="@section='sfnet' or $section='.'">
             <td><a href="{@file}"><xsl:apply-templates /></a></td>
           </xsl:when>
           <xsl:otherwise>

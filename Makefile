@@ -20,7 +20,7 @@ OUTFILES=$(patsubst %,output/%,$(HTMLOUT))
 
 all: content
 
-default.xsl: development/submenu.xml milestone1/submenu.xml submenu.xml
+default.xsl: development/submenu.xml milestone1/submenu.xml submenu.xml menu.xml
 
 $(OUTFILES): output/%.html: %.xml Makefile default.xsl
 	@FILENAME=$<; \
