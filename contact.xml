@@ -2,8 +2,8 @@
 <page title="SuperTux">
   <section title="Contact">
     <p>
-      Development is mainly coordinated via IRC and the mailing lists,
-      be sure to visit both once in a while or you might miss critical
+      Development is mainly coordinated via IRC and the mailing list.
+      Be sure to visit both once in a while or you might miss critical
       stuff.
     </p>
       
@@ -11,7 +11,7 @@
       <dl>
         <dt><a
         href="mailto:super-tux-devel@lists.sourceforge.net">super-tux-devel@lists.sourceforge.net</a>
-        - List for comments critics and everything development
+        - List for comments, criticisms and everything development
         related</dt>
 
         <dd><a href="http://sourceforge.net/mailarchive/forum.php?forum_id=36963">Archive</a></dd>
@@ -21,7 +21,7 @@
       <dl>
         <dt><a
         href="mailto:super-tux-devel@lists.sourceforge.net">super-tux-commit@lists.sourceforge.net</a>
-          - List for commits to CVS, mainly interesting for people working directly with the source</dt>
+          - List for commits to CVS, mainly useful for people working directly with the source</dt>
 
         <dd><a href="http://sourceforge.net/mailarchive/forum.php?forum_id=39400">Archive</a></dd>
         <dd><a href="http://lists.sourceforge.net/mailman/listinfo/super-tux-commit">Subscribe/Unsubscribe</a></dd>

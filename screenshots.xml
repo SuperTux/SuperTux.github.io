@@ -9,7 +9,7 @@
     <subsection title="SuperTux 0.1.1">
       <p>
         This version basically features the built-in editor that
-        was took off from the previous release (0.1.0), new hand-written fonts
+        was removed from the previous release (0.1.0), new hand-written fonts
         and a few bug fixes.
       </p>
 
@@ -22,9 +22,10 @@
       <subsection title="SuperTux Milestone1 aka 0.1.0">
         <p>
           Milestone1 is in huge parts the result of the GotM event on
-          happypenguin.org, it contains completly new graphics and lots
-          of new levels and also a story and a worldmap. Screenshots
-          below should give you an impression of the game.
+          <a href="http://happypenguin.org">happypenguin.org</a>,
+          it contains completly new graphics, lots of new levels,
+          a story and a worldmap. Screenshots below should give you an
+          impression of the game.
         </p>
 
         <center>
@@ -38,7 +39,7 @@
       <subsubsection title="Flexlay">
         <p>
           Flexlay is the editor that was used to build most of the
-          levels in Milestone1 and the Worldmap. It provides a few
+          levels and the Worldmap in Milestone1. It provides a few
           more features than the build in one (zoom, minimap, worldmap
           support), but requires a few more dependencies and OpenGL on
           the other side.

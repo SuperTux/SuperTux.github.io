@@ -3,14 +3,12 @@
   <section title="What is SuperTux?">
     <p>
       SuperTux is a classic 2D jump'n run sidescroller game in a
-      similar style like the original SuperMario games. The new
-      <em>Milestone 1</em> release of SuperTux features 9 enemies, 26
-      playable levels, a worldmap that allows you to travel from one
-      level to the next, software and OpenGL rendering modes,
-      configurable joystick and keyboard input, new music and
-      completly redone graphics. Together with a little story we hope
-      to provide a reasonablly good gaming experince with this first
-      Milestone release for the player.
+      style similar to the original SuperMario games. The
+      <em>Milestone1</em> release of SuperTux features 9 enemies, 26 playable
+      levels, software and OpenGL rendering modes, configurable
+      joystick and keyboard input, new music and completly redone
+      graphics. Together with a little story, we hope to provide a good
+      gaming experince with this first Milestone release.
     </p>
     
     <p>

@@ -23,7 +23,7 @@
 
     <subsection title="Older versions">
       <ul>
-        <li>If you feel like being nostalgic, check out our <a href="https://sourceforge.net/project/showfiles.php?group_id=69183">old stuff</a></li>
+        <li>If you feel like being nostalgic, check out our <a href="https://sourceforge.net/project/showfiles.php?group_id=69183">older versions</a></li>
       </ul>
     </subsection>
     
@@ -41,20 +41,17 @@
 
   <section title="Flexlay Editor Download">
     <p>
-      There exist two leveleditors for SuperTux, the build in one
-      that comes with SuperTux and is available via the InGame Menu
-      (not present in 0.1.0, but will be included again in 0.1.1)
-      and the external one, which is known as Flexlay. Flexlay is a
-      seperate project with no webpage yet, however its available
-      via Subversion from:
-    </p>
-    <p>
-      <tt>svn co "svn://clanlib.org/Games/Windstille/trunk/flexlay/</tt>
+      There exist two level editors for SuperTux, the built-in one
+      that comes with SuperTux and is available via the in-game menu
+      (available in 0.1.1 and later) and the external one, which is known
+      as <a href="http://pingus.seul.org/~grumbel/flexlay/">Flexlay.</a>
+      Flexlay is a seperate project that aims to provide level editing
+      capabilities for multiple games.
     </p>
 
     <p>
       It needs <a href="http://www.clanlib.org">ClanLib-0.7-CVS</a>
-      and Guile to compile.
+      and <a href="http://www.gnu.org/software/guile/guile.html">Guile</a> to compile.
     </p>
   </section>
 </page>

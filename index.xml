@@ -3,11 +3,11 @@
   <section title="What is SuperTux?">
     <p>
       SuperTux is a classic 2D jump'n run sidescroller game in a
-      similar style like the original SuperMario games. The
+      style similar to the original SuperMario games. The
       'Milestone1' release of SuperTux features 9 enemies, 26 playable
       levels, software and OpenGL rendering modes, configurable
       joystick and keyboard input, new music and completly redone
-      graphics. Together with a little story we hope to provide a good
+      graphics. Together with a little story, we hope to provide a good
       gaming experince with this first Milestone release.
     </p>
 
@@ -16,13 +16,13 @@
     </p>
     <ul>
       <li><a href="milestone1/index.html">The Milestone1 webpage</a>,
-        ie. the one that contains all the information for the next
-        version (the one created for GotM)</li>
+        contains all the information for the next version (the one
+        created for GotM)</li>
       
       <li><a href="development/index.html">The generic Development
-          webpage</a>, ie the one that contains information and ideas
-        for future development, its mainly only here for
-        brainstorming, its not meant to be implemented</li>
+          webpage</a>, contains information and ideas for future development,
+          its mainly only here for brainstorming, it'ss not necessarily meant
+          to be implemented</li>
     </ul>
   </section>
 
