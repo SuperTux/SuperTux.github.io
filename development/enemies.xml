@@ -41,5 +41,9 @@
     <subsection title="Unsorted">
       <screenshot file="images/enemies" />
     </subsection>
+
+    <subsection title="More Unsorted, contributed by Settra Gaia">
+      <screenshot file="images/enemies2" />
+    </subsection>
   </section>
 </page>
