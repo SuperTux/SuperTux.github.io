@@ -40,14 +40,14 @@
       </ul>
     </subsection>
     
-    <subsection title="CVS">
+    <subsection title="Subversion">
       <p>
-        The development version can be received via CVS with the
+        The development version can be received via SVN with the
         following command:
       </p>
 
       <p>
-        <tt>cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/super-tux co supertux</tt>
+        <tt>svn checkout svn://svn.berlios.de/supertux/trunk/supertux/</tt>
       </p>
     </subsection>
   </section>
