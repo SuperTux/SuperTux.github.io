@@ -11,6 +11,7 @@
 
   <xsl:param name="filename"/>
   <xsl:param name="lastchange"/>  
+  <xsl:param name="section"/>  
   
   <xsl:template match="node()|@*">
     <xsl:copy><xsl:apply-templates select="@* | node()" /></xsl:copy>
@@ -23,16 +24,14 @@
   <xsl:template match="page">
     <html>
       <head>
-        <title>SuperTux - Milestone 1</title>
+        <title>SuperTux</title>
         <link rel="stylesheet" type="text/css" href="default.css" />
         <link rel="icon" href="images/favicon.png" type="image/png" />
       </head>
 
       <body>
-        <h1>SuperTux - Milestone 1 - GotM March 2004</h1>
-        <br />
-
-        <xsl:apply-templates select="document('milestone1/menu.xml')" />
+        <xsl:apply-templates select="document('menu.xml')" />
+        <xsl:apply-templates select="document(concat($section, '/submenu.xml'))" />
 
         <div class="mainbody">
           <xsl:apply-templates />
@@ -40,6 +39,12 @@
 
         <div class="copyright">
           Contact via IRC: irc.freenode.net, #supertux<br />
+
+          Contact via <a
+            href="http://lists.sourceforge.net/lists/listinfo/super-tux-devel">Mailing
+            List</a>: <a
+            href="mailto:super-tux-devel@lists.sourceforge.net">super-tux-devel@lists.sourceforge.net</a><br />
+
           Last update: <xsl:value-of select="$lastchange" /><br />
         </div>
       </body>
@@ -111,6 +116,27 @@
     <p style="padding: 0em;"><strong><xsl:value-of select="@date" /></strong> - <xsl:apply-templates /></p>
   </xsl:template>
 
+  <xsl:template match="submenu">
+    <div class="submenu">
+      <table align="center" cellspacing="0" cellpadding="0">
+        <tr>
+          <xsl:apply-templates />
+        </tr>
+      </table>
+    </div>   
+  </xsl:template>
+
+  <xsl:template match="submenu/item">
+    <xsl:choose>
+      <xsl:when test="contains(@file, $filename)">
+        <td><a class="active" href="{@file}"><xsl:apply-templates /></a></td>
+      </xsl:when>
+      <xsl:otherwise>
+        <td><a href="{@file}"><xsl:apply-templates /></a></td>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
   <xsl:template match="menu">
     <div class="menu">
       <table align="center">
@@ -123,11 +149,19 @@
 
   <xsl:template match="menu/item">
     <xsl:choose>
-      <xsl:when test="concat($filename, '.html')=concat('milestone1/', @file)">
+      <!-- FIXME: Take sections into account -->
+      <xsl:when test="contains(@file, $filename)">
         <td><a class="active" href="{@file}"><xsl:apply-templates /></a></td>
       </xsl:when>
       <xsl:otherwise>
-        <td><a href="{@file}"><xsl:apply-templates /></a></td>
+        <xsl:choose>
+          <xsl:when test="$section='.'">
+            <td><a href="{@file}"><xsl:apply-templates /></a></td>
+          </xsl:when>
+          <xsl:otherwise>
+            <td><a href="../{@file}"><xsl:apply-templates /></a></td>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>

@@ -38,6 +38,19 @@
       </picture>
     </subsection>
 
+    <subsection title="Mr. Crystal">
+      <picture file="images/mrcrystal.png">
+        When Tux jumps on MrCrystal, MrCrystal will break into pieces.
+      </picture>
+    </subsection>
+
+    <subsection title="Spiky">
+      <picture file="images/spiky.png">
+        Spiky has spikes which makes it impossible for Tux to kill him
+        by jumping on him.
+      </picture>
+    </subsection>
+
     <subsection title="Unsorted">
       <screenshot file="images/enemies" />
     </subsection>

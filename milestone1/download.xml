@@ -1,12 +1,47 @@
 <?xml version="1.0"?>
 <page title="SuperTux - Milestone 1 - Version 0.1.0">
   <section title="Download">
+    <subsection title="SuperTux">
+      <p>
+        The latest development version of SuperTux is available via CVS:
+      </p>
+      <p>
+        <tt>cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/super-tux co supertux</tt>
+      </p>
+    </subsection>
+
     <subsection title="Leveleditor">
       <p>
         There exist currently two level editors for SuperTux, one is
         the build-in editor that is included with SuperTux and
-        accessible via the menu, the other is an OpenGL based
+        accessible via the in-game menu, the other is the OpenGL based
+        selfstanding generic Windstille editor and there is a third
+        experimental one which supports slopes and other stuff, that
+        won't be used in Milestone1.
       </p>
+
+      <subsubsection title="Windstille Editor">
+        <p>
+          The Windstille Editor currently requires OpenGL, beside from
+          that the binary doesn't depend on anything. The editor
+          should be useable, even so it might not be really perfect.
+          If you miss a critical feature contact 'grumbel' on IRC.
+        </p>
+      
+        
+        <ul>
+          <li><dlink-full href="http://pingus.seul.org/~grumbel/tmp/windstille-0.2.1-supertux.tar.bz2" /></li>
+          <li>Subversion Repo: <tt>svn co svn://clanlib.org/Games/Windstille/trunk/</tt></li>
+        </ul>
+
+        <screenshot file="images/windstille-editor-2004-02-28-1" />
+      </subsubsection>
+
+      <subsubsection title="Buildin Editor">
+        <p>
+        </p>
+      </subsubsection>
+
     </subsection>
   </section>
 </page>

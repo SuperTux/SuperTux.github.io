@@ -15,12 +15,23 @@
     </p>
 
     <ul>
+      <li>
+        fix up the current engine back into a usable state, ie.
+        MarioBros1 like, no back-scrolling or other funky stuff that
+        could get too complicated, keep especially care of a sane jump
+        behaviour, which can easily go wrong
+      </li>
+
       <li>extent the engine with whatever features are requested by
         the level designers (moving platforms, more enemy types)</li>
 
       <li>create around 15 levels of variing difficulty and arange
         them to a completly playable game with a nice raising
-        difficulty</li>
+        difficulty. More levels are welcome, but shouldn't be a
+        requirement for the release. Qualitity should be more
+        important then pure quanitity, so levels that don't hold up
+        with the rest should be stripped out.
+      </li>
 
       <li>extent the tilesets to look better, add more varity</li>
 
@@ -29,6 +40,14 @@
       <li>create sprites for enemies (MrBomb, MrIceBlock, etc.)</li>
 
       <li>add music and sound effects to the game</li>
+
+      <li>create a webpage for the game itself (ie. not this
+        development webpage)</li>
+
+      <li>
+        create a little credits-screen/extro or something like
+        that
+      </li>
     </ul>
 
     <p>
@@ -41,69 +60,14 @@
       extenting it all that much, it should be possible to reach the
       goal within one month.
     </p>
+    <p>
+      There hasn't been a final decision on the look of SuperTux, but
+      unless somebody comes up with something better, the image below
+      shows the look that the game will have. The final game will of
+      course differ in details, this is just a mookup in Gimp.
+    </p>
+    <screenshot file="images/supertux-gamescreen" />
   </section>
 
-  <section title="Tasks">
-    <ul>
-      <li>
-        fix up the current engine back into a usable state, ie.
-        MarioBros1 like, no back-scrolling or other funky stuff that
-        could get too complicated
-      </li>
-
-      <li>
-        create new graphics or update the current ones where doable
-      </li>
-
-      <li>
-        create a handfull of levels and connect them to a playable
-        game
-      </li>
-      
-      <li>
-        create a little credits-screen/extro or something like
-        that
-      </li>
-
-      <li>
-        The final game should contain around 16 levels, 10 should be
-        the minimum number of levels to be developed before the
-        release. More levels are welcome, but shouldn't be a
-        requirement for the release. Qualitity should be more
-        important then pure quanitity.
-      </li>
-    </ul>
-
-    <subsection title="Contact">
-      <p>
-        Development is mainly coordinated via IRC and the SuperTux
-        Mailing list.
-
-        coordinated over the IRC channel #supertux at irc.freenode.net
-        and there is also a mailing list available at.
-      </p>
-    </subsection>
-  </section>
-
-  <section title="Graphics">
-
-    <subsection title="Font">
-      <p>
-        The font has to be of a fixed-with for all letters, ie. the
-        size of the letters can be anything, but has to be constant
-        for all letters of a given font. The current font is (based on
-        the old one, just 'gaussion blur (iir) 2', 'threshold 112', 'border
-        2'):
-      </p>
-      
-      <img src="images/font.png" alt="" />
-
-      <p>
-        Unless somebody provides a better font, it will simply get a
-        few more colors and get included in the game like it is (M/N
-        and a few more letters might be a bit buggy).
-      </p>
-    </subsection>
-
-  </section>
 </page>
+ 
