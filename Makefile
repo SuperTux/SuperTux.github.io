@@ -2,6 +2,7 @@ HTMLOUT = \
   welcome.html \
   download.html \
   authors.html \
+  contact.html \
   screenshots.html \
   \
   development/index.html   \
@@ -31,10 +32,13 @@ $(OUTFILES): output/%.html: %.xml Makefile default.xsl
 	LASTCHANGE=`date -I`; \
         echo Filename: $$FILENAME ; \
         echo Section: $$SECTION ; \
+        if [ "x$$SECTION" = "xsfnet" -o "x$$SECTION" = "x." ]; then BASEDIR=""; \
+	else BASEDIR="../"; fi; \
 	xalan \
           -PARAM filename   "'$${FILENAME%%.xml}'" \
           -PARAM section    "'$${SECTION}'" \
           -PARAM lastchange "'$${LASTCHANGE}'" \
+          -PARAM basedir    "'$${BASEDIR}'" \
           -IN $< \
           -OUT $@ \
           -XSL default.xsl

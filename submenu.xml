@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
 
 <submenu>
-  <item file="index.html">Intro</item>
-  <item file="authors.html">Authors</item>
+  <item file="welcome.html">About</item>
   <item file="screenshots.html">Screenshots</item>
+  <item file="authors.html">Authors</item>
   <item file="download.html">Download</item>
+  <item file="contact.html">Contact</item>
 </submenu>

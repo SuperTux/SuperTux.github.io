@@ -10,6 +10,7 @@
       graphics. Together with a little story we hope to provide a good
       gaming experince with this first Milestone release.
     </p>
+
     <p>
       The following links should help to keep the overview a bit:
     </p>
@@ -23,16 +24,6 @@
         for future development, its mainly only here for
         brainstorming, its not meant to be implemented</li>
     </ul>
-  </section>
-
-  <section title="Contact">
-    <p>
-      Development is mainly coordinated via IRC (#supertux at
-      irc.freenode.net) and the <a
-      href="http://lists.sourceforge.net/lists/listinfo/super-tux-devel">SuperTux
-      Mailing list</a>, be sure to visit both once in a while or you
-      might miss critical stuff.
-    </p>
   </section>
 
 </page>

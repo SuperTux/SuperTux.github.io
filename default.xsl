@@ -12,8 +12,8 @@
   <xsl:param name="filename"/>
   <xsl:param name="lastchange"/>  
   <xsl:param name="section"/>  
-  <xsl:param name="basedir"/>  
-  
+  <xsl:param name="basedir" />       
+
   <xsl:template match="node()|@*">
     <xsl:copy><xsl:apply-templates select="@* | node()" /></xsl:copy>
   </xsl:template>
@@ -131,7 +131,7 @@
 
   <xsl:template match="submenu/item">
     <xsl:choose>
-      <xsl:when test="contains(@file, substring-after($filename, '/'))">
+      <xsl:when test="(contains(@file, substring-after($filename, '/')) and substring-after($filename, '/') != '') or contains(@file, $filename)">
         <td><a class="active" href="{@file}"><xsl:apply-templates /></a></td>
       </xsl:when>
       <xsl:otherwise>
