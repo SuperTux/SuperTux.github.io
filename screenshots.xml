@@ -21,6 +21,20 @@
         <screenshot file="images/game3-010" />
         <screenshot file="images/game4-010" />
       </center>
+      
+      <subsubsection title="Flexlay">
+        <p>
+          Flexlay is the editor that was used to build most of the
+          levels in Milestone1 and the Worldmap. It provides a few
+          more features than the build in one (zoom, minimap, worldmap
+          support), but requires a few more dependencies and OpenGL on
+          the other side.
+        </p>
+        <center>
+          <screenshot file="images/flexlay-1" />
+          <screenshot file="images/flexlay-2" />
+        </center>
+      </subsubsection>
     </subsection>
 
     <subsection title="SuperTux 0.0.6">
