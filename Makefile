@@ -2,6 +2,7 @@ HTMLOUT = \
   welcome.html \
   download.html \
   authors.html \
+  screemshots.html \
   \
   development/index.html   \
   development/map.html     \
