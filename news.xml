@@ -2,6 +2,13 @@
 <page title="SuperTux">
   <section title="News">
     <news>
+      <item date="11. May 2004">
+        SuperTux 0.1.1 is out, still the same game as 0.1.0, features
+        however a much improved font, some minor bugfixes and finally
+        a build in editor. A Win32 build is available as well, you can
+        get it in the <a href="download.html">download section</a>.
+      </item>
+
       <item date="3. May 2004">
         Windows Binary for SuperTux is released, go to the
         <a href="download.html">download section</a> to download it.

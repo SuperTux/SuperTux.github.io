@@ -19,20 +19,21 @@
         <screenshot file="images/leveleditor-011" />
       </center>
 
-    <subsection title="SuperTux Milestone1 aka 0.1.0">
-      <p>
-        Milestone1 is in huge parts the result of the GotM event on
-        happypenguin.org, it contains completly new graphics and lots
-        of new levels and also a story and a worldmap. Screenshots
-        below should give you an impression of the game.
-      </p>
+      <subsection title="SuperTux Milestone1 aka 0.1.0">
+        <p>
+          Milestone1 is in huge parts the result of the GotM event on
+          happypenguin.org, it contains completly new graphics and lots
+          of new levels and also a story and a worldmap. Screenshots
+          below should give you an impression of the game.
+        </p>
 
-      <center>
-        <screenshot file="images/game-010" />
-        <screenshot file="images/game1-010" /><br/>
-        <screenshot file="images/game2-010" />
-        <screenshot file="images/game3-010" />
-      </center>
+        <center>
+          <screenshot file="images/game-010" />
+          <screenshot file="images/game1-010" /><br/>
+          <screenshot file="images/game2-010" />
+          <screenshot file="images/game3-010" />
+        </center>
+      </subsection>
       
       <subsubsection title="Flexlay">
         <p>
@@ -91,5 +92,4 @@
       </center>
     </subsection>
   </section>
-
 </page>
