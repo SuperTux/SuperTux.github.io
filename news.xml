@@ -2,6 +2,11 @@
 <page title="SuperTux">
   <section title="News">
     <news>
+      <item date="2. December 2004">
+        It looks like we have our first fansite. You can find it at
+        <a href="http://cd.bromley.ac.uk/supertux/">SuperTux: The Fan Site</a>.
+        It includes game information, tips, cheats and more.
+      </item>
       <item date="25. October 2004">
         Better late than never. We now have a Mandrake RPM, Mac OS X binary and
         a BeOS package in our <a href="download.html">download section</a>.
