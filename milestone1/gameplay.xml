@@ -16,6 +16,7 @@
         <li>accelerated jump (5 tiles height)</li>
         <li>on-enemy jump    (at least 1 tile width, ie. so that you can jump from one enemy to the next)</li>
       </ul>
+      <img src="images/actions8.jpg" /><br />
     </subsection>
 
     <subsection title="Interaction with Enemies">

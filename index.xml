@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<page title="SuperTux">
+  <section title="SuperTux">
+    <p>
+      SuperTux is currently getting an overvault. Thus this webpage is a
+      bit chaotic at the moment and will most likly stay that way for
+      the next few weeks.
+    </p>
+    <p>
+      The following links should help to keep the overview a bit:
+    </p>
+    <ul>
+      <li><a href="http://www.newbreedsoftware.com/supertux/">The
+          orignial webpage of SuperTux</a>, ie. the one that was used
+        before the overvault started</li>
+
+      <li><a href="milestone1/index.html">The Milestone1 webpage</a>,
+        ie. the one that contains all the information for the next
+        version (the one created for GotM)</li>
+      
+      <li><a href="development/index.html">The generic Development
+          webpage</a>, ie the one that contains information and ideas
+        for future development, its mainly only here for
+        brainstorming, its not meant to be implemented</li>
+    </ul>
+  </section>
+
+  <section title="Contact">
+    <p>
+      Development is mainly coordinated via IRC (#supertux at
+      irc.freenode.net) and the <a
+      href="http://lists.sourceforge.net/lists/listinfo/super-tux-devel">SuperTux
+      Mailing list</a>, be sure to visit both once in a while or you
+      might miss critical stuff.
+    </p>
+  </section>
+
+</page>

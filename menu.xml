@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<menu>
+  <item section="."           file="index.html">SuperTux</item>
+  <item section="milestone1"  file="milestone1/index.html">Milestone1</item>
+  <item section="development" file="development/index.html">Development</item>
+</menu>

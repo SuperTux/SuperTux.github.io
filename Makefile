@@ -9,6 +9,7 @@ HTMLOUT = \
   \
   milestone1/index.html    \
   milestone1/levels.html   \
+  milestone1/music.html   \
   milestone1/gameplay.html  \
   milestone1/tilesets.html  \
   milestone1/enemies.html   \
@@ -25,6 +26,8 @@ $(OUTFILES): output/%.html: %.xml Makefile default.xsl
 	@FILENAME=$<; \
 	SECTION=`dirname $<`; \
 	LASTCHANGE=`date -I`; \
+        echo Filename: $$FILENAME ; \
+        echo Section: $$SECTION ; \
 	xalan \
           -PARAM filename   "'$${FILENAME%%.xml}'" \
           -PARAM section    "'$${SECTION}'" \

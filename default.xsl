@@ -128,7 +128,7 @@
 
   <xsl:template match="submenu/item">
     <xsl:choose>
-      <xsl:when test="contains(@file, $filename)">
+      <xsl:when test="contains(@file, substring-after($filename, '/'))">
         <td><a class="active" href="{@file}"><xsl:apply-templates /></a></td>
       </xsl:when>
       <xsl:otherwise>
@@ -150,7 +150,7 @@
   <xsl:template match="menu/item">
     <xsl:choose>
       <!-- FIXME: Take sections into account -->
-      <xsl:when test="contains(@file, $filename)">
+      <xsl:when test="@section=$section">
         <td><a class="active" href="{@file}"><xsl:apply-templates /></a></td>
       </xsl:when>
       <xsl:otherwise>

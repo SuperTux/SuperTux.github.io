@@ -38,6 +38,13 @@
       </picture>
     </subsection>
 
+    <subsection title="Mr. Snowball">
+      <picture file="images/mrsnowball.png">
+        Little Mr. Snowball is a basic enemey which might start to
+        roll if kicked with a Iceblock or on other issues.
+      </picture>
+    </subsection>
+
     <subsection title="Mr. Crystal">
       <picture file="images/mrcrystal.png">
         When Tux jumps on MrCrystal, MrCrystal will break into pieces.
