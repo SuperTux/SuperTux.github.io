@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <page title="SuperTux">
   <section title="Development">
-    This page  should act as a collecting place for ideas,
-    graphics and other stuff surrounding the SuperTux development.
-    None of it should be taken as final, but more as an source of
-    inspiration and brainstorming.
+    <p>
+      This page  should act as a collecting place for ideas,
+      graphics and other stuff surrounding the SuperTux development.
+      None of it should be taken as final, but more as an source of
+      inspiration and brainstorming.
+    </p>
   </section>
-
 </page>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page title="SuperTux - Milestone 1 - Version 0.1.0">
+  <section title="Download">
+    <subsection title="Leveleditor">
+      <p>
+        There exist currently two level editors for SuperTux, one is
+        the build-in editor that is included with SuperTux and
+        accessible via the menu, the other is an OpenGL based
+      </p>
+    </subsection>
+  </section>
+</page>

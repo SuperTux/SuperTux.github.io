@@ -23,22 +23,23 @@
   <xsl:template match="page">
     <html>
       <head>
-        <title>SuperTux - A Jump'n Run Game</title>
+        <title>SuperTux - Milestone 1</title>
         <link rel="stylesheet" type="text/css" href="default.css" />
         <link rel="icon" href="images/favicon.png" type="image/png" />
       </head>
 
       <body>
-        <h1>SuperTux - A Jump'n Run Game</h1>
+        <h1>SuperTux - Milestone 1 - GotM March 2004</h1>
         <br />
 
-        <xsl:apply-templates select="document('development/menu.xml')" />
+        <xsl:apply-templates select="document('milestone1/menu.xml')" />
 
         <div class="mainbody">
           <xsl:apply-templates />
         </div>
 
         <div class="copyright">
+          Contact via IRC: irc.freenode.net, #supertux<br />
           Last update: <xsl:value-of select="$lastchange" /><br />
         </div>
       </body>
@@ -122,7 +123,7 @@
 
   <xsl:template match="menu/item">
     <xsl:choose>
-      <xsl:when test="concat($filename, '.html')=concat('development/', @file)">
+      <xsl:when test="concat($filename, '.html')=concat('milestone1/', @file)">
         <td><a class="active" href="{@file}"><xsl:apply-templates /></a></td>
       </xsl:when>
       <xsl:otherwise>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<page title="SuperTux">
+  <section title="Gameplay">
+    <p>
+      The gameplay of SuperTux will be similar to SuperMarioBros, ie.
+      no backscrolling and no vertical scrolling, just straight levels
+      and rather plain jump'n run action (no puzzles or dialogs).
+    </p>
+
+    <subsection title="Jumps">
+      <p>
+        SuperTux will feature multiple types of jumps:
+      </p>
+      <ul>
+        <li>one basic jump   (4 tiles height)</li>
+        <li>accelerated jump (5 tiles height)</li>
+        <li>on-enemy jump    (1 tile width)</li>
+      </ul>
+    </subsection>
+  </section>
+</page>

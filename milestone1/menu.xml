@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<menu>
+  <item file="index.html">Introduction</item>
+  <item file="gameplay.html">Gameplay</item>
+  <item file="levels.html">Levels</item>
+  <item file="tilesets.html">Tilesets</item>
+  <item file="enemies.html">Enemies</item>
+  <item file="download.html">Download</item>
+</menu>

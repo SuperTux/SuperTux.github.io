@@ -1,5 +1,23 @@
 <?xml version="1.0"?>
 <page title="SuperTux">
+  <section title="Graphics">
+    SuperTux will use OpenGL-only in the future, software rendering is
+    obsolete and will get removed has soon as feature get introduced
+    that are only doable in OpenGL.
+  </section>
+
+  <section title="Level Format">
+    <p>
+      There hasn't been any finial decissions on the level format,
+    however what we need is basically something that can:
+    </p>
+    <ul>
+      <li>hold multiple tilemaps per level</li>
+      <li>hold scriptable trickers and such</li>
+      <li>hold the position of enemies and there state</li>
+    </ul>
+  </section>
+
   <section title="Tiles">
     <img src="images/tiletype.png" />
 
@@ -20,6 +38,28 @@
       a form that allows two 50% tiles to form a smooth slope. With
       these basic tile shapes it should be possible to form reasonably
       smooth circles and smooth shapes into the terrain.
+    </p>
+  </section>
+
+  <section title="Tile Types">
+    <p>
+      Beside normal and opaque tiles, there will be quite a few
+      different tile types:
+    </p>
+
+    <ul>
+      <li>ice tiles, which make the ground slippery and controlls harder</li>
+      <li>slime tiles/water tiles, which make movement slower</li>
+      <li>lava/fire tiles, which kill Tux or rob him some energie</li>
+    </ul>
+  </section>
+
+  <section title="Raising Lava">
+    <p>
+      To speed up gameplay a bit and to provide a raising danger to
+      Tux, some levels might feature raising lava, acid or poising gas
+      that will come from below or from the left and will require the
+      player to quickly advance to survive.
     </p>
   </section>
 </page>

@@ -40,7 +40,9 @@
         would be impossible without the slide action. While sliding
         downhill Tux shall be invulnerable by normal enemies, howewer
         special enemies with spikes or so, might still be able to stop
-        him. <br />
+        him. <br /> Exact details on how the sliding will work have to
+        be worked out, but it might get a rather central role in
+        gameplay.
       </picture>
       <img src="images/slider2.png" />
     </subsection>
@@ -59,6 +61,24 @@
         out bobbles, bubbles them self should be useable as steps to
         reach higher places and might be able to caputer enemies.
       </p>
+    </subsection>
+
+    <subsection title="Rope">
+      <p>
+        Tux will be able to use a rope (in one form or another). The
+        rope should be usefull for both swinging around and for
+        capturing or disableing enemies.
+      </p>
+    </subsection>
+
+    <subsection title="Running">
+      <picture file="images/sprite.png">
+        SuperTux might be able to run, running will enable higher and
+        wider jumps and other things that require some kind of
+        'boost'. If running will be automatically or require the press
+        of a 'run' button, hasn't been decided and might depend on how
+        the rope is used
+      </picture>
     </subsection>
 
     <subsection title="Unsorted">

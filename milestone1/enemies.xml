@@ -41,5 +41,32 @@
     <subsection title="Unsorted">
       <screenshot file="images/enemies" />
     </subsection>
+
+    <subsection title="Sprites">
+      <p>
+        The following is a list of basic sprites that are needed, more
+        can never be bad, but it should especially made sure that the
+        few here are good and smooth. The width/height are only meant
+        as guideline, a bit larger/smaller is ok and recomment, since
+        overlap of graphics can produce a more cleaner look in the
+        final game. Some of the other pages here contain sketches of
+        the sprites.
+      </p>
+
+      <ul>
+        <li>SmallTux - 32x32, ie. Tux without extras</li>
+        <li>Tux - 64x32, ie. Tux with 'size' extra</li> 
+        <li>SuperTux - 64x32, ie Tux with 'size' and 'firepower' extra</li>
+
+        <li>Mr. Iceblock - 32x32 most basic enemy, needs two or three
+          frames for a walking, at least one for dieing</li>
+        
+        <li>Mr. Bomb - 32x32 a basic enemy that explodes after being
+          kill, needs two or three for walking, at least two for being
+          dead plus at least one for explosion</li>
+
+      </ul>
+    </subsection>
+
   </section>
 </page>

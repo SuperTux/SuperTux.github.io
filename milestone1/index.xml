@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<page title="SuperTux - Milestone 1 - Version 0.1.0">
+  <section title="Milestone 1 Goals">
+    <p>
+      The goal of <strong>Milestone 1</strong> (also known as 0.1.0),
+      is to produce a useable and fully playable game with the current
+      MarioBros1-style SuperTux engine. The timeframe for the
+      development should be one or two month. The goal is not to
+      create a groundbreaking jump'n run with Milestone1, but simply
+      to produce something of reasonably quality with the current
+      engine. Later Milestones might improve on the work done in
+      Milestone1, but for the moment we should focus on stuff that is
+      doable in one month and not speculate all that much about the
+      future.
+    </p>
+
+    <ul>
+      <li>extent the engine with whatever features are requested by
+        the level designers (moving platforms, more enemy types)</li>
+
+      <li>create around 15 levels of variing difficulty and arange
+        them to a completly playable game with a nice raising
+        difficulty</li>
+
+      <li>extent the tilesets to look better, add more varity</li>
+
+      <li>create animated sprites for Tux, SuperTux, FireTux</li>
+
+      <li>create sprites for enemies (MrBomb, MrIceBlock, etc.)</li>
+
+      <li>add music and sound effects to the game</li>
+    </ul>
+
+    <p>
+      Since there is are already people working on the tileset,
+      leveleditor and engine, there is especially a need for level
+      designers and gameplay testers and of course artists for the
+      music and sound. If somebody is good at drawing animated sprites
+      he is also very welcome. Since the goal for Milestone1 should be
+      just to create a playable game with the current engine without
+      extenting it all that much, it should be possible to reach the
+      goal within one month.
+    </p>
+  </section>
+
+  <section title="Tasks">
+    <ul>
+      <li>
+        fix up the current engine back into a usable state, ie.
+        MarioBros1 like, no back-scrolling or other funky stuff that
+        could get too complicated
+      </li>
+
+      <li>
+        create new graphics or update the current ones where doable
+      </li>
+
+      <li>
+        create a handfull of levels and connect them to a playable
+        game
+      </li>
+      
+      <li>
+        create a little credits-screen/extro or something like
+        that
+      </li>
+
+      <li>
+        The final game should contain around 16 levels, 10 should be
+        the minimum number of levels to be developed before the
+        release. More levels are welcome, but shouldn't be a
+        requirement for the release. Qualitity should be more
+        important then pure quanitity.
+      </li>
+    </ul>
+
+    <subsection title="Contact">
+      <p>
+        Development is mainly coordinated via IRC and the SuperTux
+        Mailing list.
+
+        coordinated over the IRC channel #supertux at irc.freenode.net
+        and there is also a mailing list available at.
+      </p>
+    </subsection>
+  </section>
+
+  <section title="Graphics">
+
+    <subsection title="Font">
+      <p>
+        The font has to be of a fixed-with for all letters, ie. the
+        size of the letters can be anything, but has to be constant
+        for all letters of a given font. The current font is (based on
+        the old one, just 'gaussion blur (iir) 2', 'threshold 112', 'border
+        2'):
+      </p>
+      
+      <img src="images/font.png" alt="" />
+
+      <p>
+        Unless somebody provides a better font, it will simply get a
+        few more colors and get included in the game like it is (M/N
+        and a few more letters might be a bit buggy).
+      </p>
+    </subsection>
+
+  </section>
+</page>
