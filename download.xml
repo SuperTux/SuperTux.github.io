@@ -7,6 +7,8 @@
         <li>Windows Binary: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.1-setup.exe?download">supertux-0.1.1-setup.exe</a></li>
         <li>Mac OS X 10.3.x disk image: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.1-macosx.dmg?download">supertux-0.1.1-macosx.dmg</a></li>
         <li>Autopackage: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.1.package?download">supertux-0.1.1.package</a></li>
+        <li>SuSE RPM (with OpenGL): <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.1-1.GL.SuSE.i586.rpm?download">supertux-0.1.1-1.GL.SuSE.i586.rpm</a></li>
+        <li>SuSE RPM (without OpenGL): <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.1-11.nonGL.SuSE.i586.rpm?download">supertux-0.1.1-11.nonGL.SuSE.i586.rpm</a></li>
       </ul>
     </subsection>
 
