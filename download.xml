@@ -4,7 +4,9 @@
     <subsection title="SuperTux (Milestone1) 0.1.1 - May 11, 2004">
       <ul>
         <li>Source: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.1.tar.bz2?download">supertux-0.1.1.tar.bz2</a></li>
-        <li>Windows Binary: <a href="http://www.stud.uni-karlsruhe.de/~uxsm/supertux-0.1.1-setup.exe">supertux-0.1.1-setup.exe</a></li>
+        <li>Windows Binary: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.1-setup.exe?download">supertux-0.1.1-setup.exe</a></li>
+        <li>Mac OS X 10.3.x disk image: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.1-macosx.dmg?download">supertux-0.1.1-macosx.dmg</a></li>
+        <li>Autopackage: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.1.package?download">supertux-0.1.1.package</a></li>
       </ul>
     </subsection>
 
@@ -12,12 +14,6 @@
       <ul>
         <li>Source: <a href="http://pingus.seul.org/~grumbel/tmp/supertux-0.1.0.tar.bz2">supertux-0.1.0.tar.bz2</a></li>
         <li>Windows Binary: <a href="http://www.stud.uni-karlsruhe.de/~uxsm/supertux-0.1.0-setup.exe">supertux-0.1.0-setup.exe</a></li>
-      </ul>
-    </subsection>
-
-    <subsection title="SuperTux 0.0.6 - March 15, 2004">
-      <ul>
-        <li>Source: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.0.6.tar.bz2?download">supertux-0.0.6.tar.bz2</a></li>
       </ul>
     </subsection>
 
