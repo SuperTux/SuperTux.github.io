@@ -1,4 +1,5 @@
 HTMLOUT = \
+  news.html \
   welcome.html \
   download.html \
   authors.html \
