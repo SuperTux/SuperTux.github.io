@@ -6,35 +6,64 @@
       Welcome to our SuperTux screenshots album!
     </p>
 
-    <p>
-      Milestone1(0.1) shots will be here pretty soon! This version will be released any time now ;)
-    </p>
+    <subsection title="SuperTux Milestone1 aka 0.1.0">
+      <p>
+        Milestone1 is in huge parts the result of the GotM event on
+        happypenguin.org, it contains completly new graphics and lots
+        of new levels and also a story and a worldmap. Screenshots
+        below should give you an impression of the game.
+      </p>
 
-    <p>
-      Some shots from our lastest work (0.0.6), released at March 15, 2004.
-      Basically this was a code clean-up version. Features a leveleditor and an OpenGL front-end. Menu as improved a lot, and fonts were also remade.
-    </p>
+      <center>
+        <screenshot file="images/game-010" />
+        <screenshot file="images/game1-010" />
+        <screenshot file="images/game2-010" /><br/>
+        <screenshot file="images/game3-010" />
+        <screenshot file="images/game4-010" />
+      </center>
+    </subsection>
 
-    <screenshot file="images/menu-006" />
-    <screenshot file="images/game-006" />
-    <screenshot file="images/leveleditor-006" />
+    <subsection title="SuperTux 0.0.6">
+      <p>
+        Some shots from our lastest work (0.0.6), released at March 15,
+        2004. Basically this was a code clean-up version. Features a
+        leveleditor and an OpenGL front-end. Menu as improved a lot, and
+        fonts were also remade.
+      </p>
 
-    <p>
-      A couple of shots from our 0.0.5 release, released at December 29, 2003.
-      Graphics were improved a lot. Also this version features a menu, and internal clean-ups have started.
-    </p>
+      <center>
+        <screenshot file="images/menu-006" />
+        <screenshot file="images/game-006" />
+        <screenshot file="images/leveleditor-006" />
+      </center>
+    </subsection>
 
-    <screenshot file="images/intro-005" />
-    <screenshot file="images/game-005" />
+    <subsection title="SuperTux 0.0.5">
+      <p>
+        A couple of shots from our 0.0.5 release, released at December
+        29, 2003. Graphics were improved a lot. Also this version
+        features a menu, and internal clean-ups have started.
+      </p>
 
-    <p>
-      Wow! These are really ancients shots from versions prior to 0.0.5.
-      Graphics were a bit ugly, but it was already playble and had a SuperMario1 feel.
-    </p>
-    
-    <screenshot file="images/game1-004" />
-    <screenshot file="images/game2-004" />
-    <screenshot file="images/game3-004" />
+      <center>
+        <screenshot file="images/intro-005" />
+        <screenshot file="images/game-005" />
+      </center>
+    </subsection>
+
+    <subsection title="SuperTux prior 0.0.5">
+      <p>
+        Wow! These are really ancients shots from versions prior to
+        0.0.5. Graphics were a bit ugly, but it was already playble and
+        had a SuperMario1 feel.
+      </p>
+
+      <center>
+        <screenshot file="images/game1-004" />
+        <screenshot file="images/game2-004" />
+        <screenshot file="images/game3-004" />
+      </center>
+    </subsection>
   </section>
 
 </page>

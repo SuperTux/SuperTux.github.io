@@ -50,6 +50,7 @@ content: $(OUTFILES) development/default.css
 	cp -v default.css output/development/
 	cp -v default.css output/milestone1/
 	cp -v images/*.jpg output/images/
+	cp -v images/*.png output/images/
 	cp -v milestone1/images/*.jpg output/milestone1/images/
 	cp -v milestone1/images/*.png output/milestone1/images/
 	cp -v milestone1/images/*.gif output/milestone1/images/

@@ -1,19 +1,35 @@
 <?xml version="1.0"?>
 <page title="SuperTux">
   <section title="SuperTux">
-    <p>
-      Lastest version of SuperTux is 0.0.6, released in March 15, 2004.
-      Get it from: <a
-        href="http://prdownloads.sourceforge.net/super-tux/supertux-0.0.6.tar.bz2?download">here</a>.
-    </p>
-    <p>
-      The development version can be getted via CVS with the following
-      command:
-      <i>cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/super-tux co supertux</i>
-    </p>
-    <p>
-      We hope you like it! - SuperTux authors
-    </p>
+    <subsection title="SuperTux Milestone1 - 0.1.0">
+      <p>
+      The newest version of SuperTux is Milestone1, 0.1.0, released in
+        May 2, 2004. You can get it from: <a
+        href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.0.tar.bz2?download">here</a>.
+      </p>
+    </subsection>
+
+    <subsection title="SuperTux 0.0.6">
+      <p>
+        SuperTux is 0.0.6, released in March 15, 2004. Get it from: <a
+          href="http://prdownloads.sourceforge.net/super-tux/supertux-0.0.6.tar.bz2?download">here</a>.
+      </p>
+    </subsection>
+
+    <subsection title="CVS">
+      <p>
+        The development version can be getted via CVS with the following
+        command:
+      </p>
+
+      <p>
+        <tt>cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/super-tux co supertux</tt>
+      </p>
+
+      <p>
+        We hope you like it! - SuperTux authors
+      </p>
+    </subsection>
   </section>
 
 </page>

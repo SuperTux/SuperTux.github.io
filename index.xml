@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <page title="SuperTux">
-  <section title="SuperTux">
+  <section title="What is SuperTux?">
     <p>
-      SuperTux is currently getting an overvault. Thus this webpage is a
-      bit chaotic at the moment and will most likly stay that way for
-      the next few weeks.
+      SuperTux is a classic 2D jump'n run sidescroller game in a
+      similar style like the original SuperMario games. The
+      'Milestone1' release of SuperTux features 9 enemies, 26 playable
+      levels, software and OpenGL rendering modes, configurable
+      joystick and keyboard input, new music and completly redone
+      graphics. Together with a little story we hope to provide a good
+      gaming experince with this first Milestone release.
     </p>
     <p>
       The following links should help to keep the overview a bit:
     </p>
     <ul>
-      <li><a href="http://www.newbreedsoftware.com/supertux/">The
-          orignial webpage of SuperTux</a>, ie. the one that was used
-        before the overvault started</li>
-
       <li><a href="milestone1/index.html">The Milestone1 webpage</a>,
         ie. the one that contains all the information for the next
         version (the one created for GotM)</li>

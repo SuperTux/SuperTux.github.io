@@ -12,6 +12,7 @@
   <xsl:param name="filename"/>
   <xsl:param name="lastchange"/>  
   <xsl:param name="section"/>  
+  <xsl:param name="basedir"/>  
   
   <xsl:template match="node()|@*">
     <xsl:copy><xsl:apply-templates select="@* | node()" /></xsl:copy>
@@ -30,6 +31,8 @@
       </head>
 
       <body>
+        <center><img src="{$basedir}images/logo.png"/></center>
+
         <xsl:apply-templates select="document('menu.xml')" />
         <xsl:apply-templates select="document(concat($section, '/submenu.xml'))" />
 

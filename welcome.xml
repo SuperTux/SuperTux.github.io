@@ -1,28 +1,43 @@
 <?xml version="1.0"?>
 <page title="SuperTux">
-  <section title="SuperTux">
+  <section title="What is SuperTux?">
     <p>
-      SuperTux is currently getting an overvault. Thus this webpage is a
-      bit chaotic at the moment and will most likly stay that way for
-      the next few weeks.
+      SuperTux is a classic 2D jump'n run sidescroller game in a
+      similar style like the original SuperMario games. The new
+      <em>Milestone 1</em> release of SuperTux features 9 enemies, 26
+      playable levels, a worldmap that allows you to travel from one
+      level to the next, software and OpenGL rendering modes,
+      configurable joystick and keyboard input, new music and
+      completly redone graphics. Together with a little story we hope
+      to provide a reasonablly good gaming experince with this first
+      Milestone release for the player.
     </p>
+    
     <p>
-      The following links should help to keep the overview a bit:
+      The improvments in Milestone1 are in huge part the result of the
+      work done surrounding the <a
+      href="http://www.happypenguin.org/forums/viewtopic.php?t=1240">Game
+      of the Month March 2004</a> event on <a
+      href="http://www.happypenguin.org/">happypenguin.org</a>.
     </p>
-    <ul>
-      <li><a href="http://www.newbreedsoftware.com/supertux/">The
-          orignial webpage of SuperTux</a>, ie. the one that was used
-        before the overvault started</li>
 
-      <li><a href="milestone1/index.html">The Milestone1 webpage</a>,
-        ie. the one that contains all the information for the next
-        version (the one created for GotM)</li>
-      
-      <li><a href="development/index.html">The generic Development
-          webpage</a>, ie the one that contains information and ideas
-        for future development, its mainly only here for
-        brainstorming, its not meant to be implemented</li>
-    </ul>
+    <p>
+      The <a href="milestone1/index.html">Milestone1 section</a> of
+      this webpage was mainly used to coordinate development and to
+      post sketches and other things. It will give you an overview of
+      the development of the features and enemies that have gone in
+      Milestone1, it might be a bit outdated and is mainly present for
+      historic reasons to those interested in the development.
+    </p>
+
+    <p>
+      The <a href="development/index.html">Development section</a> on
+      the other side gives and unsorted overview about features which
+      might get into new releases, its more meant as a sketchpad for
+      collecting ideas then as a guideline. So if you have any
+      additions to that page, feel free to submit them to the mailing
+      list.
+    </p>
   </section>
 
   <section title="Contact">
