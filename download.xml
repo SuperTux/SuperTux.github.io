@@ -3,13 +3,16 @@
   <section title="SuperTux Download">
     <subsection title="SuperTux 0.1.2 - August 24, 2004">
       <ul>
-        <li>Source: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.2.tar.bz2?download">supertux-0.1.2.tar.bz2</a></li>
-        <li>ASP Linux/RedHat/Fedora RPM: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.2-rh-fd-asp.i386.rpm?download">supertux-0.1.2.-rh-fd-asp.i386.rpm</a></li>
-        <li>BeOS: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.2-beos.zip?download">supertux-0.1.2-beos.zip</a></li>
-        <li>Fedora Core 2 RPM: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.2-FC2.i386.rpm?download">supertux-0.1.2-FC2.i386.rpm</a></li>
-        <li>Mac OS X: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.2-macosx.dmg?download">supertux-0.1.2-macosx.dmg</a></li>
-        <li>Mandrake RPM: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.2-1mdk.i586.rpm?download">supertux-0.1.2-1mdk.i586.rpm</a></li>
-        <li>Windows Binary: <a href="http://prdownloads.sourceforge.net/super-tux/supertux-0.1.2-setup.exe?download">supertux-0.1.2-setup.exe</a></li>
+        <li>Source: <a href="http://download.berlios.de/supertux/supertux-0.1.2.tar.bz2">supertux-0.1.2.tar.bz2</a></li>
+        <li>Linux x86 Installer (made with
+                <a href="http://www.autopackage.org">autopackage</a>): <a
+        href="http://download.berlios.de/supertux/supertux-0.1.2.x86.package">supertux-0.1.2.x86.package</a></li>
+        <li>ASP Linux/RedHat/Fedora RPM: <a href="http://download.berlios.de/supertux/supertux-0.1.2-rh-fd-asp.i386.rpm">supertux-0.1.2.-rh-fd-asp.i386.rpm</a></li>
+        <li>BeOS: <a href="http://download.berlios.de/supertux/supertux-0.1.2-beos.zip">supertux-0.1.2-beos.zip</a></li>
+        <li>Fedora Core 2 RPM: <a href="http://download.berlios.de/supertux/supertux-0.1.2-FC2.i386.rpm">supertux-0.1.2-FC2.i386.rpm</a></li>
+        <li>Mac OS X: <a href="http://download.berlios.de/supertux/supertux-0.1.2-macosx.dmg">supertux-0.1.2-macosx.dmg</a></li>
+        <li>Mandrake RPM: <a href="http://download.berlios.de/supertux/supertux-0.1.2-1mdk.i586.rpm">supertux-0.1.2-1mdk.i586.rpm</a></li>
+        <li>Windows Binary: <a href="http://download.berlios.de/supertux/supertux-0.1.2-setup.exe">supertux-0.1.2-setup.exe</a></li>
       </ul>
     </subsection>
     <subsection title="SuperTux (Milestone1) 0.1.1 - May 11, 2004">
