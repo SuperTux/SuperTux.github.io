@@ -17,7 +17,7 @@
       <center>
         <screenshot file="images/game1-012" />
       </center>
-      </subsection>
+    </subsection>
 
     <subsection title="SuperTux 0.1.1">
       <p>
@@ -31,9 +31,9 @@
         <screenshot file="images/game1-011" />
         <screenshot file="images/leveleditor-011" />
       </center>
-      </subsection>
+    </subsection>
 
-      <subsection title="SuperTux Milestone1 aka 0.1.0">
+    <subsection title="SuperTux Milestone1 aka 0.1.0">
         <p>
           Milestone1 is in huge parts the result of the GotM event on
           <a href="http://happypenguin.org">happypenguin.org</a>,
@@ -48,22 +48,21 @@
           <screenshot file="images/game2-010" />
           <screenshot file="images/game3-010" />
         </center>
-      </subsection>
-      
-      <subsubsection title="Flexlay">
-        <p>
-          Flexlay is the editor that was used to build most of the
-          levels and the Worldmap in Milestone1. It provides a few
-          more features than the build in one (zoom, minimap, worldmap
-          support), but requires a few more dependencies and OpenGL on
-          the other side.
-        </p>
-        <center>
-          <screenshot file="images/flexlay-1" />
-          <screenshot file="images/flexlay-2" />
-        </center>
-      </subsubsection>
     </subsection>
+      
+    <subsubsection title="Flexlay">
+      <p>
+        Flexlay is the editor that was used to build most of the
+        levels and the Worldmap in Milestone1. It provides a few
+        more features than the build in one (zoom, minimap, worldmap
+        support), but requires a few more dependencies and OpenGL on
+        the other side.
+      </p>
+      <center>
+        <screenshot file="images/flexlay-1" />
+        <screenshot file="images/flexlay-2" />
+      </center>
+    </subsubsection>
 
     <subsection title="SuperTux 0.0.6">
       <p>
