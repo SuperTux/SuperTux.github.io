@@ -3,6 +3,7 @@
 <menu>
   <item section="."           file="welcome.html">SuperTux</item>
   <item section="milestone1"  file="milestone1/index.html">Milestone1</item>
+  <item section="milestone2"  file="milestone2/index.html">Milestone2</item>
   <item section="development" file="development/index.html">Development</item>
   <item section="sfnet"       file="http://sourceforge.net/projects/super-tux/">SF.Net</item>
 </menu>

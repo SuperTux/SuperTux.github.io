@@ -12,6 +12,8 @@ HTMLOUT = \
   development/actions.html \
   development/enemies.html \
   \
+  milestone2/index.html    \
+  \
   milestone1/index.html    \
   milestone1/levels.html   \
   milestone1/music.html   \
@@ -52,8 +54,6 @@ content: $(OUTFILES) development/default.css
 	mkdir -p output/milestone1/images/
 	cp -v output/welcome.html output/index.html
 	cp -v default.css output/
-	cp -v default.css output/development/
-	cp -v default.css output/milestone1/
 	cp -v images/*.jpg output/images/
 	cp -v images/*.png output/images/
 	cp -v milestone1/images/*.jpg output/milestone1/images/
