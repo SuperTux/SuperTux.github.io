@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page title="SuperTux">
   <section title="Development">
-    This page should catch should act as a collecting place for ideas,
+    This page  should act as a collecting place for ideas,
     graphics and other stuff surrounding the SuperTux development.
     None of it should be taken as final, but more as an source of
     inspiration and brainstorming.
@@ -16,6 +16,40 @@
         go without breathing. The end of the flight should be
         announced by Tux changing color and catching for air.
       </picture>
+    </subsection>
+
+    <subsection title="ButtJump">
+      <picture file="images/buttjump.png">
+        The ButtJump is a smash attack onto the ground, which
+        generates a small shockwave which affects all enemies in a
+        near radius. Reaction to the shockwave for enemies might be to
+        fall upside down or something similar. The ButtJump might also
+        be used to break special tiles in the ground. The ButtJump is
+        triggered by pressing and holding the down-key while in a
+        jump. The ButtJump can't be interruppted.
+      </picture>
+    </subsection>
+
+    <subsection title="Ice Flower">
+      <picture file="images/iceflower.png">
+        The IceFlower could be one of the extra that Tux can collect
+        it might be able to resize him to SuperTux or give him other
+        special abbilities.
+      </picture>
+    </subsection>
+
+    <subsection title="Slider">
+      <picture file="images/slider.jpg">
+        Tux will be able to make use of smooth terrain my using the
+        slide action. By using the slider action Tux will jump on its
+        belly and thus slide speedy down the hill. Terrain that is
+        formed like a ramp should allow him to make huge jumps, which
+        would be impossible without the slide action. While sliding
+        downhill Tux shall be invulnerable by normal enemies, howewer
+        special enemies with spikes or so, might still be able to stop
+        him. <br />
+      </picture>
+      <img src="images/slider2.png" />
     </subsection>
 
     <subsection title="Unsorted">
@@ -44,8 +78,111 @@
       </picture>
     </subsection>
 
+    <subsection title="Mr. IceBlock">
+      <picture file="images/mriceblock.png">
+        Mr. IceBlock could be the most basic enemy in SuperTux, he
+        just walks around without having any 'special attacks' or
+        something like that. Jumping on Mr. IceBlock should flatten
+        him and thus kill him.
+      </picture>
+    </subsection>
+
     <subsection title="Unsorted">
       <screenshot file="images/enemies" />
     </subsection>
+  </section>
+
+  <section title="Tiles">
+    <img src="images/tiletype.png" />
+
+    <p>
+      SuperTux should feature 5 basic tile shapes:
+    </p>
+
+    <ul>
+      <li>empty</li>
+      <li>full</li>
+      <li>100% slope</li>
+      <li>50% slope</li>
+      <li>200% slope</li>
+    </ul>
+    
+    <p>
+      In addition to them it will feature them in mirrored form and in
+      a form that allows two 50% tiles to form a smooth slope. With
+      these basic tile shapes it should be possible to form reasonably
+      smooth circles and smooth shapes into the terrain.
+    </p>
+  </section>
+
+  <section title="Dieing">
+    <p>
+      In MarioBros1 one went from being SuperMario/FireMario to being
+      a small Mario to being a dead on the next enemy touch. Lives
+      where limited, there where no continues. MarioAllStars later
+      added the ability to restart from a given World.
+    </p>
+    
+    <p>
+      In MarioBros3 one lost only one ability at a time, so
+      FireMario/RacoonMario <arrow/> SuperMario <arrow/> SmallMario
+      <arrow/> dead. SuperMarioWorld went the same as MarioBros3 but
+      provided an additional extra-slot, that could host one extra and
+      release it on request, thus restoring the abilities. Continues
+      where provided per World, reset points in the world itself where
+      provided by doors, that stayed open even after a continue. Reset
+      points in the levels where not provided, since the levels where
+      relativly short this wasn't a problem.
+    </p>
+
+    <p>
+      Yoshis Island used a completly different concept, instead of
+      having special abilites, Yoshis stays pretty much the same all
+      the time (some items can allow Yoshi to spit fire and such, but
+      these are eaten and lost after a short time, there are no
+      permanent extras). On enemy contact BabyMario is released from
+      Yoshi and floats around, he can be catched again, so Yoshi has
+      pretty much unlimited energie if one manages to catch BabyMario
+      in time.  Time counts down from max. 30 <arrow/> to 0, up to 10
+      energie points are automatically refreshed, the rest needs the
+      collection of items. Progress was saved per level, going forward
+      and backward to older levels is possible.
+    </p>
+
+    <p>
+      Mario64 and MarioSunshine used the concept of energie. In
+      Mario64 energie is easily recovered by simply jumping into
+      water. In MarioSunshine energie is recovered by collecting
+      coins(?). No reset points in normal levels, since levels where
+      split in small puzzles that needs to be solved. The jump'n run
+      levels had a reset point at half of the level.
+    </p>
+
+    <p>
+      Falling into a hole in the ground leads to death in all Marios.
+    </p>
+
+    <p>
+      The trend is after all to make dieing less fatal, loss of energy
+      is easily recovered in most games, but requires a bit of
+      work. Reset points are provided in addition. So the frustration
+      is keep rather low. Progress is often saved per level now
+      instead of per world, thus not forcing you to replay levels
+      again and again. Lives are of not much use since Yoshis Island,
+      they only limited the amount of times one can use a reset point
+      in the level itself, world wise they have no effect.
+    </p>
+
+    <p>
+      So how should dieing in SuperTux work? Keeping frustration low
+      and the reset point frequent should be a goal, however it should
+      not be made too easy (ie not providing a quick-save in the level
+      itself). Saving on the worldmap should happen on a per level
+      basis, not per world. Saving should be automatic, replaying
+      levels should be possible. Reset points in the level should be
+      provided, given that the levels are long enough. Enemy contact
+      should cause the current extra to be lost.
+    </p>
+
   </section>
 </page>

@@ -144,6 +144,8 @@
     </table>
   </xsl:template>
 
+  <xsl:template match="arrow">&#8594;</xsl:template>
+
   <xsl:template match="screenshot">
     <a href="{@file}.jpg"><img class="screenshot" alt="{@file}" src="{@file}_small.jpg" title="{.}"/></a>
   </xsl:template>

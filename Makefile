@@ -18,6 +18,7 @@ content:
 	cp -v index.php output/
 	cp -v development/default.css output/development/
 	cp -v development/images/*.jpg output/development/images/
+	cp -v development/images/*.png output/development/images/
 
 upload: content
 	rsync -rv -e ssh output/ grumbel@super-tux.sourceforge.net:/home/groups/s/su/super-tux/htdocs/
