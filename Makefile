@@ -1,6 +1,17 @@
-HTMLOUT=development/index.html
+HTMLOUT = \
+  development/index.html   \
+  development/map.html     \
+  development/dieing.html   \
+  development/actions.html \
+  development/enemies.html
 
-$(patsubst %,output/%,$(HTMLOUT)): output/%.html: %.xml Makefile
+OUTFILES=$(patsubst %,output/%,$(HTMLOUT)) 
+
+all: content
+
+default.xsl: development/menu.xml
+
+$(OUTFILES): output/%.html: %.xml Makefile default.xsl  development/menu.xml
 	FILENAME=$<; \
 	LASTCHANGE=`date -I`; \
 	echo $${FILENAME%%.xml}; \
@@ -11,7 +22,7 @@ $(patsubst %,output/%,$(HTMLOUT)): output/%.html: %.xml Makefile
           -OUT $@ \
           -XSL default.xsl
 
-content:
+content: $(OUTFILES) development/default.css
 	mkdir -p output
 	mkdir -p output/development/
 	mkdir -p output/development/images/

@@ -10,6 +10,8 @@ h1
 { 
   text-align: center;
   background-color: white;
+  margin: 0px;
+  padding: 0px;
 }
 
 div.copyright
@@ -21,33 +23,44 @@ div.copyright
   border-color: black;
   border-width: thin;
   padding: .5em;
- 
 }
 
 div.section-box
 { 
-  background: #dddddd;
-  margin: 1em;
+  background-color: #dddddd;
+  margin: 0em 1em 1em 1em;
   border-style: solid;
+  border-width: 2px;
   border-color: black;
-  padding: 1em;
+  padding: 1em 1em 1em 1em;
 }
 
 div.menu
 {
-  width: 205px;
-  margin-top: 10px;
+  margin-bottom: 2px;
 }
 
 div.menu a
 {
+  color: black;
   text-decoration: none;
+  border-style: solid solid none solid;
+  border-width: 2px;
+  background: #bbbbbb;
+  padding: .3em 2em .3em 2em;
+}
+
+div.menu a.active
+{
+  border-bottom-color: #dddddd;
+  border-bottom-style: solid;
+  background: #dddddd;
 }
 
 a.menuitem:hover
 {
   color: black;
-  background-color: #E0FfFF;
+  background-color: #ff9900;
 }
 
 a.menuitem:visited
@@ -103,11 +116,12 @@ a.menuitem
 
 div.mainbody
 {
-  background-color: silver;
+/*  background-color: silver;
   color: black;
   border-color: black;
   border-style: solid;
-  padding: 1em;
+  padding: 1em;*/
+  margin-top: 0em;
 }
 
 p.warning {

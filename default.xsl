@@ -30,17 +30,13 @@
 
       <body>
         <h1>SuperTux - A Jump'n Run Game</h1>
-        
-<!--
-        <table cellspacing="0" cellpadding="0" border="0" align="center" style="margin-bottom: 1em;">
-          <tr>
-            <td>
-              <xsl:apply-templates select="document('menu.xml')" />
-            </td>
-          </tr>
-        </table>
--->
-        <xsl:apply-templates />
+        <br />
+
+        <xsl:apply-templates select="document('development/menu.xml')" />
+
+        <div class="mainbody">
+          <xsl:apply-templates />
+        </div>
 
         <div class="copyright">
           Last update: <xsl:value-of select="$lastchange" /><br />
@@ -116,17 +112,21 @@
 
   <xsl:template match="menu">
     <div class="menu">
-      <xsl:apply-templates />
+      <table align="center">
+        <tr>
+          <xsl:apply-templates />
+        </tr>
+      </table>
     </div>
   </xsl:template>
 
   <xsl:template match="menu/item">
     <xsl:choose>
-      <xsl:when test="concat($filename, '.html')=@file">
-        <a class="active" href="{@file}"><xsl:apply-templates /></a>
+      <xsl:when test="concat($filename, '.html')=concat('development/', @file)">
+        <td><a class="active" href="{@file}"><xsl:apply-templates /></a></td>
       </xsl:when>
       <xsl:otherwise>
-        <a href="{@file}"><xsl:apply-templates /></a>
+        <td><a href="{@file}"><xsl:apply-templates /></a></td>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>

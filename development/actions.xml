@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<page title="SuperTux">
+  <section title="Actions" id="actions">
+    <subsection title="BlowFlyer">
+      <picture file="images/blowflyer.png">
+        The BlowFlyer or BaloonTux action should be a temporary
+        limited action in which Tux fills his body with air (helium?!)
+        and is thus able to fly for a short time, ie as long as he can
+        go without breathing. The end of the flight should be
+        announced by Tux changing color and catching for air.
+      </picture>
+    </subsection>
+
+    <subsection title="ButtJump">
+      <picture file="images/buttjump.png">
+        The ButtJump is a smash attack onto the ground, which
+        generates a small shockwave which affects all enemies in a
+        near radius. Reaction to the shockwave for enemies might be to
+        fall upside down or something similar. The ButtJump might also
+        be used to break special tiles in the ground. The ButtJump is
+        triggered by pressing and holding the down-key while in a
+        jump. The ButtJump can't be interruppted.
+      </picture>
+    </subsection>
+
+    <subsection title="Ice Flower">
+      <picture file="images/iceflower.png">
+        The IceFlower could be one of the extra that Tux can collect
+        it might be able to resize him to SuperTux or give him other
+        special abbilities.
+      </picture>
+    </subsection>
+
+    <subsection title="Slider">
+      <picture file="images/slider.jpg">
+        Tux will be able to make use of smooth terrain my using the
+        slide action. By using the slider action Tux will jump on its
+        belly and thus slide speedy down the hill. Terrain that is
+        formed like a ramp should allow him to make huge jumps, which
+        would be impossible without the slide action. While sliding
+        downhill Tux shall be invulnerable by normal enemies, howewer
+        special enemies with spikes or so, might still be able to stop
+        him. <br />
+      </picture>
+      <img src="images/slider2.png" />
+    </subsection>
+
+    <subsection title="Flapping">
+      <picture file="images/flapping.png">
+        Once in air Tux should be allowed to flap with his wings. They
+        are not enough to let him fly, but should allow him to get
+        some additional air-time (like a small double-jump).
+      </picture>
+    </subsection>
+
+    <subsection title="Soap">
+      <p>
+        Tux migth be able to eat some soap and thus be able to spit
+        out bobbles, bubbles them self should be useable as steps to
+        reach higher places and might be able to caputer enemies.
+      </p>
+    </subsection>
+
+    <subsection title="Unsorted">
+      <screenshot file="images/actions" />
+      <screenshot file="images/actions2" />
+    </subsection>
+  </section>
+</page>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<page title="SuperTux">
+  <section title="Tiles">
+    <img src="images/tiletype.png" />
+
+    <p>
+      SuperTux should feature 5 basic tile shapes:
+    </p>
+
+    <ul>
+      <li>empty</li>
+      <li>full</li>
+      <li>100% slope</li>
+      <li>50% slope</li>
+      <li>200% slope</li>
+    </ul>
+    
+    <p>
+      In addition to them it will feature them in mirrored form and in
+      a form that allows two 50% tiles to form a smooth slope. With
+      these basic tile shapes it should be possible to form reasonably
+      smooth circles and smooth shapes into the terrain.
+    </p>
+  </section>
+</page>
