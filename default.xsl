@@ -41,12 +41,15 @@
         </div>
 
         <div class="copyright">
+        <img style="float:right; vertical-align:middle;"
+        width="124px" height="32px" border="0" alt="BerliOS Developer Logo"
+        src="http://developer.berlios.de/bslogo.php?group_id=3467"/>
           Contact via IRC: irc.freenode.net, #supertux<br />
 
           Contact via <a
-            href="http://lists.sourceforge.net/lists/listinfo/super-tux-devel">Mailing
+            href="http://developer.berlios.de/mail/?group_id=3467">Mailing
             List</a>: <a
-            href="mailto:super-tux-devel@lists.sourceforge.net">super-tux-devel@lists.sourceforge.net</a><br />
+            href="mailto:supertux-devel@lists.berlios.de">supertux-devel@lists.berlios.de</a><br />
 
           Last update: <xsl:value-of select="$lastchange" /><br />
         </div>
