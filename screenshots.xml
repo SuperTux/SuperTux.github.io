@@ -6,6 +6,19 @@
       Welcome to our SuperTux screenshots album!
     </p>
 
+    <subsection title="SuperTux 0.1.1">
+      <p>
+        This version basically features the built-in editor that
+        was took off from the previous release (0.1.0), new hand-written fonts
+        and a few bug fixes.
+      </p>
+
+      <center>
+        <screenshot file="images/menu-011" />
+        <screenshot file="images/game1-011" />
+        <screenshot file="images/leveleditor-011" />
+      </center>
+
     <subsection title="SuperTux Milestone1 aka 0.1.0">
       <p>
         Milestone1 is in huge parts the result of the GotM event on
@@ -16,10 +29,9 @@
 
       <center>
         <screenshot file="images/game-010" />
-        <screenshot file="images/game1-010" />
-        <screenshot file="images/game2-010" /><br/>
+        <screenshot file="images/game1-010" /><br/>
+        <screenshot file="images/game2-010" />
         <screenshot file="images/game3-010" />
-        <screenshot file="images/game4-010" />
       </center>
       
       <subsubsection title="Flexlay">
