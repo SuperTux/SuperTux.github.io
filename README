@@ -1,0 +1,8 @@
+The homepage is generated from a set of xml pages. You should edit these xml
+files and only commit these to cvs! You need to have xsltproc installed to
+transform the xml files to html (xsltproc is part of the libxslt package).
+
+You can upload a new homepage like this (myusername should be your berlios
+account name)
+
+    make upload ST_USERNAME=myusername
