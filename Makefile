@@ -78,7 +78,7 @@ directories:
 	mkdir -p output/milestone2/images/
 
 upload: checkusername content
-	rsync -rv -e ssh output/ $(ST_USERNAME)@shell.berlios.de:/home/groups/supertux/htdocs/
+	rsync -rv -e ssh --exclude wiki/ output/ $(ST_USERNAME)@shell.berlios.de:/home/groups/supertux/htdocs/
 
 clean:
 	rm -rf output/*
