@@ -6,7 +6,9 @@
         SuperTux 0.1.2 has been released! It features 22 new levels from both 
         the SuperTux team and contributors. You can wait for the various
         packages to be released or you can
-        <a href="download.html">get the source tarball now</a>.
+        <a href="download.html">get the source tarball now</a>. The new levels
+        in SuperTux 0.1.2 can be found under the <strong>Bonus Levels</strong>
+        menu.
       </item>
       <item date="14. July 2004">
         A new SuperTux 0.1.1 Mac OS X binary is available that fixes a start-up crash in OS X 10.2.
