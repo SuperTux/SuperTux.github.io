@@ -62,4 +62,14 @@
       player to quickly advance to survive.
     </p>
   </section>
+
+  <section title="Game ideas">
+    <p>
+      Here goes a few unsorted images contributed by people, in order
+      to serve as an insipiration for the developers.
+    </p>
+    <subsection title="Contributed by C. Ratchet">
+      <screenshot file="images/ideas1" />
+    </subsection>
+  </section>
 </page>
