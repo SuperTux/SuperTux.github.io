@@ -2,5 +2,6 @@
 
 <submenu>
   <item file="index.html">Intro</item>
+  <item file="authors.html">Authors</item>
   <item file="download.html">Download</item>
 </submenu>
