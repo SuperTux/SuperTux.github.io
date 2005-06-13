@@ -2,11 +2,11 @@
 <page title="SuperTux">
   <section title="News">
     <news>
-      <item date="13. June 2005">made
-        To keep you happy while waiting for milestone 2, we decided to release
-        another Bonus Island featuring contributed and official levels. The
+      <item date="13. June 2005">
+        To (hopefully) keep you happy while waiting for milestone 2, we decided to release
+        another Bonus Island featuring a bunch of new contributed and official levels. The
         webmaster of the <a href="http://cd.bromley.ac.uk/supertux/">SuperTux Fan Site</a>
-        provided an assorted set of levels that have been submitted to the site to be
+        provided an assorted set of levels that have been submitted to his site to be
         included on Bonus Island 2. If you created a level that you would like to appear in
         the next release, <a href="mailto:supertux-devel@berlios.de">please send it to us</a>
         during the next two weeks.
