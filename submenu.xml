@@ -5,6 +5,6 @@
   <item file="welcome.html">About</item>
   <item file="screenshots.html">Screenshots</item>
   <item file="authors.html">Authors</item>
-  <item file="download.html">Download</item>
+  <item file="http://supertux.berlios.de/wiki/index.php/Download/Installation">Download</item>
   <item file="contact.html">Contact</item>
 </submenu>

@@ -1,7 +1,6 @@
 HTMLOUT = \
   news.html \
   welcome.html \
-  download.html \
   authors.html \
   contact.html \
   screenshots.html \
@@ -20,7 +19,6 @@ HTMLOUT = \
   milestone1/gameplay.html  \
   milestone1/tilesets.html  \
   milestone1/enemies.html   \
-  milestone1/download.html  \
   milestone1/misc.html
 
 CPFLAGS=-pu
