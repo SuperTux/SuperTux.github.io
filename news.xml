@@ -2,6 +2,14 @@
 <page title="SuperTux">
   <section title="News">
     <news>
+      <item date="30. June 2005">
+        The level submission deadline for SuperTux 0.1.3 is over - the second Bonus Island
+        will contain 20 new levels, four from the SuperTux Team and sixteen contributed by
+        players. Expect a release around next week.
+        For all of you waiting for milestone 2: We still have no idea when it'll be ready,
+        but we are all putting a lot of our free time into it. There has already been quite
+        some progress, and there's more to come.
+      </item>
       <item date="13. June 2005">
         To (hopefully) keep you happy while waiting for milestone 2, we decided to release
         another Bonus Island featuring a bunch of new contributed and official levels. The
