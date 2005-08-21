@@ -2,6 +2,10 @@
 <page title="SuperTux">
   <section title="News">
     <news>
+      <item date="21. August 2005">
+        The <a href="http://supertux.berlios.de/wiki/index.php/Download/Installation">download page</a> now has additional
+        binary packages for SuperTux 0.1.3, including an unofficial Windows build.
+      </item>
       <item date="09. July 2005">
         SuperTux 0.1.3 has been released! New features include a second Bonus Island with 28
         new levels as well as custom world map support and a few bugfixes.
