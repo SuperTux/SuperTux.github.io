@@ -2,6 +2,14 @@
 <page title="SuperTux">
   <section title="News">
     <news>
+      <item date="18. September 2005">
+        Due to unbearable amounts of spam we received on the mailing list, we decided to close it for 
+        non-subscribed people. If you don't want to subscribe you can still send a message to the list, but
+        it will have to be approved by a moderator first, which means that it'll take a bit longer and you
+        will receive an email saying that your message is waiting for approval. You can also send your email
+        directly to one of the team members who can then forward it to the list.
+        We sincerely apologize for the inconvenience but with all that spam we had no choice.
+      </item>
       <item date="21. August 2005">
         The <a href="http://supertux.berlios.de/wiki/index.php/Download/Installation">download page</a> now has additional
         binary packages for SuperTux 0.1.3, including a version for MacOS X 10.3 or later as well as an (unofficial) Windows build.
