@@ -3,6 +3,12 @@
   <section title="News">
     <news>
       <item date="18. September 2005">
+        About our decision to make OpenGL a requirement for SuperTux Milestone 2, please see
+        <a href="http://cd.bromley.ac.uk/supertux/forums/viewtopic.php?id=106">this link</a>. There's also
+        a poll <a href="http://home.arcor.de/firefrog/su1.html">here</a> where you can state wether or not
+        you will be able to play milestone 2 if it requires OpenGL (please be honest!).
+      </item>
+      <item date="18. September 2005">
         Due to unbearable amounts of spam we received on the mailing list, we decided to close it for 
         non-subscribed people. If you don't want to subscribe you can still send a message to the list, but
         it will have to be approved by a moderator first, which means that it'll take a bit longer and you
