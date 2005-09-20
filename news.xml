@@ -2,6 +2,11 @@
 <page title="SuperTux">
   <section title="News">
     <news>
+      <item date="20. September 2005">
+      A few weeks ago, SuperTux 0.1.3 received an <a href="http://mac.softpedia.com/progClean/SuperTux-Clean-9049.html">award</a> 
+      for not containing any adware, spyware or viruses. Apparently it's easier these days to point out software that does <i>not</i>
+      contain malicious code... :-)
+      </item>
       <item date="18. September 2005">
         About our decision to make OpenGL a requirement for SuperTux Milestone 2, please see
         <a href="http://cd.bromley.ac.uk/supertux/forums/viewtopic.php?id=106">this link</a>. There's also
