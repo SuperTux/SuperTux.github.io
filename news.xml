@@ -2,6 +2,9 @@
 <page title="SuperTux">
   <section title="News">
     <news>
+      <item date="03. January 2006">
+        Deniska has ported SuperTux 0.1.3 to the PlayStation Portable (PSP). There is a link at the <a href="http://supertux.berlios.de/wiki/index.php/Download/Installation">download section</a>.
+      </item>
       <item date="20. September 2005">
       A few weeks ago, SuperTux 0.1.3 received an <a href="http://mac.softpedia.com/progClean/SuperTux-Clean-9049.html">award</a> 
       for not containing any adware, spyware or viruses. Apparently it's easier these days to point out software that does <i>not</i>
