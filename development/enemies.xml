@@ -11,7 +11,7 @@
 
   <section title="Enemies" id="enemies">
     <subsection title="Evil Penguin">
-      <picture file="images/evil_penguin.png">
+      <picture file="images/evil_penguin.png" alt="Evil Penguin">
         The Evil Penguin should look similar to Tux, it will probally
         have another color and another shaped bill. Ranges of attack
         might be something simple such as spitting balls or eggs at
@@ -21,7 +21,7 @@
     </subsection>
 
     <subsection title="Mr. Bomb">
-      <picture file="images/mrbomb.png">
+      <picture file="images/mrbomb.png" alt="Mr. Bomb">
         Pretty much every game has some kind of exploding enemy, so
         SuperTux should have something like that too. For the moment
         this should be our Mr. Bomb, a plain and simple Bomb running
@@ -30,7 +30,7 @@
     </subsection>
 
     <subsection title="Mr. IceBlock">
-      <picture file="images/mriceblock.png">
+      <picture file="images/mriceblock.png" alt="Mr. IceBlock">
         Mr. IceBlock could be the most basic enemy in SuperTux, he
         just walks around without having any 'special attacks' or
         something like that. Jumping on Mr. IceBlock should flatten
@@ -39,11 +39,11 @@
     </subsection>
 
     <subsection title="Unsorted">
-      <screenshot file="images/enemies" />
+      <screenshot file="images/enemies" alt="Unsorted" />
     </subsection>
 
     <subsection title="More Unsorted, contributed by Settra Gaia">
-      <screenshot file="images/enemies2" />
+      <screenshot file="images/enemies2" alt="More Unsorted, contributed by Settra Gaia" />
     </subsection>
   </section>
 </page>

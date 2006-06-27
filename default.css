@@ -73,7 +73,7 @@ div.submenu a:hover
 {
   color: black;
   text-decoration: none;
-  border-style: thin;
+  border-style: none;
   background: white;
 }
 

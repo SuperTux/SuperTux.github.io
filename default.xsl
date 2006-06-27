@@ -31,8 +31,9 @@
       </head>
 
       <body>
-        <center><img src="{$basedir}images/logo.png"/></center>
-
+        <div style="text-align: center;">
+          <img src="{$basedir}images/logo.png" alt="Logo of SuperTux" />
+        </div>
         <xsl:apply-templates select="document('menu.xml')" />
         <xsl:apply-templates select="document(concat($section, '/submenu.xml'))" />
 
@@ -41,9 +42,8 @@
         </div>
 
         <div class="copyright">
-        <img style="float:right; vertical-align:middle;"
-        width="124px" height="32px" border="0" alt="BerliOS Developer Logo"
-        src="http://developer.berlios.de/bslogo.php?group_id=3467"/>
+        <img style="float:right; vertical-align:middle; border: 0; width: 124px; height: 32px;"
+        alt="BerliOS Developer Logo" src="http://developer.berlios.de/bslogo.php?group_id=3467"/>
           Contact via IRC: irc.freenode.net, #supertux<br />
 
           Contact via <a
@@ -72,7 +72,7 @@
   <xsl:template match="subsection">
     <h3><xsl:value-of select="@title" /></h3>
     <xsl:apply-templates />
-    <br clear="all" />
+    <br style="clear: both;" />
   </xsl:template>
 
   <xsl:template match="subsubsection">
@@ -131,7 +131,7 @@
           <xsl:apply-templates />
         </tr>
       </table>
-    </div>   
+    </div>
   </xsl:template>
 
   <xsl:template match="submenu/item">
@@ -178,7 +178,7 @@
     <table border="0">
       <tr>
         <td valign="top">
-          <img src="{@file}" /> 
+          <img src="{@file}" alt="{@alt}" /> 
         </td>
         <td valign="top">
           <xsl:apply-templates />

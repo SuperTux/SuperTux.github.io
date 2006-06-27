@@ -14,9 +14,9 @@
         and some new tiles.
       </p>
 
-      <center>
+	  <div style="text-align: center;">
         <screenshot file="images/game1-012" />
-      </center>
+      </div>
     </subsection>
 
     <subsection title="SuperTux 0.1.1">
@@ -26,11 +26,11 @@
         and a few bug fixes.
       </p>
 
-      <center>
+	  <div style="text-align: center;">
         <screenshot file="images/menu-011" />
         <screenshot file="images/game1-011" />
         <screenshot file="images/leveleditor-011" />
-      </center>
+      </div>
     </subsection>
 
     <subsection title="SuperTux Milestone1 aka 0.1.0">
@@ -42,12 +42,12 @@
           impression of the game.
         </p>
 
-        <center>
+        <div style="text-align: center;">
           <screenshot file="images/game-010" />
           <screenshot file="images/game1-010" /><br/>
           <screenshot file="images/game2-010" />
           <screenshot file="images/game3-010" />
-        </center>
+        </div>
     </subsection>
       
     <subsubsection title="Flexlay">
@@ -58,10 +58,10 @@
         support), but requires a few more dependencies and OpenGL on
         the other side.
       </p>
-      <center>
+	  <div style="text-align: center;">
         <screenshot file="images/flexlay-1" />
         <screenshot file="images/flexlay-2" />
-      </center>
+      </div>
     </subsubsection>
 
     <subsection title="SuperTux 0.0.6">
@@ -72,11 +72,11 @@
         fonts were also remade.
       </p>
 
-      <center>
+	  <div style="text-align: center;">
         <screenshot file="images/menu-006" />
         <screenshot file="images/game-006" />
         <screenshot file="images/leveleditor-006" />
-      </center>
+      </div>
     </subsection>
 
     <subsection title="SuperTux 0.0.5">
@@ -86,10 +86,10 @@
         features a menu, and internal clean-ups have started.
       </p>
 
-      <center>
+	  <div style="text-align: center;">
         <screenshot file="images/intro-005" />
         <screenshot file="images/game-005" />
-      </center>
+      </div>
     </subsection>
 
     <subsection title="SuperTux prior 0.0.5">
@@ -99,11 +99,11 @@
         had a SuperMario1 feel.
       </p>
 
-      <center>
+	  <div style="text-align: center;">
         <screenshot file="images/game1-004" />
         <screenshot file="images/game2-004" />
         <screenshot file="images/game3-004" />
-      </center>
+      </div>
     </subsection>
   </section>
 </page>

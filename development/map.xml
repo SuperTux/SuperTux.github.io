@@ -19,7 +19,7 @@
   </section>
 
   <section title="Tiles">
-    <img src="images/tiletype.png" />
+    <img src="images/tiletype.png" alt="Type of tiles" />
 
     <p>
       SuperTux should feature 5 basic tile shapes:
