@@ -45,7 +45,7 @@ $(OUTFILES): output/%.html: %.xml Makefile default.xsl
 	@if [ "`dirname $<`" != "." ]; then BASEDIR="../"; else BASEDIR=""; fi; \
 	echo Creating $@; \
 	xsltproc \
-	    --stringparam filename "$<" \
+	    --stringparam filename "$@" \
 	    --stringparam lastchange `ls -la --time-style=long-iso $< | awk '{print $$6}'` \
 	    --stringparam section `dirname $<` \
 	    --stringparam basedir "$$BASEDIR" \

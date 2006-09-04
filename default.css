@@ -61,11 +61,6 @@ div.submenu a, div.submenu a:visited
 
 div.submenu a.active
 {
-  color: #0000bb;
-  border-style: none solid none solid;
-  border-width: thin;
-
-  text-decoration: none;
   background: #FFFFFF;
 }
 
