@@ -2,6 +2,9 @@
 <page title="SuperTux">
   <section title="News">
     <news>
+      <item date="17. December 2006">
+        SuperTux 0.3.0 has been released. Packages are available on the <a href="http://developer.berlios.de/projects/supertux/">SuperTux project page</a>.
+      </item>
       <item date="01. June 2006">
         Episode 001 of <a href="http://thelinuxlink.net/lager/">LaGER, Dann S. Washko's podcast about linux gaming</a>, features a review of Milestone 1 with Dann and his seven-year-old daughter Paige. Ten thumbs up for SuperTux! :-)
       </item>
