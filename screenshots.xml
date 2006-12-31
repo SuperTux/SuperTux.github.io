@@ -6,7 +6,27 @@
       Welcome to our SuperTux screenshots album!
     </p>
 
-    <subsection title="SuperTux 0.1.2">
+    <subsection title="SuperTux 0.3.0">
+        <p>
+          Released 2006-12-17, this is a preview of what is
+          to become Milestone 2. Lots of new features can already
+          be tried out, e.g. levels that scroll in all directions,
+          levels with multiple sectors, moving platforms, a shortened
+          ice world and a whole new forest world.
+        </p>
+
+        <div style="text-align: center;">
+          <pngscreenshot file="images/supertux-0.3.0-1" />
+          <pngscreenshot file="images/supertux-0.3.0-2" />
+          <pngscreenshot file="images/supertux-0.3.0-3" /><br />
+          <pngscreenshot file="images/supertux-0.3.0-4" />
+          <pngscreenshot file="images/supertux-0.3.0-5" />
+          <pngscreenshot file="images/supertux-0.3.0-6" /><br />
+          <pngscreenshot file="images/supertux-editor-0.3.0-1" />
+        </div>
+    </subsection>
+
+     <subsection title="SuperTux 0.1.2">
       <p>
         This is a release for the big SuperTux fans. We were asked to make more
         levels, making some more challenging, so here's our answer. This

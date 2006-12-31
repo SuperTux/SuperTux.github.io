@@ -193,5 +193,9 @@
     <a href="{@file}.jpg"><img class="screenshot" alt="{@file}" src="{@file}_small.jpg" title="{.}"/></a>
   </xsl:template>
 
+  <xsl:template match="pngscreenshot">
+    <a href="{@file}.png"><img class="screenshot" alt="{@file}" src="{@file}_small.jpg" title="{.}"/></a>
+  </xsl:template>
+
 
 </xsl:stylesheet>
