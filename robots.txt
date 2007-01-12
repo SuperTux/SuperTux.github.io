@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wiki/Special:Randompage
+Disallow: /wiki/Special%3ARandompage
+Disallow: /wiki/Special:Search
+Disallow: /wiki/Special%3ASearch
+
+Crawl-delay: 1
