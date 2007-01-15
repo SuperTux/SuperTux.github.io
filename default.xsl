@@ -47,9 +47,9 @@
           Contact via IRC: irc.freenode.net, #supertux<br />
 
           Contact via <a
-            href="http://developer.berlios.de/mail/?group_id=3467">Mailing
+            href="http://lists.lethargik.org/listinfo.cgi/supertux-devel-lethargik.org">Mailing
             List</a>: <a
-            href="mailto:supertux-devel@lists.berlios.de">supertux-devel@lists.berlios.de</a><br />
+            href="mailto:supertux-devel@lists.lethargik.org">supertux-devel@lists.lethargik.org</a><br />
 
           Last update: <xsl:value-of select="$lastchange" /><br />
         </div>

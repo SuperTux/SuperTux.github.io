@@ -10,21 +10,21 @@
     <subsection title="Mailing List">
       <dl>
         <dt><a
-        href="mailto:supertux-devel@lists.berlios.de">supertux-devel@lists.berlios.de</a>
+        href="mailto:supertux-devel@lists.lethargik.org">supertux-devel@lists.lethargik.org</a>
         - List for comments, criticisms and everything development
         related</dt>
 
-        <dd><a href="http://lists.berlios.de/pipermail/supertux-devel">Archive</a></dd>
-        <dd><a href="http://lists.berlios.de/mailman/listinfo/supertux-devel">Subscribe/Unsubscribe</a></dd>
+        <dd><a href="http://lists.lethargik.org/pipermail/supertux-devel">Archive</a></dd>
+        <dd><a href="http://lists.lethargik.org/mailman/listinfo/supertux-devel">Subscribe/Unsubscribe</a></dd>
       </dl>
 
       <dl>
         <dt><a
-        href="mailto:supertux-commit@lists.berlios.de">supertux-commit@lists.berlios.de</a>
+        href="mailto:supertux-commit@lists.lethargik.org">supertux-commit@lists.lethargik.org</a>
           - List for commits to SVN, mainly useful for people working directly with the source</dt>
 
-        <dd><a href="http://lists.berlios.de/pipermail/supertux-commit">Archive</a></dd>
-        <dd><a href="http://lists.berlios.de/mailman/listinfo/supertux-commit">Subscribe/Unsubscribe</a></dd>
+        <dd><a href="http://lists.lethargik.org/pipermail/supertux-commit">Archive</a></dd>
+        <dd><a href="http://lists.lethargik.org/mailman/listinfo/supertux-commit">Subscribe/Unsubscribe</a></dd>
       </dl>
     </subsection>
 
