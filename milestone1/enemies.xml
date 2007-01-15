@@ -99,12 +99,12 @@
 
       <ul>
         <li>SmallTux - 32x32, ie. Tux without extras</li>
-        <li>Tux - 64x32, ie. Tux with 'size' extra</li> 
+        <li>Tux - 64x32, ie. Tux with 'size' extra</li>
         <li>SuperTux - 64x32, ie Tux with 'size' and 'firepower' extra</li>
 
         <li>Mr. Iceblock - 32x32 most basic enemy, needs two or three
           frames for a walking, at least one for dieing</li>
-        
+
         <li>Mr. Bomb - 32x32 a basic enemy that explodes after being
           kill, needs two or three for walking, at least two for being
           dead plus at least one for explosion</li>

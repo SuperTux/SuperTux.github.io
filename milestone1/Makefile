@@ -1,7 +1,7 @@
 all:
 	$(MAKE) -C ..
 
-upload: 	
-	$(MAKE) -C .. upload 
+upload:
+	$(MAKE) -C .. upload
 
 # EOF #

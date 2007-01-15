@@ -35,7 +35,7 @@
         together with vertical scrolling levels of course should have
         both variable heights and width
       </li>
-      
+
       <li>
         parallax scrolling backgrounds should be build out of tiles
         instead of plain huge jpg/png graphics, multilpe configurable

@@ -27,8 +27,8 @@
           should be useable, even so it might not be really perfect.
           If you miss a critical feature contact 'grumbel' on IRC.
         </p>
-      
-        
+
+
         <ul>
           <li><dlink-full href="http://pingus.seul.org/~grumbel/tmp/windstille-0.2.1-supertux.tar.bz2" /></li>
           <li>Subversion Repo: <tt>svn co svn://clanlib.org/Games/Windstille/trunk/</tt></li>

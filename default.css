@@ -1,7 +1,7 @@
 /* */
 
 body
-{ 
+{
   padding: 1em 0em 0em 0em;
   margin: 0em 0em 0em 0em;
 }
@@ -12,8 +12,8 @@ h1,h2,h3,h4
   margin-top: 0px;
 }
 
-h1 
-{ 
+h1
+{
   text-align: center;
   background-color: white;
   margin: 0px;
@@ -21,7 +21,7 @@ h1
 }
 
 div.copyright
-{ 
+{
   font-size: .8em;
   background: #dddddd;
   margin: 1em;
@@ -32,7 +32,7 @@ div.copyright
 }
 
 div.section-box
-{ 
+{
   background-color: #dddddd;
   margin: 0em 1em 1em 1em;
   border-style: solid;

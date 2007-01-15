@@ -6,8 +6,8 @@ h1,h2,h3,h4
   margin-top: 0px;
 }
 
-h1 
-{ 
+h1
+{
   text-align: center;
   background-color: white;
   margin: 0px;
@@ -15,7 +15,7 @@ h1
 }
 
 div.copyright
-{ 
+{
   font-size: .8em;
   background: #dddddd;
   margin: 1em;
@@ -26,7 +26,7 @@ div.copyright
 }
 
 div.section-box
-{ 
+{
   background-color: #dddddd;
   margin: 0em 1em 1em 1em;
   border-style: solid;
@@ -90,7 +90,7 @@ a.currentmenuitem
   border-width: thin;
   background-color: #FFFFFF;
   background-repeat: repeat-y;
-  color: black;        
+  color: black;
   padding: 5px 0px 5px 0px;
   display: block;
   margin: 10px 15px 10px 15px;
@@ -108,7 +108,7 @@ a.menuitem
   background-color: #607f9b;
   /*	background-image: url(images/menubackground.png);*/
   background-repeat: repeat-y;
-  color: black;        
+  color: black;
   padding: 5px 0px 5px 0px;
   display: block;
   margin: 10px 15px 10px 15px;

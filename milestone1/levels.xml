@@ -14,7 +14,7 @@
         will not have vertical scrolling and will run at 640x480, thus
         this limitation
       </li>
-      
+
       <li>
         all normal levels should have a length of around 500 tiles with one
         reset point in the middle
@@ -47,7 +47,7 @@
       sure need additional fixup, better enemy placement, etc. But it
       should be a good start. More levels are very welcome.
     </subsection>
-    
+
   </section>
 </page>
 

@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <xsl:stylesheet version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  
-  <xsl:output 
-    method="html" 
-    indent="yes" 
-    doctype-public="-//W3C//DTD HTML 4.01//EN" 
+
+  <xsl:output
+    method="html"
+    indent="yes"
+    doctype-public="-//W3C//DTD HTML 4.01//EN"
     doctype-system="http://www.w3.org/TR/html4/strict.dtd"
     encoding="ISO-8859-1" />
 
   <xsl:param name="filename"/>
-  <xsl:param name="lastchange"/>  
-  <xsl:param name="section"/>  
-  <xsl:param name="basedir" />       
+  <xsl:param name="lastchange"/>
+  <xsl:param name="section"/>
+  <xsl:param name="basedir" />
 
   <xsl:template match="node()|@*">
     <xsl:copy><xsl:apply-templates select="@* | node()" /></xsl:copy>
@@ -20,7 +20,7 @@
 
   <xsl:template match="dlink-full">
     <a href="{@href}"><xsl:value-of select="@href" /></a>
-  </xsl:template> 
+  </xsl:template>
 
   <xsl:template match="page">
     <html>
@@ -42,8 +42,6 @@
         </div>
 
         <div class="copyright">
-        <img style="float:right; vertical-align:middle; border: 0; width: 124px; height: 32px;"
-        alt="BerliOS Developer Logo" src="http://developer.berlios.de/bslogo.php?group_id=3467"/>
           Contact via IRC: irc.freenode.net, #supertux<br />
 
           Contact via <a
@@ -56,7 +54,7 @@
       </body>
     </html>
   </xsl:template>
-  
+
   <xsl:template match="section">
     <div class="section-box">
       <xsl:if test="@id!=''">
@@ -102,8 +100,8 @@
             <xsl:apply-templates select="question/node()"/>
           </div>
         </td>
-        
-        
+
+
         <td align="right" valign="top">
           <small>Last update:<xsl:value-of select="@date"/></small>
           [<small><a href="#faqtoc">Up</a></small>]
@@ -113,7 +111,7 @@
 
     <p class="answer"><xsl:apply-templates select="answer/node()"/> </p>
   </xsl:template>
-  
+
   <xsl:template match="news">
     <xsl:apply-templates select="item"/>
   </xsl:template>
@@ -178,7 +176,7 @@
     <table border="0">
       <tr>
         <td valign="top">
-          <img src="{@file}" alt="{@alt}" /> 
+          <img src="{@file}" alt="{@alt}" />
         </td>
         <td valign="top">
           <xsl:apply-templates />

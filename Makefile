@@ -23,7 +23,7 @@ HTMLOUT = \
 
 CPFLAGS=-pu
 
-OUTFILES=$(patsubst %,output/%,$(HTMLOUT)) 
+OUTFILES=$(patsubst %,output/%,$(HTMLOUT))
 
 all: content
 
