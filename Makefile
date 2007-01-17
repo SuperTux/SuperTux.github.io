@@ -54,6 +54,7 @@ $(OUTFILES): output/%.html: %.xml Makefile default.xsl
 content: directories $(OUTFILES) development/default.css
 	cp $(CPFLAGS) output/welcome.html output/index.html
 	cp $(CPFLAGS) default.css output/
+	cp $(CPFLAGS) robots.txt output/
 	cp $(CPFLAGS) images/*.jpg output/images/
 	cp $(CPFLAGS) images/*.png output/images/
 	cp $(CPFLAGS) milestone1/images/*.jpg output/milestone1/images/
@@ -76,7 +77,7 @@ directories:
 	mkdir -p output/milestone2/images/
 
 upload: checkusername content
-	rsync -crv -e ssh --exclude development/doxygen/ --exclude bugs/ --exclude wiki/ output/ $(ST_USERNAME)@supertux.lethargik.org:/home/supertux/supertux.lethargik.org/
+	rsync -crv --chmod=Dg+rwxs,ug+rw,o-w -e ssh --exclude usage/ --exclude viewvc --exclude development/doxygen/ --exclude bugs/ --exclude wiki/ output/ $(ST_USERNAME)@supertux.lethargik.org:/home/supertux/supertux.lethargik.org/
 
 clean:
 	rm -rf output/*
