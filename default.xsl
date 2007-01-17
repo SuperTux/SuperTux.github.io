@@ -27,7 +27,7 @@
       <head>
         <title>SuperTux</title>
         <link rel="stylesheet" type="text/css" href="{$basedir}default.css" />
-        <link rel="icon" href="images/favicon.png" type="image/png" />
+        <link rel="icon" href="/images/favicon.png" type="image/png" />
       </head>
 
       <body>

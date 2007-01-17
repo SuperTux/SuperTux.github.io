@@ -181,8 +181,8 @@ a {
 body
 {
   background-position: left top;
-  background-image: url(images/snow_background.jpg);
-  background-repeat: repeat-x;
+  /*background-image: url(images/snow_background.jpg);
+  background-repeat: repeat-x;*/
   background-color: #707f9b;
   color: black;
   /* desert #cdb09e; */
