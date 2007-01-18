@@ -77,7 +77,7 @@ directories:
 	mkdir -p output/milestone2/images/
 
 upload: checkusername content
-	rsync -crv --chmod=Dg+rwxs,ug+rw,o-w -e ssh --exclude usage/ --exclude viewvc --exclude development/doxygen/ --exclude bugs/ --exclude wiki/ output/ $(ST_USERNAME)@supertux.lethargik.org:/home/supertux/supertux.lethargik.org/
+	rsync -crv --chmod=Dg+rwxs,ug+rw,o-w -e ssh --exclude-from=rsync-excludes.txt output/ $(ST_USERNAME)@supertux.lethargik.org:/home/supertux/supertux.lethargik.org/
 
 clean:
 	rm -rf output/*

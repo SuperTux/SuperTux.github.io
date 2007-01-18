@@ -1,0 +1,14 @@
+# File name patterns to exclude when
+# uploading website with rsync.
+# Lines starting with ; and # are comments
+bugs/
+wiki/
+viewvc
+development/doxygen/
+usage/
+.htaccess
+favicon.ico
+# For google sitemaps
+sitemap.xml
+sitemap.base.xml.gz
+google7da5f48b599b3c45.html
