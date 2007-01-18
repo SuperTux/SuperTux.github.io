@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 
 <submenu>
-  <item file="news.html">News</item>
-  <item file="welcome.html">About</item>
-  <item file="screenshots.html">Screenshots</item>
-  <item file="authors.html">Authors</item>
-  <item file="http://supertux.lethargik.org/wiki/Download/Installation">Download</item>
-  <item file="contact.html">Contact</item>
+	<item file="news.html">News</item>
+	<item file="welcome.html">About</item>
+	<item file="screenshots.html">Screenshots</item>
+	<item file="authors.html">Authors</item>
+	<item file="http://supertux.lethargik.org/wiki/Download/Installation">Download</item>
+	<item file="contact.html">Contact</item>
 </submenu>

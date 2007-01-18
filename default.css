@@ -2,188 +2,188 @@
 
 body
 {
-  padding: 1em 0em 0em 0em;
-  margin: 0em 0em 0em 0em;
+	padding: 1em 0em 0em 0em;
+	margin: 0em 0em 0em 0em;
 }
 
 h1,h2,h3,h4
 {
-  font-family: Sans-Serif;
-  margin-top: 0px;
+	font-family: Sans-Serif;
+	margin-top: 0px;
 }
 
 h1
 {
-  text-align: center;
-  background-color: white;
-  margin: 0px;
-  padding: 0px;
+	text-align: center;
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
 }
 
 div.copyright
 {
-  font-size: .8em;
-  background: #dddddd;
-  margin: 1em;
-  border-style: solid;
-  border-color: black;
-  border-width: thin;
-  padding: .5em;
+	font-size: .8em;
+	background: #dddddd;
+	margin: 1em;
+	border-style: solid;
+	border-color: black;
+	border-width: thin;
+	padding: .5em;
 }
 
 div.section-box
 {
-  background-color: #dddddd;
-  margin: 0em 1em 1em 1em;
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
-  padding: 1em 1em 1em 1em;
+	background-color: #dddddd;
+	margin: 0em 1em 1em 1em;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	padding: 1em 1em 1em 1em;
 }
 
 div.submenu
 {
-  margin: 0em;
-  padding: 0em;
-  margin-bottom: .5em;
-  background-color: #dddde0; /*#b2d2f9;*/
-  border-bottom-style: solid;
-  border-top-style:    solid;
+	margin: 0em;
+	padding: 0em;
+	margin-bottom: .5em;
+	background-color: #dddde0; /*#b2d2f9;*/
+	border-bottom-style: solid;
+	border-top-style:    solid;
 }
 
 div.submenu a, div.submenu a:visited
 {
-  color: black;
-  text-decoration: none;
-  margin: 0em .5em 0em .5em;
-  padding: 0em 1em 0em 1em;
+	color: black;
+	text-decoration: none;
+	margin: 0em .5em 0em .5em;
+	padding: 0em 1em 0em 1em;
 }
 
 div.submenu a.active
 {
-  background: #FFFFFF;
+	background: #FFFFFF;
 }
 
 div.submenu a:hover
 {
-  color: black;
-  text-decoration: none;
-  border-style: none;
-  background: white;
+	color: black;
+	text-decoration: none;
+	border-style: none;
+	background: white;
 }
 
 div.menu
 {
-  margin-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 div.menu a
 {
-  color: black;
-  text-decoration: none;
-  border-style: solid solid none solid;
-  border-width: 2px;
-  padding: .3em 2em .3em 2em;
-  background-color: #bbbbd0;
+	color: black;
+	text-decoration: none;
+	border-style: solid solid none solid;
+	border-width: 2px;
+	padding: .3em 2em .3em 2em;
+	background-color: #bbbbd0;
 }
 
 div.menu a.active
 {
-  border-bottom-color: black;
-  border-bottom-style: solid;
-  border-bottom-width: thin;
-  background-color: #f2f2f9;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	background-color: #f2f2f9;
 }
 
 div.mainbody
 {
-/*  background-color: silver;
-  color: black;
-  border-color: black;
-  border-style: solid;
-  padding: 1em;*/
-  margin-top: 0em;
+/*	background-color: silver;
+	color: black;
+	border-color: black;
+	border-style: solid;
+	padding: 1em;*/
+	margin-top: 0em;
 }
 
 p.warning {
-  font-size: 1.5em;
-  color: red;
-  background-color: black;
-  font-family: Sans-Serif;
-  border-style: solid;
-  border-color: red;
-  padding: .3em;
+	font-size: 1.5em;
+	color: red;
+	background-color: black;
+	font-family: Sans-Serif;
+	border-style: solid;
+	border-color: red;
+	padding: .3em;
 }
 
 p.warning a {
-  color: red;
+	color: red;
 }
 
 table.question {
-  font-family: Sans-Serif;
-  background: #607f9b;
-  border-style: solid;
-  border-width: thin;
-  border-color: black;
-  color: white;
-  padding-left: 1em;
+	font-family: Sans-Serif;
+	background: #607f9b;
+	border-style: solid;
+	border-width: thin;
+	border-color: black;
+	color: white;
+	padding-left: 1em;
 }
 
 P.answer {
-  color: black;
+	color: black;
 }
 
 TT.irc {
-  color: rgb(0,0,150);
+	color: rgb(0,0,150);
 }
 
 TT.command {
-  color: rgb(200, 0, 0);
+	color: rgb(200, 0, 0);
 }
 
 img
 {
-  border-style: none;
+	border-style: none;
 }
 
 img.screenshot {
-  border-style: solid;
-  border-width: medium;
+	border-style: solid;
+	border-width: medium;
 }
 
 a img.screenshot {
-  border-color: red;
+	border-color: red;
 }
 
 a:visited img.screenshot {
-  border-color: gray;
+	border-color: gray;
 }
 
 
 a:hover img.screenshot {
-  border-color: white;
+	border-color: white;
 }
 
 
 a:visited {
-  color: rgb(0,0,100);
+	color: rgb(0,0,100);
 }
 
 a:hover {
-  color: white;
+	color: white;
 }
 
 a {
-  color: rgb(50,50,200);
+	color: rgb(50,50,200);
 }
 
 
 body
 {
-  background-position: left top;
-  /*background-image: url(images/snow_background.jpg);
-  background-repeat: repeat-x;*/
-  background-color: #707f9b;
-  color: black;
-  /* desert #cdb09e; */
+	background-position: left top;
+	/*background-image: url(images/snow_background.jpg);
+	background-repeat: repeat-x;*/
+	background-color: #707f9b;
+	color: black;
+	/* desert #cdb09e; */
 }

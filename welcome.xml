@@ -1,41 +1,41 @@
 <?xml version="1.0"?>
 <page title="SuperTux">
-  <section title="What is SuperTux?">
-    <p>
-      SuperTux is a classic 2D jump'n run sidescroller game in a
-      style similar to the original SuperMario games. The
-      <em>Milestone1</em> release of SuperTux features 9 enemies, 26 playable
-      levels, software and OpenGL rendering modes, configurable
-      joystick and keyboard input, new music and completly redone
-      graphics. Together with a little story, we hope to provide a good
-      gaming experince with this first Milestone release.
-    </p>
+	<section title="What is SuperTux?">
+		<p>
+			SuperTux is a classic 2D jump'n run sidescroller game in a
+			style similar to the original SuperMario games. The
+			<em>Milestone1</em> release of SuperTux features 9 enemies, 26 playable
+			levels, software and OpenGL rendering modes, configurable
+			joystick and keyboard input, new music and completly redone
+			graphics. Together with a little story, we hope to provide a good
+			gaming experince with this first Milestone release.
+		</p>
 
-    <p>
-      The improvments in Milestone1 are in huge part the result of the
-      work done surrounding the <a
-      href="http://www.happypenguin.org/forums/viewtopic.php?t=1240">Game
-      of the Month March 2004</a> event on <a
-      href="http://www.happypenguin.org/">happypenguin.org</a>.
-    </p>
+		<p>
+			The improvments in Milestone1 are in huge part the result of the
+			work done surrounding the <a
+			href="http://www.happypenguin.org/forums/viewtopic.php?t=1240">Game
+			of the Month March 2004</a> event on <a
+			href="http://www.happypenguin.org/">happypenguin.org</a>.
+		</p>
 
-    <p>
-      The <a href="milestone1/index.html">Milestone1 section</a> of
-      this webpage was mainly used to coordinate development and to
-      post sketches and other things. It will give you an overview of
-      the development of the features and enemies that have gone in
-      Milestone1, it might be a bit outdated and is mainly present for
-      historic reasons to those interested in the development.
-    </p>
+		<p>
+			The <a href="milestone1/index.html">Milestone1 section</a> of
+			this webpage was mainly used to coordinate development and to
+			post sketches and other things. It will give you an overview of
+			the development of the features and enemies that have gone in
+			Milestone1, it might be a bit outdated and is mainly present for
+			historic reasons to those interested in the development.
+		</p>
 
-    <p>
-      The <a href="development/index.html">Development section</a> on
-      the other side gives and unsorted overview about features which
-      might get into new releases, its more meant as a sketchpad for
-      collecting ideas then as a guideline. So if you have any
-      additions to that page, feel free to submit them to the mailing
-      list.
-    </p>
-  </section>
+		<p>
+			The <a href="development/index.html">Development section</a> on
+			the other side gives and unsorted overview about features which
+			might get into new releases, its more meant as a sketchpad for
+			collecting ideas then as a guideline. So if you have any
+			additions to that page, feel free to submit them to the mailing
+			list.
+		</p>
+	</section>
 
 </page>
