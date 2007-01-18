@@ -1,90 +1,105 @@
 <?xml version="1.0"?>
 <page title="SuperTux">
   <section title="Authors">
-    <p>
-      Here is list of the people behind this project:
-      (as a note, no one earns money by making this game, our only incentive is the amusement of doing it.)
-    </p>
-
-<b>Project leader</b><br/>
-<br/>
-	Tobias (Tobgle) Glaesser<br/>
-	tobi.web@gmx.de<br/>
-<br/>
-<b>Original author</b><br/>
-<br/>
-	Bill Kendrick<br/>
-	nbs@sonic.net<br/>
-	http://www.newbreedsoftware.com/<br/>
-<br/>
-<b>Programmers</b><br/>
-<br/>
-	Tobias (Tobgle) Glaesser<br/>
-	tobi.web@gmx.de<br/>
-<br/>
-	Ricardo (Blacksheep) Cruz<br/>
-	rick2@aeiou.pt / http://rpmcruz.planetaclix.pt/ <br/>
-<br/>
-	Ingo (Grumbel) Ruhnke<br/>
-	grumbel@gmx.de / http://pingus.seul.org/~grumbel/<br/>
- <br/>
-	Matthias (MatzeB) Braun<br/>
-	matze@braunis.de<br/>
-<br/>
-<b>Contrib Programming</b><br/>
-<br/>
-	Ryan (sik0fewl) Flegel<br/>
-	rflegel@gmail.com<br/>
-<br/>
-	Duong-Khang (neoneurone) NGUYEN<br/>
-	neoneurone@users.sourceforge.net<br/>
-<br/>
-<b>Graphics</b><br/>
-<br/>
-	Ingo (Grumbel) Ruhnke<br/>
-	grumbel@gmx.de / http://pingus.seul.org/~grumbel/<br/>
-<br/>
-	Christopher A. (Paroneayea) Webber<br/>
-	creat0r@lingocomic.com<br/>
-<br/>
-	Stephen (Slackstone) Groundwater<br/>
-	slacker@gluebox.com / http://gluebox.com<br/>
-<br/>
-<b>Level Design</b><br/>
-<br/>
-	Marek (Wansti) Moeckel<br/>
-	wansti@gmx.de <br/>
-<br/>
-	Ingo (Grumbel) Ruhnke<br/>
-	grumbel@gmx.de / http://pingus.seul.org/~grumbel/<br/>
-<br/>
-<b>Music</b><br/>
-<br/>
-	Marek (Wansti) Moeckel<br/>
-	wansti@gmx.de<br/>
-<br/>
-	Mystical<br/>
-<br/>
-	Mortimer Twang<br/>
-<br/>
-<b>Sounds</b><br/>
-<br/>
-	Royalty free sound effects from<br/>
-	CDROMs and FTP sites<br/>
-<br/>
-<br/>
-<b>Thanks to</b><br/>
-<br/>
-	Larry Ewing<br/>
-Creator of Tux, the Linux penguin<br/>
-<br/>
-	SDL and OpenGL<br/>
-For giving such a great gaming experience possible in Linux<br/>
-<br/>
-
-We hope you enjoy our work.
-- SuperTux team
-
+<div style="text-align: center;">
+<h3>The SuperTux Team</h3>
+<b>Bill Kendrick</b><br />
+Original Developer<br />
+<br />
+<b>Ingo "grumbel" Ruhnke</b><br />
+Graphics, Programming, Level Design<br />
+<br />
+<b>Matthias "MatzeB" Braun</b><br />
+Programming<br />
+<br />
+<b>Marek "Wansti" Moeckel</b><br />
+Music, Level Design<br />
+<br />
+<b>Stephen Groundwater</b><br />
+Graphics<br />
+<br />
+<b>Christoph Sommer</b><br />
+Programming, Graphics, Level Design<br />
+<br />
+<b>Wolfgang Becker</b><br />
+Programming, Level Design<br />
+<br />
+<b>Christopher A. "paroneayea" Webber</b><br />
+Graphics, Story<br />
+<br />
+<b>Ondra "Ravu al Hemio" Hosek</b><br />
+Programming, Documentation<br />
+<br />
+<b>Tobias "tobgle" Gläßer</b><br />
+Programming, Previous Maintainer<br />
+<br />
+<b>Ricardo "blacksheep" Cruz</b><br />
+Programming<br />
+<br />
+<b>Benjamin P. "litespeed" Jung</b><br />
+Graphics<br />
+<br />
+<b>Ryan "sik0fewl" Flegel</b><br />
+Programming<br />
+<br />
+<b>Bastiaan "basti_" Zapf</b><br />
+Programming<br />
+<br />
+<b>Duong-Khang "neoneurone" NGUYEN</b><br />
+Contrib Programming<br />
+<br />
+<b>Richard Smith</b><br />
+Contrib Programming<br />
+<br />
+<b>Arvid Norlander</b><br />
+Level Design<br />
+<br />
+<br />
+<h3>Additional Music</h3>
+<b>Mystical</b><br />
+<br />
+<b>Lukas Nystrand (as Mortimer Twang)</b><br />
+<br />
+Excerpts from the Giana Sisters<br />
+Soundtrack used with kind permission<br />
+from<br />
+<b>Chris Huelsbeck</b><br />
+<br />
+<br />
+<h3>Sound</h3>
+<b>Royalty free sound effects</b><br />
+<b>CDROMs and FTP sites</b><br />
+<br />
+<br />
+<h3>Voice Acting</h3>
+<b>Tux - Daniel Alston</b><br />
+<b>Penny - Mathilda Edmunds</b><br />
+<b>Yeti - Matthias Braun</b><br />
+<br />
+<br />
+<h3>Translation</h3>
+<b>ca - Antoni Villalonga</b><br />
+<b>cs - Ondra Hosek</b><br />
+<b>de - Core Team</b><br />
+<b>da - Anders</b><br />
+<b>es - Javier Beaumont</b><br />
+<b>fr - Frederic Rodrigo</b><br />
+<b>hu - Kővágó Zoltán</b><br />
+<b>it - Iknos</b><br />
+<b>nl - Frank van der Loo</b><br />
+<b>nn - Karl Ove Hufthammer</b><br />
+<b>pt - Ricardo Cruz</b><br />
+<b>sv - Arvid Norlander</b><br />
+<br />
+<br />
+<h3>Thanks to</h3>
+<b>Larry Ewing</b><br />
+Creator of Tux, the Linux penguin<br />
+<br />
+<b>SDL, OpenAL and OpenGL</b><br />
+For making such a great gaming experience<br />
+possible on Linux<br />
+</div>
   </section>
 
 </page>
