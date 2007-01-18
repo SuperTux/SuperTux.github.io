@@ -2,11 +2,9 @@
 <xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-	<xsl:output
-		method="html"
-		indent="yes"
-		doctype-public="-//W3C//DTD HTML 4.01//EN"
-		doctype-system="http://www.w3.org/TR/html4/strict.dtd"
+	<xsl:output method="xml" indent="yes" media-type="text/xml"
+		doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN" 
+		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
 		encoding="ISO-8859-1" />
 
 	<xsl:param name="filename"/>
@@ -34,22 +32,20 @@
 				<div style="text-align: center;">
 					<img src="{$basedir}images/logo.png" alt="Logo of SuperTux" />
 				</div>
-				<xsl:apply-templates select="document('menu.xml')" />
-				<xsl:apply-templates select="document(concat($section, '/submenu.xml'))" />
 
-				<div class="mainbody">
-					<xsl:apply-templates />
-				</div>
+				<xsl:apply-templates select="document('menu.xml')" />
+
+				<xsl:apply-templates />
 
 				<div class="copyright">
-					Contact via IRC: irc.freenode.net, #supertux<br />
+					<p>Contact via IRC: irc.freenode.net, #supertux</p>
 
-					Contact via <a
+					<p>Contact via <a
 						href="http://lists.lethargik.org/listinfo.cgi/supertux-devel-lethargik.org">Mailing
 						List</a>: <a
-						href="mailto:supertux-devel@lists.lethargik.org">supertux-devel@lists.lethargik.org</a><br />
+						href="mailto:supertux-devel@lists.lethargik.org">supertux-devel@lists.lethargik.org</a></p>
 
-					Last update: <xsl:value-of select="$lastchange" /><br />
+					<p>Last update: <xsl:value-of select="$lastchange" /></p>
 				</div>
 			</body>
 		</html>
@@ -61,9 +57,7 @@
 				<xsl:attribute name="id"><xsl:value-of select="@id" /></xsl:attribute>
 			</xsl:if>
 			<div class="section-title"><h2><xsl:value-of select="@title" /></h2></div>
-			<div class="section-body">
-				<xsl:apply-templates />
-			</div>
+			<xsl:apply-templates />
 		</div>
 	</xsl:template>
 
@@ -122,50 +116,25 @@
 		</xsl:if>
 	</xsl:template>
 
-	<xsl:template match="submenu">
-		<div class="submenu">
-			<table align="center" cellspacing="0" cellpadding="0">
-				<tr>
-					<xsl:apply-templates />
-				</tr>
-			</table>
-		</div>
-	</xsl:template>
-
-	<xsl:template match="submenu/item">
-		<xsl:choose>
-			<xsl:when test="(contains(@file, substring-after($filename, '/')) and substring-after($filename, '/') != '') or contains($filename, @file)">
-				<td><a class="active"><xsl:apply-templates /></a></td>
-			</xsl:when>
-			<xsl:otherwise>
-				<td><a href="{@file}"><xsl:apply-templates /></a></td>
-			</xsl:otherwise>
-		</xsl:choose>
-	</xsl:template>
-
 	<xsl:template match="menu">
-		<div class="menu">
-			<table align="center">
-				<tr>
-					<xsl:apply-templates />
-				</tr>
-			</table>
-		</div>
+		<ul class="menu">
+			<xsl:apply-templates />
+		</ul>
 	</xsl:template>
 
 	<xsl:template match="menu/item">
 		<xsl:choose>
 			<!-- FIXME: Take sections into account -->
-			<xsl:when test="@section=$section">
-				<td><a class="active"><xsl:apply-templates /></a></td>
+			<xsl:when test="@section=$filename">
+				<li class="active"><a class="active"><xsl:apply-templates /></a></li>
 			</xsl:when>
 			<xsl:otherwise>
 				<xsl:choose>
 					<xsl:when test="@section='sfnet' or $section='.'">
-						<td><a href="{@file}"><xsl:apply-templates /></a></td>
+						<li><a href="{@file}"><xsl:apply-templates /></a></li>
 					</xsl:when>
 					<xsl:otherwise>
-						<td><a href="../{@file}"><xsl:apply-templates /></a></td>
+						<li><a href="../{@file}"><xsl:apply-templates /></a></li>
 					</xsl:otherwise>
 				</xsl:choose>
 			</xsl:otherwise>

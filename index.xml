@@ -1,29 +1,21 @@
 <?xml version="1.0"?>
 <page title="SuperTux">
-  <section title="What is SuperTux?">
-    <p>
-      SuperTux is a classic 2D jump'n run sidescroller game in a
-      style similar to the original SuperMario games. The
-      'Milestone1' release of SuperTux features 9 enemies, 26 playable
-      levels, software and OpenGL rendering modes, configurable
-      joystick and keyboard input, new music and completly redone
-      graphics. Together with a little story, we hope to provide a good
-      gaming experince with this first Milestone release.
-    </p>
-
-    <p>
-      The following links should help to keep the overview a bit:
-    </p>
-    <ul>
-      <li><a href="milestone1/index.html">The Milestone1 webpage</a>,
-        contains all the information for the next version (the one
-        created for GotM)</li>
-
-      <li><a href="development/index.html">The generic Development
-          webpage</a>, contains information and ideas for future development,
-          its mainly only here for brainstorming, it'ss not necessarily meant
-          to be implemented</li>
-    </ul>
-  </section>
-
+	<section title="What is SuperTux?">
+		<p>
+			SuperTux is a classic 2D jump'n run sidescroller game in a
+			style similar to the original SuperMario games. The
+			<em>Milestone1</em> release of SuperTux features 9 enemies, 26 playable
+			levels, software and OpenGL rendering modes, configurable
+			joystick and keyboard input, new music and completly redone
+			graphics. Together with a little story, we hope to provide a good
+			gaming experince with this first Milestone release.
+		</p>
+		<p>
+			The improvments in Milestone1 are in huge part the result of the
+			work done surrounding the <a
+			href="http://www.happypenguin.org/forums/viewtopic.php?t=1240">Game
+			of the Month March 2004</a> event on <a
+			href="http://www.happypenguin.org/">happypenguin.org</a>.
+		</p>
+	</section>
 </page>
