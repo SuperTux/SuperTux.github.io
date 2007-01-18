@@ -3,6 +3,9 @@
 User-agent: Mediapartners-Google*
 Disallow: /
 
+User-agent: Adsbot-Google*
+Disallow: /
+
 # Some bots are known to be trouble, particularly those designed to copy
 # entire sites. Please obey robots.txt.
 User-agent: sitecheck.internetseer.com
