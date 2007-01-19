@@ -3,7 +3,7 @@
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 	<xsl:output method="xml" indent="yes" media-type="text/xml"
-		doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN" 
+		doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
 		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
 		encoding="ISO-8859-1" />
 
@@ -164,5 +164,17 @@
 		<a href="{@file}.png"><img class="screenshot" alt="{@file}" src="{@file}_small.jpg" title="{.}"/></a>
 	</xsl:template>
 
+	<xsl:template match="author">
+		<xsl:choose>
+			<xsl:when test="@type='oneliner'">
+				<b><xsl:value-of select="@name" /> - <xsl:apply-templates /></b><br />
+			</xsl:when>
+			<xsl:otherwise>
+				<b><xsl:value-of select="@name" /></b><br />
+				<xsl:apply-templates /><br />
+				<br />
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
 
 </xsl:stylesheet>

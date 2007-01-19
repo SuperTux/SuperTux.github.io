@@ -1,105 +1,64 @@
 <?xml version="1.0"?>
 <page title="SuperTux">
-  <section title="Authors">
-<div style="text-align: center;">
-<h3>The SuperTux Team</h3>
-<b>Bill Kendrick</b><br />
-Original Developer<br />
-<br />
-<b>Ingo "grumbel" Ruhnke</b><br />
-Graphics, Programming, Level Design<br />
-<br />
-<b>Matthias "MatzeB" Braun</b><br />
-Programming<br />
-<br />
-<b>Marek "Wansti" Moeckel</b><br />
-Music, Level Design<br />
-<br />
-<b>Stephen Groundwater</b><br />
-Graphics<br />
-<br />
-<b>Christoph Sommer</b><br />
-Programming, Graphics, Level Design<br />
-<br />
-<b>Wolfgang Becker</b><br />
-Programming, Level Design<br />
-<br />
-<b>Christopher A. "paroneayea" Webber</b><br />
-Graphics, Story<br />
-<br />
-<b>Ondra "Ravu al Hemio" Hosek</b><br />
-Programming, Documentation<br />
-<br />
-<b>Tobias "tobgle" Gläßer</b><br />
-Programming, Previous Maintainer<br />
-<br />
-<b>Ricardo "blacksheep" Cruz</b><br />
-Programming<br />
-<br />
-<b>Benjamin P. "litespeed" Jung</b><br />
-Graphics<br />
-<br />
-<b>Ryan "sik0fewl" Flegel</b><br />
-Programming<br />
-<br />
-<b>Bastiaan "basti_" Zapf</b><br />
-Programming<br />
-<br />
-<b>Duong-Khang "neoneurone" NGUYEN</b><br />
-Contrib Programming<br />
-<br />
-<b>Richard Smith</b><br />
-Contrib Programming<br />
-<br />
-<b>Arvid Norlander</b><br />
-Level Design<br />
-<br />
-<br />
-<h3>Additional Music</h3>
-<b>Mystical</b><br />
-<br />
-<b>Lukas Nystrand (as Mortimer Twang)</b><br />
-<br />
-Excerpts from the Giana Sisters<br />
-Soundtrack used with kind permission<br />
-from<br />
-<b>Chris Huelsbeck</b><br />
-<br />
-<br />
-<h3>Sound</h3>
-<b>Royalty free sound effects</b><br />
-<b>CDROMs and FTP sites</b><br />
-<br />
-<br />
-<h3>Voice Acting</h3>
-<b>Tux - Daniel Alston</b><br />
-<b>Penny - Mathilda Edmunds</b><br />
-<b>Yeti - Matthias Braun</b><br />
-<br />
-<br />
-<h3>Translation</h3>
-<b>ca - Antoni Villalonga</b><br />
-<b>cs - Ondra Hosek</b><br />
-<b>de - Core Team</b><br />
-<b>da - Anders</b><br />
-<b>es - Javier Beaumont</b><br />
-<b>fr - Frederic Rodrigo</b><br />
-<b>hu - Kővágó Zoltán</b><br />
-<b>it - Iknos</b><br />
-<b>nl - Frank van der Loo</b><br />
-<b>nn - Karl Ove Hufthammer</b><br />
-<b>pt - Ricardo Cruz</b><br />
-<b>sv - Arvid Norlander</b><br />
-<br />
-<br />
-<h3>Thanks to</h3>
-<b>Larry Ewing</b><br />
-Creator of Tux, the Linux penguin<br />
-<br />
-<b>SDL, OpenAL and OpenGL</b><br />
-For making such a great gaming experience<br />
-possible on Linux<br />
-</div>
-  </section>
-
+	<section title="Authors">
+		<div style="text-align: center;">
+			<subsection title="The SuperTux Team">
+				<author name="Bill Kendrick">Original Developer</author>
+				<author name="Ingo &quot;grumbel&quot; Ruhnke">Graphics, Programming, Level Design</author>
+				<author name="Matthias &quot;MatzeB&quot; Braun">Programming</author>
+				<author name="Marek &quot;Wansti&quot; Moeckel">Music, Level Design</author>
+				<author name="Stephen Groundwater">Graphics</author>
+				<author name="Christoph Sommer">Programming, Graphics, Level Design</author>
+				<author name="Wolfgang Becker">Programming, Level Design</author>
+				<author name="Christopher A. &quot;paroneayea&quot; Webber">Graphics, Story</author>
+				<author name="Ondra &quot;Ravu al Hemio&quot; Hosek">Programming, Documentation</author>
+				<author name="Tobias &quot;tobgle&quot; Gläßer">Programming, Previous Maintainer</author>
+				<author name="Ricardo &quot;blacksheep&quot; Cruz">Programming</author>
+				<author name="Benjamin P. &quot;litespeed&quot; Jung">Graphics</author>
+				<author name="Ryan &quot;sik0fewl&quot; Flegel">Programming</author>
+				<author name="Bastiaan &quot;basti_&quot; Zapf">Programming</author>
+				<author name="Duong-Khang &quot;neoneurone&quot; NGUYEN">Contrib Programming</author>
+				<author name="Richard Smith">Contrib Programming</author>
+				<author name="Arvid Norlander">Level Design</author>
+			</subsection>
+			<subsection title="Additional Music">
+				<author name="Mystical">Lukas Nystrand (as Mortimer Twang)</author>
+				Excerpts from the Giana Sisters<br />
+				Soundtrack used with kind permission<br />
+				from<br />
+				<b>Chris Huelsbeck</b><br />
+			</subsection>
+			<br />
+			<subsection title="Sound">
+				<b>Royalty free sound effects</b><br />
+				<b>CDROMs and FTP sites</b><br />
+			</subsection>
+			<br />
+			<subsection title="Voice Acting">
+				<author type="oneliner" name="Tux">Daniel Alston</author>
+				<author type="oneliner" name="Penny">Mathilda Edmunds</author>
+				<author type="oneliner" name="Yeti">Matthias Braun</author>
+			</subsection>
+			<br />
+			<subsection title="Translation">
+				<author type="oneliner" name="ca">Antoni Villalonga</author>
+				<author type="oneliner" name="cs">Ondra Hosek</author>
+				<author type="oneliner" name="de">Core Team</author>
+				<author type="oneliner" name="da">Anders</author>
+				<author type="oneliner" name="es">Javier Beaumont</author>
+				<author type="oneliner" name="fr">Frederic Rodrigo</author>
+				<author type="oneliner" name="hu">Kővágó Zoltán</author>
+				<author type="oneliner" name="it">Iknos</author>
+				<author type="oneliner" name="nl">Frank van der Loo</author>
+				<author type="oneliner" name="nn">Karl Ove Hufthammer</author>
+				<author type="oneliner" name="pt">Ricardo Cruz</author>
+				<author type="oneliner" name="sv">Arvid Norlander</author>
+			</subsection>
+			<br />
+			<subsection title="Thanks to">
+				<author name="Larry Ewing">Creator of Tux, the Linux penguin</author>
+				<author name="SDL, OpenAL and OpenGL">For making such a great gaming experience<br />possible on Linux</author>
+			</subsection>
+		</div>
+	</section>
 </page>
