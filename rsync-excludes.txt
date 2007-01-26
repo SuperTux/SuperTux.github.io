@@ -6,6 +6,7 @@ wiki/
 viewvc
 development/doxygen/
 usage/
+errors/
 .htaccess
 favicon.ico
 # For google sitemaps
