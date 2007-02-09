@@ -1,7 +1,7 @@
 The homepage is generated from a set of xml pages. You need to have xsltproc
 installed to transform the xml files to html (xsltproc is part of the libxslt
 package).
-You can upload a new homepage like this (myusername should be your berlios
+You can upload a new homepage like this (myusername should be your lethargik
 account name)
 
     make upload ST_USERNAME=myusername
