@@ -93,6 +93,8 @@ User-agent: *
 Disallow: /viewvc/viewvc.cgi
 Disallow: /svn/
 
+Disallow: /wiki/skins
+
 Disallow: /wiki/Special:Random
 Disallow: /wiki/Special%3ARandom
 
