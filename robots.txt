@@ -106,7 +106,7 @@ User-agent: *
 Disallow: /viewvc/viewvc.cgi
 Disallow: /svn/
 
-Disallow: /wiki/skins
+Disallow: /wiki/skins/
 
 Disallow: /wiki/Special:Random
 Disallow: /wiki/Special%3ARandom
@@ -126,5 +126,8 @@ Disallow: /wiki/Special%3AListusers
 Disallow: /wiki/*printable=yes*
 
 Disallow: /bugs/file_download.php?*
+Disallow: /bugs/bug_view_advanced_page.php?*
+Disallow: /bugs/print_bug_page.php?*
+Disallow: /bugs/api/
 
 Crawl-delay: 1

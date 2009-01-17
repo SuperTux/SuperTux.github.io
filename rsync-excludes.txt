@@ -1,12 +1,14 @@
 # File name patterns to exclude when
 # uploading website with rsync.
 # Lines starting with ; and # are comments
+addons/
+bugs-upload/
 bugs/
-wiki/
-viewvc
-development/doxygen/
-usage/
+development/
 errors/
+usage/
+viewvc
+wiki/
 .htaccess
 favicon.ico
 # For google sitemaps
