@@ -31,10 +31,9 @@
       <body>
         <div id="page">
 	  <div id="title">
-	    <img src="{$basedir}images/title.png" alt="Logo of SuperTux" />
-            <xsl:apply-templates select="document('menu.xml')" />  
-	  </div>
-
+            <h1><img src="{$basedir}images/title.png" alt="SuperTux" /></h1>
+            <xsl:apply-templates select="document('menu.xml')" />
+          </div>
           <div id="pagebody">
 	    <xsl:apply-templates />
           </div>
