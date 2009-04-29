@@ -1,38 +1,43 @@
 <?xml version="1.0"?>
 <page title="SuperTux">
-	<section title="Contact">
-		<p>
-			Development is mainly coordinated via IRC and the mailing list.
-			Be sure to visit both once in a while or you might miss critical
-			stuff.
-		</p>
+  <section title="Contact">
+    <p>
+      Development is mainly coordinated via IRC and the mailing list.
+      Be sure to visit both once in a while or you might miss critical
+      stuff.
+    </p>
 
-		<subsection title="Mailing List">
-			<dl>
-				<dt><a
-				href="mailto:supertux-devel@lists.lethargik.org">supertux-devel@lists.lethargik.org</a>
-				- List for comments, criticisms and everything development
-				related</dt>
+    <subsection title="Mailing List">
+      <dl>
+	<dt><a href="mailto:supertux-devel@lists.lethargik.org">supertux-devel@lists.lethargik.org</a></dt>
+	<dd>
+          List for comments, criticisms and everything development
+          related
 
-				<dd><a href="http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org">Archive</a></dd>
-				<dd><a href="http://lists.lethargik.org/listinfo.cgi/supertux-devel-lethargik.org">Subscribe/Unsubscribe</a></dd>
-			</dl>
+          <ul>
+	    <li><a href="http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org">Archive</a></li>
+	    <li><a href="http://lists.lethargik.org/listinfo.cgi/supertux-devel-lethargik.org">Subscribe/Unsubscribe</a></li>
+          </ul>
+        </dd>
+      </dl>
 
-			<dl>
-				<dt><a
-				href="mailto:supertux-commit@lists.lethargik.org">supertux-commit@lists.lethargik.org</a>
-					- List for commits to SVN, mainly useful for people working directly with the source</dt>
+      <dl>
+	<dt><a href="mailto:supertux-commit@lists.lethargik.org">supertux-commit@lists.lethargik.org</a></dt>
+	<dd>
+          List for commits to SVN, mainly useful for people working directly with the source
+          <ul>
+	    <li><a href="http://lists.lethargik.org/pipermail/supertux-commit-lethargik.org">Archive</a></li>
+	    <li><a href="http://lists.lethargik.org/listinfo.cgi/supertux-commit-lethargik.org">Subscribe/Unsubscribe</a></li>
+          </ul>
+        </dd>
+      </dl>
+    </subsection>
 
-				<dd><a href="http://lists.lethargik.org/pipermail/supertux-commit-lethargik.org">Archive</a></dd>
-				<dd><a href="http://lists.lethargik.org/listinfo.cgi/supertux-commit-lethargik.org">Subscribe/Unsubscribe</a></dd>
-			</dl>
-		</subsection>
-
-		<subsection title="IRC">
-			<p>
-			Server:  <a href="irc://irc.freenode.net/#supertux">irc.freenode.net</a><br/>
-			Channel: #supertux<br/>
-			</p>
-		</subsection>
-	</section>
+    <subsection title="IRC">
+      <p>
+	Server:  <a href="irc://irc.freenode.net/#supertux">irc.freenode.net</a><br/>
+	Channel: #supertux<br/>
+      </p>
+    </subsection>
+  </section>
 </page>

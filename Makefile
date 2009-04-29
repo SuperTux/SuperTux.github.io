@@ -6,9 +6,9 @@ HTMLOUT = \
 
 CPFLAGS=-pu
 
-OUTFILES=$(patsubst %,output/%,$(HTMLOUT))
+OUTFILES=$(patsubst %,build/%,$(HTMLOUT))
 
-all: content
+all: content menu.xml
 
 default.xsl: menu.xml
 
@@ -18,7 +18,7 @@ checkusername:
 		exit 1; \
 	fi
 
-$(OUTFILES): output/%.html: %.xml Makefile default.xsl
+$(OUTFILES): build/%.html: %.xml Makefile default.xsl menu.xml
 #	@FILENAME=$<;
 #	SECTION=`dirname $<`;
 #	LASTCHANGE=`date -I`;
@@ -35,22 +35,22 @@ $(OUTFILES): output/%.html: %.xml Makefile default.xsl
 	    -o $@ default.xsl $<
 
 content: directories $(OUTFILES)
-	cp $(CPFLAGS) default.css output/
-	cp $(CPFLAGS) robots.txt output/
-	cp $(CPFLAGS) images/*.jpg output/images/
-	cp $(CPFLAGS) images/*.png output/images/
-#cp $(CPFLAGS) milestone2/images/*.jpg output/milestone2/images/
-#	cp $(CPFLAGS) milestone2/images/*.png output/milestone2/images/
-#	cp $(CPFLAGS) milestone2/images/*.gif output/milestone2/images/
+	cp $(CPFLAGS) default.css build/
+	cp $(CPFLAGS) robots.txt build/
+	cp $(CPFLAGS) images/*.jpg build/images/
+	cp $(CPFLAGS) images/*.png build/images/
+#cp $(CPFLAGS) milestone2/images/*.jpg build/milestone2/images/
+#	cp $(CPFLAGS) milestone2/images/*.png build/milestone2/images/
+#	cp $(CPFLAGS) milestone2/images/*.gif build/milestone2/images/
 
 directories:
-	mkdir -p output
-	mkdir -p output/images/
+	mkdir -p build
+	mkdir -p build/images/
 
 upload: checkusername content
-	rsync -crv --chmod=Dg+rwxs,ug+rw,o-w -e ssh --exclude-from=rsync-excludes.txt output/ $(ST_USERNAME)@supertux.lethargik.org:/home/supertux/supertux.lethargik.org/
+	rsync -crv --chmod=Dg+rwxs,ug+rw,o-w -e ssh --exclude-from=rsync-excludes.txt build/ $(ST_USERNAME)@supertux.lethargik.org:/home/supertux/supertux.lethargik.org/
 
 clean:
-	rm -rf output/*
+	rm -rf build/*
 
 # EOF #
