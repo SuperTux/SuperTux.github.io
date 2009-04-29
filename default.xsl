@@ -23,7 +23,7 @@
   <xsl:template match="page">
     <html>
       <head>
-	<title>SuperTux</title>
+	<title><xsl:value-of select="@title" /></title>
 	<link rel="stylesheet" type="text/css" href="{$basedir}default.css" />
 	<link rel="icon" href="/images/favicon.png" type="image/png" />
       </head>

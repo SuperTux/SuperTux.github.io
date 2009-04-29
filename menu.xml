@@ -4,9 +4,10 @@
   <item section="index" file="index.html">About</item>
   <item section="screenshots.xml" file="screenshots.html">Screenshots</item>
   <!-- <item section="authors" file="authors.html">Authors</item> -->
-  <item section="" file="http://supertux.lethargik.org/wiki/Download/Installation">Download</item>
+  <!-- <item section="" file="http://supertux.lethargik.org/wiki/Download/Installation">Download</item> -->
+  <item section="download" file="download.html">Download</item>
   <item section="" file="wiki/index.php">Wiki</item>
-  <!-- <item section="" file="bugs/index.php">Bugs</item> -->
+  <item section="" file="bugs/index.php">Bugs</item>
   <!-- <item section="" file="http://developer.berlios.de/projects/supertux/">Berlios.de</item> -->
   <item section="contact" file="contact.html">Contact</item>
 </menu>

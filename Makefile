@@ -2,6 +2,7 @@ HTMLOUT = \
   index.html \
   authors.html \
   contact.html \
+  download.html \
   screenshots.html
 
 CPFLAGS=-pu
