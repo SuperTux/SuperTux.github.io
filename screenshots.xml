@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page title="SuperTux - Screenshots">
   <section title="Screenshots">
-    <div style="text-align: center;">
+    <div style="text-align: center; margin-top: 1em;">
       <screenshot file="images/game-010" />
       <screenshot file="images/game1-010" />
       <screenshot file="images/game2-010" />

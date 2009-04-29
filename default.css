@@ -6,16 +6,14 @@ body
   background-color: #707f9b;
   background-image: url("images/background.png");
   color: black;
+  line-height: 1.5em;
 }
 
 #page { 
   width: 750px;
   background: white;
   margin:  0.5em auto 0.5em auto;
-  padding: 0em 0em 0em 0em;
-  border-color: rgb(45,120,180);
-  border-style: solid;
-  border-width: thin;
+  padding: 12px;
 }
 
 #title { 
@@ -50,6 +48,7 @@ h1 img {
 #pagebody ul { 
   padding-left:  4em;
   padding-right: 2em;
+  margin-bottom: 0em;
 }
 
 h2,h3 {
@@ -73,10 +72,10 @@ ul.menu
 {
   display: block;
   margin:  0em;
-  padding: 0.25em 0em 0.25em 0em;
+  padding: 0.5em 0em 0.5em 0em;
 
   border-bottom: 2px solid black;
-  border-top: 2px solid black;
+  border-top:    2px solid black;
   border-color: rgb(45,120,180);
   border-width: thin;
 
@@ -89,7 +88,7 @@ ul.menu li {
 }
 
 ul.menu li a {
-  padding: 0em 0.5em 0em 0.5em;
+  padding: 0.25em 0.5em 0.25em 0.5em;
   text-decoration: none;
   font-weight: bold;
   color: rgb(45,120,180);

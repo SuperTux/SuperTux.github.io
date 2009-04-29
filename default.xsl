@@ -60,7 +60,6 @@
   <xsl:template match="subsection">
     <h3><xsl:value-of select="@title" /></h3>
     <xsl:apply-templates />
-    <br style="clear: both;" />
   </xsl:template>
 
   <xsl:template match="subsubsection">
