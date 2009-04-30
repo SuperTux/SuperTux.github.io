@@ -2,13 +2,13 @@
 <page title="SuperTux - Screenshots">
   <section title="Screenshots">
     <div style="text-align: center; margin-top: 1em;">
-      <screenshot file="images/game-010" />
-      <screenshot file="images/game1-010" />
-      <screenshot file="images/game2-010" />
+      <screenshot file="images/supertux-0.1.3-1" />
+      <screenshot file="images/supertux-0.1.3-2" />
+      <screenshot file="images/supertux-0.1.3-3" />
       <br/>
-      <screenshot file="images/game3-010" />
-      <screenshot file="images/game1-011" />
-      <screenshot file="images/leveleditor-011" />
+      <screenshot file="images/supertux-0.1.3-5" />
+      <screenshot file="images/supertux-0.1.3-4" />
+      <screenshot file="images/supertux-0.1.3-6" />
     </div>
   </section>
 </page>

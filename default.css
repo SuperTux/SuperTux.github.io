@@ -2,7 +2,7 @@ body {
   padding: 0em 0em 0em 0em;
   margin:  1em 1em 1em 1em;
   background-position: left top;
-  background-color: #707f9b;
+  background-color: #3d657c;
   background-image: url("images/background.jpg");
   color: black;
   line-height: 1.5em;
@@ -20,7 +20,7 @@ body {
 }
 
 h1 img { 
-  vertical-align:top;
+  vertical-align:top; /* needed to remove space below the image */
   margin-bottom: 12px;
 }
 
@@ -102,15 +102,16 @@ img.screenshot {
   border-style: solid;
   border-width: thin;
   border-color: rgb(45,120,180);
-  margin: 8px;
+  margin-top: 0px;
+  padding: 4px;
 }
 
 a:visited {
-  color: rgb(0,0,100);
+  color: rgb(25,70,100);
 }
 
 a:hover {
-  color: red;
+  color: rgb(15,40,60);
 }
 
 a {
