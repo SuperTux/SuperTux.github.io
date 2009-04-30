@@ -1,5 +1,4 @@
-body
-{
+body {
   padding: 0em 0em 0em 0em;
   margin:  1em 1em 1em 1em;
   background-position: left top;
@@ -22,22 +21,22 @@ body
 
 h1 img { 
   vertical-align:top;
+  margin-bottom: 12px;
 }
 
 #pagebody { 
-  margin: 1em 2em 2em 2em;
+  margin: 1em 2em 1em 2em;
 }
 
-#copyright
-{
+#copyright {
   border-top-style: solid;
   border-top-width: thin;
   border-top-color: rgb(45,120,180);
 
-  text-align: center;
+  line-height: 125%;
   font-size: small;
-  padding: 0em 1em 0em 1em;
-  margin:  0em;
+  padding: 0.5em 1em 0.5em 1em;
+  margin:  0em 3em 0em 3em;
 }
 
 #pagebody p, #pagebody dl { 
@@ -63,15 +62,13 @@ h1 {
   padding: 0px;
 }
 
-h3
-{
+h3 {
   padding: 0px 0px 0px 1em;
 }
 
-ul.menu
-{
+ul.menu {
   display: block;
-  margin:  0em;
+  margin:  0em 3em 0em 3em;
   padding: 0.5em 0em 0.5em 0em;
 
   border-bottom: 2px solid black;
