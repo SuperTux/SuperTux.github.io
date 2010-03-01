@@ -51,10 +51,10 @@ h1 img {
   margin-top:  0.5em;
 }
 
-h2,h3 {
+h2,h3,h4 {
   color: rgb(45,120,180);
   font-family: Sans-Serif;
-  margin:  0.5em 0px 0px 0px;
+  margin:  0.8em 0px 0px 0px;
   padding: 0px;
 }
 

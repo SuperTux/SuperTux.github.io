@@ -1,37 +1,66 @@
 <?xml version="1.0"?>
 <page title="SuperTux - Download">
   <section title="Download">
+    <subsection title="Milestone 1">
+      <p>
+        This is the <em>stable</em> version of <em>SuperTux</em>, also called
+        <em>Milestone 1</em>. It provides a polished gaming experience and
+        is the overall recommended version.
+      </p>
 
-    <subsection title="Windows">
-      <ul>
-        <li><a href="http://download.berlios.de/supertux/supertux-0.1.3-setup.exe">supertux-0.1.3-setup.exe</a></li>
-      </ul>
+      <subsubsection title="Windows">
+        <ul>
+          <li><a href="http://download.berlios.de/supertux/supertux-0.1.3-setup.exe">supertux-0.1.3-setup.exe</a></li>
+        </ul>
+      </subsubsection>
+
+      <subsubsection title="Mac OS X">
+        <ul>
+          <li><a href="http://prdownload.berlios.de/supertux/supertux-0.1.3-macosx-universal.dmg">supertux-0.1.3-macosx-universal.dmg (Universal binary)</a></li>
+          <li><a href="http://download.berlios.de/supertux/supertux-0.1.3-macosx.dmg">supertux-0.1.3-macosx.dmg (PPC only)</a></li>
+        </ul>
+      </subsubsection>
+
+      <subsubsection title="Linux">
+        <ul>
+          <li><a href="http://download.berlios.de/supertux/supertux-0.1.3.x86.package">supertux-0.1.3.x86.package (x86 only)</a></li>
+        </ul>
+      </subsubsection>
+
+      <subsubsection title="Source Code">
+        <ul>
+          <li><a href="http://download.berlios.de/supertux/supertux-0.1.3.tar.bz2">supertux-0.1.3.tar.bz2</a></li>
+        </ul>
+      </subsubsection>
     </subsection>
 
-    <subsection title="Mac OS X">
-      <ul>
-        <li><a href="http://prdownload.berlios.de/supertux/supertux-0.1.3-macosx-universal.dmg">supertux-0.1.3-macosx-universal.dmg (Universal binary)</a></li>
-        <li><a href="http://download.berlios.de/supertux/supertux-0.1.3-macosx.dmg">supertux-0.1.3-macosx.dmg (PPC only)</a></li>
-      </ul>
-    </subsection>
+    <subsection title="Development snapshot">
+      <p>
+        The <em>development snapshot</em> is an <em>unstable</em> version of
+        <em>SuperTux</em>, meant as a technology preview and for people who are
+        not afraid to write bug reports.
+      </p>
 
-    <subsection title="Linux">
-      <ul>
-        <li><a href="http://download.berlios.de/supertux/supertux-0.1.3.x86.package">supertux-0.1.3.x86.package (x86 only)</a></li>
-      </ul>
-    </subsection>
+      <p>
+        Please keep in mind that this is a work in progress! Everything you see
+        here is subject to change and may even be removed.
+      </p>
 
-    <subsection title="Source Code">
-      <ul>
-        <li><a href="http://download.berlios.de/supertux/supertux-0.1.3.tar.bz2">supertux-0.1.3.tar.bz2</a></li>
-      </ul>
-    </subsection>
+      <subsubsection title="Source Code">
+        <ul>
+          <li><a href="http://download.berlios.de/supertux/supertux-0.3.3.tar.bz2">supertux-0.3.3.tar.bz2</a> (56 MByte)</li>
+        </ul>
+      </subsubsection>
 
-    <subsection title="Other">
-      <ul>
-        <li><a href="http://supertux.lethargik.org/wiki/Download">Wiki Download Page</a></li>
-      </ul>
+      <subsubsection title="Other">
+        <p>
+          Other sources of <em>SuperTux</em>, for example the <em>Subversion
+            repository</em>, are documented on the
+        </p>
+        <ul>
+          <li><a href="http://supertux.lethargik.org/wiki/Download">Wiki Download Page</a></li>
+        </ul>
+      </subsubsection>
     </subsection>
-
   </section>
 </page>
