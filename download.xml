@@ -48,7 +48,8 @@
 
       <subsubsection title="Source Code">
         <ul>
-          <li><a href="http://download.berlios.de/supertux/supertux-0.3.3.tar.bz2">supertux-0.3.3.tar.bz2</a> (56 MByte)</li>
+          <li><a href="http://download.berlios.de/supertux/supertux-0.3.3.tar.bz2">supertux-0.3.3.tar.bz2</a> (56 MByte, BerliOS)</li>
+	  <li><a href="http://supertux.googlecode.com/files/supertux-0.3.3.tar.bz2">supertux-0.3.3.tar.bz2</a> (56 MByte, Google Code)</li>
         </ul>
       </subsubsection>
 
