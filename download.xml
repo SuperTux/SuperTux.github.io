@@ -46,6 +46,13 @@
         here is subject to change and may even be removed.
       </p>
 
+      <subsubsection title="Windows">
+        <ul>
+          <!-- <li><a href="http://download.berlios.de/supertux/supertux-0.3.3.tar.bz2">supertux-0.3.3.tar.bz2</a> (56 MByte, BerliOS)</li> -->
+          <li><a href="http://supertux.googlecode.com/files/supertux-0.3.3b-win32.exe">supertux-0.3.3b-win32.exe</a> (59 MByte, Google Code)</li>
+        </ul>
+      </subsubsection>
+
       <subsubsection title="Source Code">
         <ul>
           <li><a href="http://download.berlios.de/supertux/supertux-0.3.3.tar.bz2">supertux-0.3.3.tar.bz2</a> (56 MByte, BerliOS)</li>
@@ -55,8 +62,7 @@
 
       <subsubsection title="Other">
         <p>
-          Other sources of <em>SuperTux</em>, for example the <em>Subversion
-            repository</em>, are documented on the
+          Other sources of <em>SuperTux</em>, for example the <em>Subversion repository</em>, are documented on the
         </p>
         <ul>
           <li><a href="http://supertux.lethargik.org/wiki/Download">Wiki Download Page</a></li>
