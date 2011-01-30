@@ -9,6 +9,7 @@ errors/
 usage/
 viewvc
 wiki/
+apt/
 .htaccess
 favicon.ico
 # For google sitemaps
