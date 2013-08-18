@@ -24,7 +24,7 @@
       <dl>
 	<dt><a href="mailto:supertux-commit@lists.lethargik.org">supertux-commit@lists.lethargik.org</a></dt>
 	<dd>
-          List for commits to SVN, mainly useful for people working directly with the source
+          List for commits to the Git repository, mainly useful for people working directly with the source
           <ul>
 	    <li><a href="http://lists.lethargik.org/pipermail/supertux-commit-lethargik.org">Archive</a></li>
 	    <li><a href="http://lists.lethargik.org/listinfo.cgi/supertux-commit-lethargik.org">Subscribe/Unsubscribe</a></li>

@@ -48,21 +48,25 @@
 
       <subsubsection title="Windows">
         <ul>
-          <!-- <li><a href="http://download.berlios.de/supertux/supertux-0.3.3.tar.bz2">supertux-0.3.3.tar.bz2</a> (56 MByte, BerliOS)</li> -->
-          <li><a href="http://supertux.googlecode.com/files/supertux-0.3.3b-win32.exe">supertux-0.3.3b-win32.exe</a> (59 MByte, Google Code)</li>
+          <li><a href="http://supertux.googlecode.com/files/supertux-0.3.4-win32.exe">supertux-0.3.4-win32.exe</a> (66.6 MByte, Google Code)</li>
+        </ul>
+      </subsubsection>
+
+      <subsubsection title="Mac OS X">
+        <ul>
+          <li><a href="http://supertux.googlecode.com/files/SuperTux-0.3.4-osx-intel.dmg">supertux-0.3.4-osx-intel.dmg</a> (69.3 MByte, Google Code)</li>
         </ul>
       </subsubsection>
 
       <subsubsection title="Source Code">
         <ul>
-          <li><a href="http://download.berlios.de/supertux/supertux-0.3.3.tar.bz2">supertux-0.3.3.tar.bz2</a> (56 MByte, BerliOS)</li>
-	  <li><a href="http://supertux.googlecode.com/files/supertux-0.3.3.tar.bz2">supertux-0.3.3.tar.bz2</a> (56 MByte, Google Code)</li>
+          <li><a href="http://supertux.googlecode.com/files/supertux-0.3.4.tar.bz2">supertux-0.3.4.tar.bz2</a> (66.1 MByte, Google Code)</li>
         </ul>
       </subsubsection>
 
       <subsubsection title="Other">
         <p>
-          Other sources of <em>SuperTux</em>, for example the <em>Subversion repository</em>, are documented on the
+          Other sources of <em>SuperTux</em>, for example the <em>Git repository</em>, are documented on the
         </p>
         <ul>
           <li><a href="http://supertux.lethargik.org/wiki/Download">Wiki Download Page</a></li>
