@@ -1,0 +1,121 @@
+body {
+  padding: 0em 0em 0em 0em;
+  margin:  1em 1em 1em 1em;
+  background-position: left top;
+  background-color: #3d657c;
+  background-image: url("images/background.jpg");
+  color: black;
+  line-height: 1.5em;
+}
+
+#page { 
+  width: 780px;
+  background: white;
+  margin:  0.5em auto 0.5em auto;
+  padding: 12px;
+}
+
+#title { 
+  text-align: center;
+}
+
+h1 img { 
+  vertical-align:top; /* needed to remove space below the image */
+  margin-bottom: 12px;
+}
+
+#pagebody { 
+  margin: 1em 2em 1em 2em;
+}
+
+#copyright {
+  border-top-style: solid;
+  border-top-width: thin;
+  border-top-color: rgb(45,120,180);
+
+  line-height: 125%;
+  font-size: small;
+  padding: 0.5em 1em 0.5em 1em;
+  margin:  0em 3em 0em 3em;
+}
+
+#pagebody p, #pagebody dl { 
+  padding-left:  2em;
+  padding-right: 2em;
+}
+
+#pagebody ul { 
+  padding-left:  4em;
+  padding-right: 2em;
+  margin-bottom: 0em;
+  margin-top:  0.5em;
+}
+
+h2,h3,h4 {
+  color: rgb(45,120,180);
+  font-family: Sans-Serif;
+  margin:  0.8em 0px 0px 0px;
+  padding: 0px;
+}
+
+h1 { 
+  margin:  0px;
+  padding: 0px;
+}
+
+h3 {
+  padding: 0.125em 0px 0px 1em;
+}
+
+ul.menu {
+  display: block;
+  margin:  0em 3em 0em 3em;
+  padding: 0.5em 0em 0.5em 0em;
+
+  border-bottom: 2px solid black;
+  border-top:    2px solid black;
+  border-color: rgb(45,120,180);
+  border-width: thin;
+
+  text-align: center;
+}
+
+ul.menu li {
+  display: inline;
+  white-space: nowrap;
+}
+
+ul.menu li a {
+  padding: 0.25em 0.5em 0.25em 0.5em;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(45,120,180);
+}
+
+ul.menu a:hover {
+  /* text-decoration: underline; */
+  background-color: rgb(45,120,180);
+  color: white;
+}
+
+img.screenshot {
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(45,120,180);
+  margin-top: 0px;
+  padding: 4px;
+}
+
+a:visited {
+  color: rgb(25,70,100);
+}
+
+a:hover {
+  color: rgb(15,40,60);
+}
+
+a {
+  color: rgb(45,120,180);
+}
+
+/* EOF */
