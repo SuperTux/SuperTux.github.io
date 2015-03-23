@@ -49,7 +49,7 @@ directories:
 	mkdir -p build/images/
 
 upload: checkusername content
-	rsync -crv --chmod=Dg+rwxs,ug+rw,o-w -e ssh --exclude-from=rsync-excludes.txt build/ $(ST_USERNAME)@supertux.lethargik.org:/home/supertux/supertux.lethargik.org/
+	rsync -crv --chmod=Dg+rwxs,ug+rw,o-w -e ssh --exclude-from=rsync-excludes.txt build/ supertux@supertux.lethargik.org:/home/supertux/supertux.lethargik.org/
 
 clean:
 	rm -rf build/*
