@@ -8,23 +8,27 @@ body {
   line-height: 1.5em;
 }
 
-#page { 
+#page {
   width: 780px;
   background: white;
   margin:  0.5em auto 0.5em auto;
   padding: 12px;
+
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
 }
 
-#title { 
+#title {
   text-align: center;
 }
 
-h1 img { 
+h1 img {
   vertical-align:top; /* needed to remove space below the image */
   margin-bottom: 12px;
 }
 
-#pagebody { 
+#pagebody {
   margin: 1em 2em 1em 2em;
 }
 
@@ -39,12 +43,12 @@ h1 img {
   margin:  0em 3em 0em 3em;
 }
 
-#pagebody p, #pagebody dl { 
+#pagebody p, #pagebody dl {
   padding-left:  2em;
   padding-right: 2em;
 }
 
-#pagebody ul { 
+#pagebody ul {
   padding-left:  4em;
   padding-right: 2em;
   margin-bottom: 0em;
@@ -58,7 +62,7 @@ h2,h3,h4 {
   padding: 0px;
 }
 
-h1 { 
+h1 {
   margin:  0px;
   padding: 0px;
 }
