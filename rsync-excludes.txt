@@ -16,3 +16,4 @@ favicon.ico
 sitemap.xml
 sitemap.base.xml.gz
 google7da5f48b599b3c45.html
+.git/
