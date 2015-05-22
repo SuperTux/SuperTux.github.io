@@ -99,6 +99,19 @@
     </li>
   </xsl:template>
 
+  <xsl:template match="tux:newsfeed">
+    <xsl:apply-templates select="node()"/>
+  </xsl:template>
+  <xsl:template match="tux:news">
+    <br/>
+    <hr/>
+    <div class="datestamp">
+      <p><xsl:value-of select="@date"/></p>
+    </div>
+    <br/>
+    <xsl:apply-templates select="*"/>
+  </xsl:template>
+
   <!--
     Use identity transform at low priority.
     Note that the default priority, if unspecified,
