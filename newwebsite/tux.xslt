@@ -20,6 +20,7 @@
         <xsl:value-of select="@title"/>
       </title>
       <link rel="stylesheet" type="text/css" href="default.css"/>
+      <link rel="icon" href="/images/favicon.png" type="image/png"/>
     </head>
   </xsl:template>
 
