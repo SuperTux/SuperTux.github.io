@@ -43,9 +43,8 @@
         <h3>Github</h3>
         <p>You can also <a href="https://github.com/SuperTuxTeam/supertux/">find us on Github.</a>
         </p>
-
-        <tux-include>bits/footer.xml</tux-include>
       </div>
+      <tux-include>bits/footer.xml</tux-include>
     </div>
   </body>
 </html>

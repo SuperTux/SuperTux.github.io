@@ -240,9 +240,8 @@ from</p>
           <p>For making such a great gaming experience
  possible on Linux</p>
         </div>
-
-        <tux-include>bits/footer.xml</tux-include>
       </div>
+      <tux-include>bits/footer.xml</tux-include>
     </div>
   </body>
 </html>

@@ -126,9 +126,8 @@
           numerous other more exotic systems.
         </p>
         <br/>
-
-        <tux-include>bits/footer.xml</tux-include>
       </div>
+      <tux-include>bits/footer.xml</tux-include>
     </div>
   </body>
 </html>

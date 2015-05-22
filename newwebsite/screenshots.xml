@@ -46,9 +46,8 @@
           <a href="images/supertux-0.1.3-4.jpg"><img class="screenshot" alt="images/supertux-0.1.3-4" src="images/supertux-0.1.3-4_small.jpg"/></a>
           <a href="images/supertux-0.1.3-6.jpg"><img class="screenshot" alt="images/supertux-0.1.3-6" src="images/supertux-0.1.3-6_small.jpg"/></a>
         </div>
-
-        <tux-include>bits/footer.xml</tux-include>
       </div>
+      <tux-include>bits/footer.xml</tux-include>
     </div>
   </body>
 </html>
