@@ -75,6 +75,30 @@
     <xsl:apply-templates select="document(text())//*[@bless]"/>
   </xsl:template>
 
+  <xsl:template match="tux:downloads">
+    <xsl:apply-templates select="node()"/>
+  </xsl:template>
+  <xsl:template match="tux:download-os">
+    <div style="padding-left: 1em; clear: both;">
+      <h4><xsl:value-of select="@os"/></h4>
+      <ul>
+        <xsl:apply-templates select="node()"/>
+      </ul>
+    </div>
+  </xsl:template>
+  <xsl:template match="tux:download">
+    <li>
+      <a href="{../../@dir}{@file}">
+        <xsl:value-of select="@file"/>
+        <xsl:if test="@comment">
+          <xsl:text> (</xsl:text>
+          <xsl:value-of select="@comment"/>
+          <xsl:text>)</xsl:text>
+        </xsl:if>
+      </a>
+    </li>
+  </xsl:template>
+
   <!--
     Use identity transform at low priority.
     Note that the default priority, if unspecified,
