@@ -1,133 +1,126 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="tux.xslt"?>
-<html lang="en-US">
-  <tux-head title="Main Page"/>
-  <body>
-    <div id="page">
-      <tux-include>bits/header.xml</tux-include>
-      <div id="sideshot">
-        <h3>Screenshots</h3>
-        <a href="images/0_3_5_11.png">
-          <img src="images/small/11.png" alt="Screenshot 1"/>
-        </a>
-        <a href="images/0_3_5_7.png">
-          <img src="images/small/7.png" alt="Screenshot 2"/>
-        </a>
-        <a href="images/0_3_5_8.png">
-          <img src="images/small/8.png" alt="Screenshot 3"/>
-        </a>
-        <a href="screenshots.xml">More Screenshots</a>
-      </div>
-      <div id="pagebody">
-        <p>
-          SuperTux is a free classic 2D jump'n run sidescroller game in a style
-          similar to the original Super Mario games covered under
-          the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>.
-        </p>
-        <br/>
-        <hr/>
-        <div class="datestamp">
-          <p>May 21 2015</p>
-        </div>
-        <br/>
-        <p>
-          We (The SuperTux Development Team) have put our heads together,
-          and we are going to try to officially release Milestone 2 sometime
-          in December. We currently are planning on that month, so right now
-          is a crucial time to have people bug testing. If you would like to
-          help with bug testing you can find the latest downloads in the
-          <a href="download.xml">Download</a> section. As always, if you
-          come across a bug ( or what might be one, feel free to report it
-          in our <a href="https://github.com/SuperTux/supertux/issues">Bug Tracker.</a>
-          If you would like to help us get this release out you can find more
-          information on our <a href="contact.xml">contact section.</a>
-        </p>
-        <br/>
-        <hr/>
-        <div class="datestamp">
-          <p>May 20 2015</p>
-        </div>
-        <br/>
-        <p>
-          Whewph, what alot of changes, but here you go. We spent the last
-          few days re-doing the website and updating its info.
-          <br/>
-          The latest release (0.3.5a) Brought the following improvements over earlier versions:
-          <br/>
-          <div style="font-size:85%;color:grey">
-            *move to SDL2 for graphics rendering<br/>
-            *glow effects<br/>
-            *new badguys: iceflame, ghostflame, livefire, goldbomb, smartblock<br/>
-            *new bonuses: coinrain, coinexplode<br/>
-            *statistics improved<br/>
-            *icy island levels tweaked<br/>
-            *new sounds<br/>
-            *massive improvements to localization<br/>
-            *efficiency tweaks<br/>
-            *menus reworked<br/>
-            *addon manager improved<br/>
-            *new tilemap: halloween<br/>
-            *new powerups: air- and earth-flower<br/>
-            *support for horizontal gradients in levels (add
-            (direction "vertical|horizontal") to your level)<br/>
-            *A 64 bit Windows installer
-          </div>
-          <br/>
-        </p>
-        <p>
-          Here is a link to <a href="https://www.youtube.com/playlist?list=PLhVp_BLj959LBm30GjVOQMyGQFOG-yKzm">video footage</a> of SuperTux 0.3.5a courtesy of o11c.
-        </p>
-        <br/>
-        <hr/>
-        <div class="datestamp">
-          <p>May 2015</p>
-        </div>
-        <br/>
-        <p>
-          Yay! 3 weeks after our 0.3.5 release we bring you release 0.3.5a,
-          which fixes a ton of bugs and we added a <em>64 bit Windows installer</em>!!
-          As always, if you run into bugs, or would like to join us in
-          developing this game, you can find us on <a href="https://github.com/SuperTux/supertux">Github</a>.
-        </p>
-        <br/>
-        <hr/>
-        <div class="datestamp">
-          <p>April 2015</p>
-        </div>
-        <br/>
-        <p>
-          <em>We are excited to bring to you 0.3.5 beta 1 git snapshot!</em>
-          We put a ton of changes and improvements into this release.
-          Head over to the <a href="download.xml">Downloads Section</a> to try it out!!
-        </p>
-        <br/>
-        <hr/>
-        <div class="datestamp">
-          <p>2003</p>
-        </div>
-        <br/>
-        <p>
-          The <em>Milestone 1</em> release of SuperTux features:
-          <ul>
-            <li>9 enemies</li>
-            <li>26 playable levels</li>
-            <li>Software and OpenGL rendering modes</li>
-            <li>configurable joystick and keyboard input</li>
-            <li>new music</li>
-            <li>completely redone graphics</li>
-          </ul>
-        </p>
-        <p>
-          Together with a little story, we hope to provide a good
-          gaming experience with this first Milestone release.
-        </p>
-        <p>
-          SuperTux is available for Windows, Linux, MacOSX as well as
-          numerous other more exotic systems.
-        </p>
-        <br/>
-      </div>
-      <tux-include>bits/footer.xml</tux-include>
+<tux-page title="Main Page">
+  <div id="sideshot">
+    <h3>Screenshots</h3>
+    <a href="images/0_3_5_11.png">
+      <img src="images/small/11.png" alt="Screenshot 1"/>
+    </a>
+    <a href="images/0_3_5_7.png">
+      <img src="images/small/7.png" alt="Screenshot 2"/>
+    </a>
+    <a href="images/0_3_5_8.png">
+      <img src="images/small/8.png" alt="Screenshot 3"/>
+    </a>
+    <a href="screenshots.xml">More Screenshots</a>
+  </div>
+  <div id="pagebody">
+    <p>
+      SuperTux is a free classic 2D jump'n run sidescroller game in a style
+      similar to the original Super Mario games covered under
+      the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>.
+    </p>
+    <br/>
+    <hr/>
+    <div class="datestamp">
+      <p>May 21 2015</p>
     </div>
-  </body>
-</html>
+    <br/>
+    <p>
+      We (The SuperTux Development Team) have put our heads together,
+      and we are going to try to officially release Milestone 2 sometime
+      in December. We currently are planning on that month, so right now
+      is a crucial time to have people bug testing. If you would like to
+      help with bug testing you can find the latest downloads in the
+      <a href="download.xml">Download</a> section. As always, if you
+      come across a bug ( or what might be one, feel free to report it
+      in our <a href="https://github.com/SuperTux/supertux/issues">Bug Tracker.</a>
+      If you would like to help us get this release out you can find more
+      information on our <a href="contact.xml">contact section.</a>
+    </p>
+    <br/>
+    <hr/>
+    <div class="datestamp">
+      <p>May 20 2015</p>
+    </div>
+    <br/>
+    <p>
+      Whewph, what alot of changes, but here you go. We spent the last
+      few days re-doing the website and updating its info.
+      <br/>
+      The latest release (0.3.5a) Brought the following improvements over earlier versions:
+      <br/>
+      <div style="font-size:85%;color:grey">
+        *move to SDL2 for graphics rendering<br/>
+        *glow effects<br/>
+        *new badguys: iceflame, ghostflame, livefire, goldbomb, smartblock<br/>
+        *new bonuses: coinrain, coinexplode<br/>
+        *statistics improved<br/>
+        *icy island levels tweaked<br/>
+        *new sounds<br/>
+        *massive improvements to localization<br/>
+        *efficiency tweaks<br/>
+        *menus reworked<br/>
+        *addon manager improved<br/>
+        *new tilemap: halloween<br/>
+        *new powerups: air- and earth-flower<br/>
+        *support for horizontal gradients in levels (add
+        (direction "vertical|horizontal") to your level)<br/>
+        *A 64 bit Windows installer
+      </div>
+      <br/>
+    </p>
+    <p>
+      Here is a link to <a href="https://www.youtube.com/playlist?list=PLhVp_BLj959LBm30GjVOQMyGQFOG-yKzm">video footage</a> of SuperTux 0.3.5a courtesy of o11c.
+    </p>
+    <br/>
+    <hr/>
+    <div class="datestamp">
+      <p>May 2015</p>
+    </div>
+    <br/>
+    <p>
+      Yay! 3 weeks after our 0.3.5 release we bring you release 0.3.5a,
+      which fixes a ton of bugs and we added a <em>64 bit Windows installer</em>!!
+      As always, if you run into bugs, or would like to join us in
+      developing this game, you can find us on <a href="https://github.com/SuperTux/supertux">Github</a>.
+    </p>
+    <br/>
+    <hr/>
+    <div class="datestamp">
+      <p>April 2015</p>
+    </div>
+    <br/>
+    <p>
+      <em>We are excited to bring to you 0.3.5 beta 1 git snapshot!</em>
+      We put a ton of changes and improvements into this release.
+      Head over to the <a href="download.xml">Downloads Section</a> to try it out!!
+    </p>
+    <br/>
+    <hr/>
+    <div class="datestamp">
+      <p>2003</p>
+    </div>
+    <br/>
+    <p>
+      The <em>Milestone 1</em> release of SuperTux features:
+      <ul>
+        <li>9 enemies</li>
+        <li>26 playable levels</li>
+        <li>Software and OpenGL rendering modes</li>
+        <li>configurable joystick and keyboard input</li>
+        <li>new music</li>
+        <li>completely redone graphics</li>
+      </ul>
+    </p>
+    <p>
+      Together with a little story, we hope to provide a good
+      gaming experience with this first Milestone release.
+    </p>
+    <p>
+      SuperTux is available for Windows, Linux, MacOSX as well as
+      numerous other more exotic systems.
+    </p>
+    <br/>
+  </div>
+</tux-page>
