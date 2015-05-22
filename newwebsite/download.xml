@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="tux.xslt"?>
-<tux-page title="Download SuperTux">
+<tux:page title="Download SuperTux" xmlns="http://www.w3.org/1999/xhtml" xmlns:tux="http://supertux.github.io/">
   <div id="pagebody">
     <h2>Download</h2>
     <h3>Git Snapshot/Beta Version</h3>
@@ -72,4 +72,4 @@
       </ul>
     </div>
   </div>
-</tux-page>
+</tux:page>

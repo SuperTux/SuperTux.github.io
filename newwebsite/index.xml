@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="tux.xslt"?>
-<tux-page title="Main Page">
+<tux:page title="Main Page" xmlns="http://www.w3.org/1999/xhtml" xmlns:tux="http://supertux.github.io/">
   <div id="sideshot">
     <h3>Screenshots</h3>
     <a href="images/0_3_5_11.png">
@@ -123,4 +123,4 @@
     </p>
     <br/>
   </div>
-</tux-page>
+</tux:page>

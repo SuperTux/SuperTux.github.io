@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="tux.xslt"?>
-<tux-page title="Contact the Devs">
+<tux:page title="Contact the Devs" xmlns="http://www.w3.org/1999/xhtml" xmlns:tux="http://supertux.github.io/">
   <div id="pagebody">
     <h2>Contact</h2>
     <p>
@@ -40,4 +40,4 @@
     <p>You can also <a href="https://github.com/SuperTuxTeam/supertux/">find us on Github.</a>
     </p>
   </div>
-</tux-page>
+</tux:page>

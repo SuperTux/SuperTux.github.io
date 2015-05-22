@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:exslt="http://exslt.org/common">
-  <xsl:output method="html" indent="yes"/>
+<xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:tux="http://supertux.github.io/" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:exslt="http://exslt.org/common">
+  <xsl:output method="xml" indent="yes"/>
   <xsl:strip-space elements="*"/>
 
   <!--
     "Interesting" templates. Templates that match, have high
     priority, and output something meaningful.
   -->
-  <xsl:template match="tux-include">
+  <xsl:template match="tux:include">
     <xsl:apply-templates select="document(text())"/>
   </xsl:template>
 
-  <xsl:template match="tux-head">
+  <xsl:template match="tux:head">
     <head>
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
       <meta charset="utf-8"/>
@@ -24,24 +24,24 @@
     </head>
   </xsl:template>
 
-  <xsl:template match="tux-page">
+  <xsl:template match="tux:page">
     <html lang="en-US">
       <xsl:variable name="tmp_title">
-        <tux-head title="{@title}"/>
+        <tux:head title="{@title}"/>
       </xsl:variable>
       <xsl:apply-templates select="exslt:node-set($tmp_title)"/>
 
       <body>
         <div id="page">
           <xsl:variable name="tmp_header">
-            <tux-include>bits/header.xml</tux-include>
+            <tux:include>bits/header.xml</tux:include>
           </xsl:variable>
           <xsl:apply-templates select="exslt:node-set($tmp_header)"/>
 
           <xsl:apply-templates select="node()"/>
 
           <xsl:variable name="tmp_footer">
-            <tux-include>bits/footer.xml</tux-include>
+            <tux:include>bits/footer.xml</tux:include>
           </xsl:variable>
           <xsl:apply-templates select="exslt:node-set($tmp_footer)"/>
         </div>
