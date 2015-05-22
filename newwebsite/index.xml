@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="tux.xslt"?>
 <tux:page title="Main Page" xmlns="http://www.w3.org/1999/xhtml" xmlns:tux="http://supertux.github.io/">
   <div id="sideshot">
@@ -47,29 +47,29 @@
     <p>
       Whewph, what alot of changes, but here you go. We spent the last
       few days re-doing the website and updating its info.
-      <br/>
-      The latest release (0.3.5a) Brought the following improvements over earlier versions:
-      <br/>
-      <div style="font-size:85%;color:grey">
-        *move to SDL2 for graphics rendering<br/>
-        *glow effects<br/>
-        *new badguys: iceflame, ghostflame, livefire, goldbomb, smartblock<br/>
-        *new bonuses: coinrain, coinexplode<br/>
-        *statistics improved<br/>
-        *icy island levels tweaked<br/>
-        *new sounds<br/>
-        *massive improvements to localization<br/>
-        *efficiency tweaks<br/>
-        *menus reworked<br/>
-        *addon manager improved<br/>
-        *new tilemap: halloween<br/>
-        *new powerups: air- and earth-flower<br/>
-        *support for horizontal gradients in levels (add
-        (direction "vertical|horizontal") to your level)<br/>
-        *A 64 bit Windows installer
-      </div>
-      <br/>
     </p>
+    <br/>
+    The latest release (0.3.5a) Brought the following improvements over earlier versions:
+    <br/>
+    <div style="font-size:85%;color:grey">
+      *move to SDL2 for graphics rendering<br/>
+      *glow effects<br/>
+      *new badguys: iceflame, ghostflame, livefire, goldbomb, smartblock<br/>
+      *new bonuses: coinrain, coinexplode<br/>
+      *statistics improved<br/>
+      *icy island levels tweaked<br/>
+      *new sounds<br/>
+      *massive improvements to localization<br/>
+      *efficiency tweaks<br/>
+      *menus reworked<br/>
+      *addon manager improved<br/>
+      *new tilemap: halloween<br/>
+      *new powerups: air- and earth-flower<br/>
+      *support for horizontal gradients in levels (add
+      (direction "vertical|horizontal") to your level)<br/>
+      *A 64 bit Windows installer
+    </div>
+    <br/>
     <p>
       Here is a link to <a href="https://www.youtube.com/playlist?list=PLhVp_BLj959LBm30GjVOQMyGQFOG-yKzm">video footage</a> of SuperTux 0.3.5a courtesy of o11c.
     </p>
@@ -104,15 +104,15 @@
     <br/>
     <p>
       The <em>Milestone 1</em> release of SuperTux features:
-      <ul>
-        <li>9 enemies</li>
-        <li>26 playable levels</li>
-        <li>Software and OpenGL rendering modes</li>
-        <li>configurable joystick and keyboard input</li>
-        <li>new music</li>
-        <li>completely redone graphics</li>
-      </ul>
     </p>
+    <ul>
+      <li>9 enemies</li>
+      <li>26 playable levels</li>
+      <li>Software and OpenGL rendering modes</li>
+      <li>configurable joystick and keyboard input</li>
+      <li>new music</li>
+      <li>completely redone graphics</li>
+    </ul>
     <p>
       Together with a little story, we hope to provide a good
       gaming experience with this first Milestone release.
