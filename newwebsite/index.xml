@@ -43,24 +43,24 @@
     <br/>
     The latest release (0.3.5a) Brought the following improvements over earlier versions:
     <br/>
-    <div style="font-size:85%;color:grey">
-      *move to SDL2 for graphics rendering<br/>
-      *glow effects<br/>
-      *new badguys: iceflame, ghostflame, livefire, goldbomb, smartblock<br/>
-      *new bonuses: coinrain, coinexplode<br/>
-      *statistics improved<br/>
-      *icy island levels tweaked<br/>
-      *new sounds<br/>
-      *massive improvements to localization<br/>
-      *efficiency tweaks<br/>
-      *menus reworked<br/>
-      *addon manager improved<br/>
-      *new tilemap: halloween<br/>
-      *new powerups: air- and earth-flower<br/>
-      *support for horizontal gradients in levels (add
-      (direction "vertical|horizontal") to your level)<br/>
-      *A 64 bit Windows installer
-    </div>
+    <ul style="font-size:85%;color:grey">
+      <li>move to SDL2 for graphics rendering</li>
+      <li>glow effects</li>
+      <li>new badguys: iceflame, ghostflame, livefire, goldbomb, smartblock</li>
+      <li>new bonuses: coinrain, coinexplode</li>
+      <li>statistics improved</li>
+      <li>icy island levels tweaked</li>
+      <li>new sounds</li>
+      <li>massive improvements to localization</li>
+      <li>efficiency tweaks</li>
+      <li>menus reworked</li>
+      <li>addon manager improved</li>
+      <li>new tilemap: halloween</li>
+      <li>new powerups: air- and earth-flower</li>
+      <li>support for horizontal gradients in levels (add
+        (direction "vertical|horizontal") to your level)</li>
+      <li>A 64 bit Windows installer</li>
+    </ul>
     <br/>
     <p>
       Here is a link to <a href="https://www.youtube.com/playlist?list=PLhVp_BLj959LBm30GjVOQMyGQFOG-yKzm">video footage</a> of SuperTux 0.3.5a courtesy of o11c.
