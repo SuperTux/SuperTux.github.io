@@ -146,7 +146,7 @@ a:hover {
 a {
   color: #999999;
 }
-#datestamp {
+.datestamp {
 font-size:75%;
 float:right;
 text-align:top;
