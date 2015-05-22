@@ -1,15 +1,19 @@
 <?xml version="1.0"?>
 <xsl:stylesheet version="1.0"
-    exclude-result-prefixes="tux exslt"
+    exclude-result-prefixes="tux exslt msxsl"
     xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
     xmlns:tux="http://supertux.github.io/"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:exslt="http://exslt.org/common">
+    xmlns:exslt="http://exslt.org/common"
+    xmlns:msxsl="urn:schemas-microsoft-com:xslt"
+>
   <xsl:output method="xml" indent="yes"
       encoding="utf-8"
       media-type="application/xhtml+xml"
       doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
-      doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/>
+      doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
+  />
   <xsl:strip-space elements="*"/>
 
   <!--
@@ -112,6 +116,10 @@
     <xsl:apply-templates select="*"/>
   </xsl:template>
 
+  <xsl:template match="xhtml:div[@class='no-xslt']">
+    <!-- Remove this. -->
+  </xsl:template>
+
   <!--
     Use identity transform at low priority.
     Note that the default priority, if unspecified,
@@ -142,4 +150,10 @@
       <xsl:apply-templates select="@*|node()"/>
     </xsl:copy>
   </xsl:template>
+  <!--
+    Workaround for Internet Explorer. Sigh.
+  -->
+  <msxsl:script language="JScript" implements-prefix="exslt">
+    this['node-set'] =  function (x) { return x; }
+  </msxsl:script>
 </xsl:stylesheet>
