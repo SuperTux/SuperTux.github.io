@@ -11,6 +11,18 @@
     <xsl:apply-templates select="document(text())"/>
   </xsl:template>
 
+  <xsl:template match="tux-head">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <meta charset="utf-8"/>
+      <title>
+        <xsl:text>SuperTux - </xsl:text>
+        <xsl:value-of select="@title"/>
+      </title>
+      <link rel="stylesheet" type="text/css" href="default.css"/>
+    </head>
+  </xsl:template>
+
   <!--
     Use identity transform at low priority.
     Note that the default priority, if unspecified,

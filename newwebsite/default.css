@@ -25,7 +25,7 @@ body {
 
 #sideshot img {
   padding:3px;
-} 
+}
 
 #page {
   background: rgba(0,0,0,0.9);
@@ -40,7 +40,6 @@ body {
 #title {
   font-family:sans-serif;
   text-align:center;
-  
 }
 
 h1 img {
@@ -124,7 +123,6 @@ ul.menu a:hover {
   color: white;
   border-radius:4px 4px 4px 4px;
   padding:7px;
-  
 }
 
 img.screenshot {
@@ -146,10 +144,9 @@ a:hover {
 a {
   color: white;
 }
-#datestamp {
+
+.datestamp {
 font-size:75%;
 float:right;
 text-align:top;
 }
-
-

@@ -1,12 +1,7 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="tux.xslt"?>
 <html lang="en-US">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta charset="utf-8"/>
-    <title>SuperTux - Download Supertux</title>
-    <link rel="stylesheet" type="text/css" href="default.css"/>
-  </head>
+  <tux-head title="Download SuperTux"/>
   <body>
     <div id="page">
       <tux-include>bits/header.xml</tux-include>
@@ -23,7 +18,7 @@
           <h4>Windows</h4>
           <ul>
             <li><a href="https://github.com/SuperTux/supertux/releases/download/v0.3.5a/supertux-0.3.5a-win32-setup.exe">supertux-0.3.5a-win32.exe</a></li>
-            <li><a href="https://github.com/SuperTux/supertux/releases/download/v0.3.5a/supertux-0.3.5a-win64-setup.exe">Supertux-0.3.5a-win64.exe</a></li>
+            <li><a href="https://github.com/SuperTux/supertux/releases/download/v0.3.5a/supertux-0.3.5a-win64-setup.exe">supertux-0.3.5a-win64.exe</a></li>
           </ul>
         </div>
         <div style="padding-left: 1em; clear: both;">
@@ -79,10 +74,6 @@
           <ul>
             <li><a href="https://github.com/SuperTux/supertux/releases/download/v0.1.3/supertux-0.1.3.tar.bz2">supertux-0.1.3.tar.bz2</a></li>
           </ul>
-        </div>
-
-        <div id="copyright">
-          <p>Copyright The Supertux Team 2003-2015</p>
         </div>
         <tux-include>bits/footer.xml</tux-include>
       </div>
