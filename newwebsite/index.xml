@@ -3,15 +3,7 @@
 <tux:page title="Main Page" xmlns="http://www.w3.org/1999/xhtml" xmlns:tux="http://supertux.github.io/">
   <div id="sideshot">
     <h3>Screenshots</h3>
-    <a href="images/0_3_5_11.png">
-      <img src="images/small/11.png" alt="Screenshot 1"/>
-    </a>
-    <a href="images/0_3_5_7.png">
-      <img src="images/small/7.png" alt="Screenshot 2"/>
-    </a>
-    <a href="images/0_3_5_8.png">
-      <img src="images/small/8.png" alt="Screenshot 3"/>
-    </a>
+    <tux:summarize>bits/screenshots-0.3.5.xml</tux:summarize>
     <a href="screenshots.xml">More Screenshots</a>
   </div>
   <div id="pagebody">

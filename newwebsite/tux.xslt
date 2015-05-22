@@ -57,6 +57,24 @@
     </html>
   </xsl:template>
 
+  <xsl:template match="tux:screenshots">
+    <div>
+      <xsl:for-each select="node()">
+        <xsl:if test="position() != 1 and position() mod ../@cols = 1">
+          <br/>
+        </xsl:if>
+        <xsl:apply-templates select="."/>
+      </xsl:for-each>
+    </div>
+  </xsl:template>
+  <xsl:template match="tux:screenshot" name="screenshot">
+    <a href="{@large}"><img class="screenshot" alt="{@large}" src="{@small}" width="{../@thumb-width}" height="{../@thumb-height}"/></a>
+  </xsl:template>
+
+  <xsl:template match="tux:summarize">
+    <xsl:apply-templates select="document(text())//*[@bless]"/>
+  </xsl:template>
+
   <!--
     Use identity transform at low priority.
     Note that the default priority, if unspecified,
