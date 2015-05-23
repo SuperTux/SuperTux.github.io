@@ -116,8 +116,55 @@
     <xsl:apply-templates select="*"/>
   </xsl:template>
 
-  <xsl:template match="xhtml:div[@class='no-xslt']">
-    <!-- Remove this. -->
+  <xsl:template match="tux:credits">
+    <div>
+      <h2><xsl:value-of select="@for"/></h2>
+      <xsl:apply-templates select="*"/>
+    </div>
+    <br/>
+  </xsl:template>
+  <xsl:template match="tux:author">
+    <p>
+      <b><xsl:value-of select="@who"/></b>
+      <br/>
+      <xsl:value-of select="@what"/>
+    </p>
+  </xsl:template>
+  <xsl:template match="tux:music">
+    <p>"<xsl:value-of select="@what"/>"
+      <br/>
+      by <b><xsl:value-of select="@who"/></b>
+      <xsl:if test="@remix">
+        <br/>
+        remixed by <b><xsl:value-of select="@remix"/></b>
+      </xsl:if>
+    </p>
+  </xsl:template>
+  <xsl:template match="tux:sound">
+    <p>
+      <b><xsl:value-of select="@who"/></b>
+    </p>
+  </xsl:template>
+  <xsl:template match="tux:voice">
+    <p>
+      <b><xsl:value-of select="@who"/></b>
+      <br/>
+      as <b><xsl:value-of select="@what"/></b>
+    </p>
+  </xsl:template>
+  <xsl:template match="tux:translation">
+    <p>
+      <b><xsl:value-of select="@who"/></b>
+      <br/>
+      (<xsl:value-of select="@what"/>)
+    </p>
+  </xsl:template>
+  <xsl:template match="tux:special">
+    <p>
+      <b><xsl:value-of select="@who"/></b>
+      <br/>
+      <xsl:value-of select="@what"/>
+    </p>
   </xsl:template>
 
   <!--
@@ -156,4 +203,7 @@
   <msxsl:script language="JScript" implements-prefix="exslt">
     this['node-set'] =  function (x) { return x; }
   </msxsl:script>
+  <xsl:template match="xhtml:div[@class='no-xslt']">
+    <!-- Remove this. -->
+  </xsl:template>
 </xsl:stylesheet>
