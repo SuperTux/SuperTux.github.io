@@ -23,7 +23,7 @@
     <p>
     The latest release (0.3.5a) Brought the following improvements over earlier versions:
     </p>
-    <ul style="font-size:85%;color:grey">
+    <ul>
       <li>move to SDL2 for graphics rendering</li>
       <li>glow effects</li>
       <li>new badguys: iceflame, ghostflame, livefire, goldbomb, smartblock</li>
