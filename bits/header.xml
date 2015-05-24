@@ -2,7 +2,7 @@
 <div id="title" xmlns="http://www.w3.org/1999/xhtml" xmlns:tux="http://supertux.github.io/">
   <h1>
     <a href="index.html">
-      <img src="images/title.png" alt="SuperTux logo"/>
+      <img src="images/title_fg.png" alt="SuperTux logo"/>
     </a>
   </h1>
   <ul class="menu">
