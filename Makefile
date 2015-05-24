@@ -11,7 +11,7 @@ OUTFILES=$(patsubst %,build/%,$(HTMLOUT))
 
 all: content
 
-$(OUTFILES): build/%.html: %.xml Makefile tux.xslt
+$(OUTFILES): build/%.html: %.xml Makefile tux.xslt bits/*.xml
 #	@FILENAME=$<;
 #	SECTION=`dirname $<`;
 #	LASTCHANGE=`date -I`;
@@ -32,6 +32,7 @@ content: directories $(OUTFILES)
 	cp $(CPFLAGS) robots.txt build/
 	cp $(CPFLAGS) images/*.jpg build/images/
 	cp $(CPFLAGS) images/*.png build/images/
+	cp $(CPFLAGS) images/small/*.png build/images/small/
 #cp $(CPFLAGS) milestone2/images/*.jpg build/milestone2/images/
 #	cp $(CPFLAGS) milestone2/images/*.png build/milestone2/images/
 #	cp $(CPFLAGS) milestone2/images/*.gif build/milestone2/images/
@@ -39,5 +40,6 @@ content: directories $(OUTFILES)
 directories:
 	mkdir -p build
 	mkdir -p build/images/
+	mkdir -p build/images/small/
 
 # EOF #
