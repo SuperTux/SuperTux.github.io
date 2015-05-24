@@ -1,11 +1,11 @@
 body {
   padding: 0em 0em 0em 0em;
-  margin:  1em 3em 1em 3em;
+  margin:  0em 0em 0em 0em;
   background-color: #000000;
   background-image: url("images/background.jpg");
   color: black;
   line-height: 1.5em;
-  padding: 6px;
+  padding: 0px;
   /*
   background-position:top;
   background-repeat: no-repeat;
@@ -31,12 +31,13 @@ body {
 
 #page {
   background: rgb(255,255,255);
-  max-width:1200px;
-  min-width:250px;
+  max-width: 1000px;
+  /* min-width: 250px; */
+  /* width: 80%; */
   padding: 0px;
-  margin:0 auto;
-  border-radius: 7px;
-  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.9);
+  margin: 0 auto;
+  /* border-radius: 7px; */
+  box-shadow: 0px 0px 64px rgba(0, 0, 0, 1);
 }
 
 #title {
@@ -46,14 +47,17 @@ body {
 
 h1 {
     margin: 0em;
+    padding: 0em;
 }
 
 h1 img {
-  text-align:center;
-  max-width:100%;
+  margin: 0px;
+  padding: 0px;
+
+  text-align: center;
+  max-width: 100%;
   /*box-shadow: 0px 5px 30px rgba(173, 173, 173, 1);*/
-  border-radius:5px;
-  margin: 16px;
+  /*border-radius:5px;*/
 }
 
 #pagebody {
@@ -118,8 +122,9 @@ h2,h3,h4 {
 }
 
 ul.menu {
+  margin: 0px;
   display: block;
-  padding:8px;
+  padding: 8px;
   text-align: center;
   /*
   border-color: rgb(45,120,180);
@@ -128,10 +133,10 @@ ul.menu {
   box-shadow: 0px 0px 20px rgba(172, 172, 172, 0.85);
   */
   background-color: rgb(25,70,100);
-  border-bottom: 2px solid black;
+/*  border-bottom: 2px solid black;
   border-top:    2px solid black;
   border-color: rgb(45,120,180);
-  border-width: thin;
+  border-width: thin;*/
 }
 
 ul.menu li {
