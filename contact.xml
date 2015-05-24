@@ -1,43 +1,37 @@
-<?xml version="1.0"?>
-<page title="SuperTux - Contact">
-  <section title="Contact">
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="tux.xslt"?>
+<tux:page title="Contact the Devs" xmlns="http://www.w3.org/1999/xhtml" xmlns:tux="http://supertux.github.io/">
+  <div id="pagebody">
+    <h2>Contact</h2>
     <p>
-      Development is mainly coordinated via IRC and the mailing list.
-      Be sure to visit both once in a while or you might miss critical
-      stuff.
+      Here are the many ways you can contact the team. Usually they will
+      answer quite quickly, but if they don't please be patient and give
+      them the benefit of the doubt. Yes that means stick around IRC
+      longer than 2 minutes.
     </p>
 
-    <subsection title="Mailing List">
-      <dl>
-	<dt><a href="mailto:supertux-devel@lists.lethargik.org">supertux-devel@lists.lethargik.org</a></dt>
-	<dd>
-          List for comments, criticisms and everything development
-          related
+    <h3>Mailing List</h3>
+    <h4>This mailing list is for comments, criticisms and everything development related. Feel free to chime in!</h4>
+    <ul>
+      <li><a href="mailto:supertux-devel@lists.lethargik.org">supertux-devel@lists.lethargik.org</a></li>
+      <li><a href="http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org">Archive</a></li>
+      <li><a href="http://lists.lethargik.org/listinfo.cgi/supertux-devel-lethargik.org">Subscribe/Unsubscribe</a></li>
+    </ul>
 
-          <ul>
-	    <li><a href="http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org">Archive</a></li>
-	    <li><a href="http://lists.lethargik.org/listinfo.cgi/supertux-devel-lethargik.org">Subscribe/Unsubscribe</a></li>
-          </ul>
-        </dd>
-      </dl>
+    <h3>The Forum</h3>
+    <p>
+      We also have a <a href="http://forum.freegamedev.net/viewforum.php?f=66">forum</a> Which is where you can talk, find answers and submit your creations.
+    </p>
 
-      <dl>
-	<dt><a href="mailto:supertux-commit@lists.lethargik.org">supertux-commit@lists.lethargik.org</a></dt>
-	<dd>
-          List for commits to the Git repository, mainly useful for people working directly with the source
-          <ul>
-	    <li><a href="http://lists.lethargik.org/pipermail/supertux-commit-lethargik.org">Archive</a></li>
-	    <li><a href="http://lists.lethargik.org/listinfo.cgi/supertux-commit-lethargik.org">Subscribe/Unsubscribe</a></li>
-          </ul>
-        </dd>
-      </dl>
-    </subsection>
+    <h3>IRC</h3>
+    <p>
+      Server:  <a href="irc://irc.freenode.net/#supertux">irc.freenode.net</a><br/>
+      Channel: #supertux<br/>
+      <a href="http://webchat.freenode.net/?channels=%23supertux&amp;uio=d4">webchat.freenode.net supertux style</a>
+    </p>
 
-    <subsection title="IRC">
-      <p>
-	Server:  <a href="irc://irc.freenode.net/#supertux">irc.freenode.net</a><br/>
-	Channel: #supertux<br/>
-      </p>
-    </subsection>
-  </section>
-</page>
+    <h3>Github</h3>
+    <p>You can also <a href="https://github.com/SuperTuxTeam/supertux/">find us on Github.</a>
+    </p>
+  </div>
+</tux:page>

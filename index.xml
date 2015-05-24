@@ -1,27 +1,20 @@
-<?xml version="1.0"?>
-<page title="SuperTux - About">
-  <section title="What is SuperTux?">
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="tux.xslt"?>
+<tux:page title="Main Page" xmlns="http://www.w3.org/1999/xhtml" xmlns:tux="http://supertux.github.io/">
+  <div class="no-xslt">
+    Your browser does not support XSLT.
+  </div>
+  <div id="sideshot">
+    <h3>Screenshots</h3>
+    <tux:summarize>bits/screenshots-0.3.5.xml</tux:summarize>
+    <a href="screenshots.xml">More Screenshots</a>
+  </div>
+  <div id="pagebody">
     <p>
-      SuperTux is a classic 2D jump'n run sidescroller game in a style
+      SuperTux is a free classic 2D jump'n run sidescroller game in a style
       similar to the original Super Mario games covered under
-      the <a href="http://www.gnu.org/copyleft/gpl.html">GPL</a>.
-      The <em>Milestone 1</em> release of SuperTux features:
+      the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>.
     </p>
-    <ul>
-      <li>9 enemies</li>
-      <li>26 playable levels</li>
-      <li>Software and OpenGL rendering modes</li>
-      <li>configurable joystick and keyboard input</li>
-      <li>new music</li>
-      <li>completely redone graphics</li>
-    </ul>
-    <p>
-      Together with a little story, we hope to provide a good
-      gaming experience with this first Milestone release.
-    </p>
-    <p>
-      SuperTux is available for Windows, Linux, MacOSX as well as
-      numerous other more exotic systems.
-    </p>
-  </section>
-</page>
+    <tux:include>bits/news.xml</tux:include>
+  </div>
+</tux:page>
