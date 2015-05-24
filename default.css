@@ -85,11 +85,23 @@ h1 img {
   border-top-color: white;
 
   line-height: 125%;
-  font-size: medium;
-  padding: 0.125em 1em 0.125em 1em;
+  font-size: small;
+  padding: 0.5em 1em 0.5em 1em;
 
   text-align:center;
-  color:#B4B4B4;
+  color: lightgrey;
+}
+
+#copyright a:visited {
+    color: lightgrey;
+}
+
+#copyright a:hover {
+    color: lightgrey;
+}
+
+#copyright a {
+    color: lightgrey;
 }
 
 #pagebody ul {
