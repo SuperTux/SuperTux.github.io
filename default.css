@@ -176,7 +176,9 @@ a {
 }
 
 .datestamp {
-font-size:75%;
-float:right;
-text-align:top;
+  font-size:75%;
+  float:right;
+  text-align:top;
+  /*color: rgb(45,120,180);*/
+  color: grey;
 }
