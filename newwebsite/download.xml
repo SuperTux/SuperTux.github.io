@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="tux.xslt"?>
+<tux:page title="Download SuperTux" xmlns="http://www.w3.org/1999/xhtml" xmlns:tux="http://supertux.github.io/">
+  <div id="pagebody">
+    <h2>Download</h2>
+    <h3>Git Snapshot/Beta Version</h3>
+    <p>
+      The <em>Git snapshot</em> is an <em>beta</em> version of
+      <em>SuperTux</em>. It is the recomended version to download,
+      and provides the best game play. If you run accross any issues
+      please report them in our <a href="https://github.com/SuperTux/supertux/issues">Bug Tracker</a>.
+    </p>
+    <tux:include>bits/downloads-beta.xml</tux:include>
+    <div style="padding-left: 1em; clear: both;">
+      <h4>Other</h4>
+      <p>
+        Other sources of <em>SuperTux</em>, for example the <em>Git repository</em>, are documented on the:
+      </p>
+      <ul>
+        <li><a href="https://github.com/SuperTux/supertux/wiki/Downloads">Wiki Download Page</a></li>
+      </ul>
+    </div>
+    <br/>
+    <br/>
+
+    <h3>Milestone 1</h3>
+    <p>
+      This is the <em>stable</em> version of <em>SuperTux</em>, also called
+      <em>Milestone 1</em>. It is very stable, and the best choice for extremely low resource machines. This version is approximately 12 years old.
+    </p>
+    <tux:include>bits/downloads-stable.xml</tux:include>
+  </div>
+</tux:page>

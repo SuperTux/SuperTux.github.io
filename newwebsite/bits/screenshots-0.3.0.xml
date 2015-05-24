@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tux:screenshots thumb-width="200" thumb-height="150" cols="3" xmlns="http://www.w3.org/1999/xhtml" xmlns:tux="http://supertux.github.io/">
+  <tux:screenshot large="images/supertux-0.3.0-1.jpg" small="images/supertux-0.3.0-1_small.jpg"/>
+  <tux:screenshot large="images/supertux-0.3.0-2.jpg" small="images/supertux-0.3.0-2_small.jpg"/>
+  <tux:screenshot large="images/supertux-0.3.0-3.jpg" small="images/supertux-0.3.0-3_small.jpg"/>
+  <tux:screenshot large="images/supertux-0.3.0-4.jpg" small="images/supertux-0.3.0-4_small.jpg"/>
+  <tux:screenshot large="images/supertux-0.3.0-5.jpg" small="images/supertux-0.3.0-5_small.jpg"/>
+  <tux:screenshot large="images/supertux-0.3.0-6.jpg" small="images/supertux-0.3.0-6_small.jpg"/>
+</tux:screenshots>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="tux.xslt"?>
+<tux:page title="Contact the Devs" xmlns="http://www.w3.org/1999/xhtml" xmlns:tux="http://supertux.github.io/">
+  <div id="pagebody">
+    <h2>Contact</h2>
+    <p>
+      Here are the many ways you can contact the team. Usually they will
+      answer quite quickly, but if they don't please be patient and give
+      them the benefit of the doubt. Yes that means stick around IRC
+      longer than 2 minutes.
+    </p>
+
+    <h3>Mailing List</h3>
+    <h4>This mailing list is for comments, criticisms and everything development related. Feel free to chime in!</h4>
+    <ul>
+      <li><a href="mailto:supertux-devel@lists.lethargik.org">supertux-devel@lists.lethargik.org</a></li>
+      <li><a href="http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org">Archive</a></li>
+      <li><a href="http://lists.lethargik.org/listinfo.cgi/supertux-devel-lethargik.org">Subscribe/Unsubscribe</a></li>
+    </ul>
+
+    <h3>The Forum</h3>
+    <p>
+      We also have a <a href="http://forum.freegamedev.net/viewforum.php?f=66">forum</a> Which is where you can talk, find answers and submit your creations.
+    </p>
+
+    <h3>IRC</h3>
+    <p>
+      Server:  <a href="irc://irc.freenode.net/#supertux">irc.freenode.net</a><br/>
+      Channel: #supertux<br/>
+      <a href="http://webchat.freenode.net/?channels=%23supertux&amp;uio=d4">webchat.freenode.net supertux style</a>
+    </p>
+
+    <h3>Github</h3>
+    <p>You can also <a href="https://github.com/SuperTuxTeam/supertux/">find us on Github.</a>
+    </p>
+  </div>
+</tux:page>

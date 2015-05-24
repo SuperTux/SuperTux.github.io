@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="tux.xslt"?>
+<tux:page title="The Developers" xmlns="http://www.w3.org/1999/xhtml" xmlns:tux="http://supertux.github.io/">
+  <div id="pagebody" style="text-align: center">
+    <!-- Use '' so that nicks can easily be added in "" -->
+    <tux:credits for="The Developers">
+      <tux:author who='Bill Kendrick' what="Original Developer"/>
+      <tux:author who='Ingo "grumbel" Ruhnke' what="Graphics, Programming, Level Design"/>
+      <tux:author who='Matthias "MatzeB" Braun' what="Programming"/>
+      <tux:author who='Marek "Wansti" Moeckel' what="Music, Level Design"/>
+      <tux:author who='Stephen Groundwater' what="Graphics"/>
+      <tux:author who='Christoph Sommer' what="Programming, Graphics, Level Design"/>
+      <tux:author who='Wolfgang Becker' what="Programming, Level Design"/>
+      <tux:author who='Christopher A. "paroneayea" Webber' what="Graphics, Story"/>
+      <tux:author who='Ondřej "Ravu al Hemio" Hošek' what="Programming, Documentation"/>
+      <tux:author who='Tobias "tobgle" Gläßer' what="Programming, Previous Maintainer"/>
+      <tux:author who='Ricardo "blacksheep" Cruz' what="Programming"/>
+      <tux:author who='Benjamin P. "litespeed" Jung' what="Graphics"/>
+      <tux:author who='Ryan "sik0fewl" Flegel' what="Programming, Web hosting"/>
+      <tux:author who='Bastiaan "basti_" Zapf' what="Programming"/>
+      <tux:author who='Tobias "Tobbi" Markus' what="Programming"/>
+      <tux:author who='Duong-Khang "neoneurone" NGUYEN' what="Contrib Programming"/>
+      <tux:author who='Richard Smith' what="Contrib Programming"/>
+      <tux:author who='Arvid Norlander' what="Level Design"/>
+      <tux:author who='165your4' what="Graphics"/>
+      <tux:author who='Sydney Dykstra' what="Graphics, Web Dev"/>
+    </tux:credits>
+
+    <tux:credits for="Additional Music">
+      <tux:music what="Mortimer's Chipdisko" who='Lukas Nystrand (as Mortimer Twang)'/>
+      <tux:music what="Salsa Con Carne" who='Asbjoern Andersen (as Mystical)' remix='DJ Gentoo'/>
+      <tux:music what="voc songs" who='semajD'/>
+      <tux:music what="clavelian_march" who='treskalle'/>
+      <tux:music what="Excerpts from the Giana Sisters Soundtrack" who='Chris Huelsbeck'/>
+      <tux:music what="Airship song (orchestral remix)" who='Bart K.' remix='remaxim'/>
+      <tux:music what="Battle Theme" who='remaxim'/>
+    </tux:credits>
+
+    <tux:credits for="Sound Designers">
+      <tux:sound who='Wolfgang Becker'/>
+      <tux:sound who='Matthias Braun'/>
+      <tux:sound who='Ricardo Cruz'/>
+      <tux:sound who='Stephen Groundwater'/>
+      <tux:sound who='Nathan McCoy'/>
+      <tux:sound who='Marek Moeckel'/>
+      <tux:sound who='Paulo Morfeo'/>
+      <tux:sound who='Christoph Sommer'/>
+      <tux:sound who='Bastian Zapf'/>
+    </tux:credits>
+
+    <tux:credits for="Voice Acting">
+      <tux:voice who='Daniel Alston' what="Tux"/>
+      <tux:voice who='Matthias Braun' what="Yeti"/>
+      <tux:voice who='Mathilda Edmunds' what="Penny"/>
+    </tux:credits>
+
+    <tux:credits for="Translations">
+      <tux:translation who='Anders' what="Danish"/>
+      <tux:translation who='Phan Anh' what="Vietnamese"/>
+      <tux:translation who='Constantin Baranov' what="Russian"/>
+      <tux:translation who='Javier Beaumont' what="Castilian Spanish"/>
+      <tux:translation who='Martí Bosc' what="Catalan"/>
+      <tux:translation who='Matthias Braun' what="German"/>
+      <tux:translation who='Sergio López Briñas' what="Castilian Spanish"/>
+      <tux:translation who='Marko Burjek' what="Slovenian"/>
+      <tux:translation who='Fernando Carmona' what="Castilian Spanish"/>
+      <tux:translation who='Wei-Lun Chao' what="Mandarin"/>
+      <tux:translation who='Ricardo Cruz' what="European Portuguese"/>
+      <tux:translation who='Razvan Dajboc' what="Romanian"/>
+      <tux:translation who='Pieter De Decker' what="Dutch"/>
+      <tux:translation who='Bertrand Delaitre' what="French"/>
+      <tux:translation who='Daniela Ferraz' what="European/Brazilian Portuguese"/>
+      <tux:translation who='Florian Forster' what="German"/>
+      <tux:translation who='Prabin Gautam' what="Nepali"/>
+      <tux:translation who='Ondřej Hošek' what="Czech"/>
+      <tux:translation who='Iknos' what="Italian"/>
+      <tux:translation who='Jose Jorge' what="European Portuguese"/>
+      <tux:translation who='Manuela Kessler' what="Italian"/>
+      <tux:translation who='Günter "kyber" Kits' what="Estonian"/>
+      <tux:translation who='Dominik Klementowski' what="Polish"/>
+      <tux:translation who='Marcin Kocur' what="Polish"/>
+      <tux:translation who='Benjamin Leduc' what="French/Esperanto"/>
+      <tux:translation who='Sérgio Lopes' what="European Portuguese"/>
+      <tux:translation who='Tobias Markus' what="German"/>
+      <tux:translation who='meczup' what="Turkish"/>
+      <tux:translation who='Arvid Norlander' what="Swedish"/>
+      <tux:translation who='Krishnamurti Lelis Lima Vieira Nunes' what="Brazilian Portuguese"/>
+      <tux:translation who='Lauri "xet7" Ojansivu' what="Finnish"/>
+      <tux:translation who='Karl Ove Hufthammer' what="Norwegian"/>
+      <tux:translation who='Léo Poughon' what="French"/>
+      <tux:translation who='Bansaj Pradhan' what="Nepali"/>
+      <tux:translation who='Herval Ribeiro' what="Brazilian Portuguese"/>
+      <tux:translation who='Frederic Rodrigo' what="French"/>
+      <tux:translation who='D. J. S.' what="Hungarian"/>
+      <tux:translation who='Slobodan Simić' what="Serbian"/>
+      <tux:translation who='Liu Sizhuang' what="Simplified Chinese"/>
+      <tux:translation who='Jan Solanti' what="Finnish"/>
+      <tux:translation who='Christoph Sommer' what="German"/>
+      <tux:translation who='Andrius Štikonas' what="Lithuanian"/>
+      <tux:translation who='Eugen Uvin' what="Ukrainian"/>
+      <tux:translation who='Frank van der Loo' what="Dutch"/>
+      <tux:translation who='Mihas "meequz" Varantsou' what="Belarusian"/>
+      <tux:translation who='Antoni Villalonga' what="Catalan"/>
+      <tux:translation who='Kővágó Zoltán' what="Hungarian"/>
+    </tux:credits>
+
+    <tux:credits for="Extra Special Thanks">
+      <tux:special who='Larry Ewing' what="Creator of Tux, the Linux penguin"/>
+      <tux:special who='SDL, OpenAL, and OpenGL' what="For making such a great gaming experience possible on Linux"/>
+    </tux:credits>
+  </div>
+</tux:page>

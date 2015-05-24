@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<div id="title" xmlns="http://www.w3.org/1999/xhtml" xmlns:tux="http://supertux.github.io/">
+  <h1>
+    <a href="index.xml">
+      <img src="images/title.png" alt="SuperTux logo"/>
+    </a>
+  </h1>
+  <ul class="menu">
+    <li><a href="screenshots.xml">Screenshots</a></li>
+    <li><a href="download.xml">Download</a></li>
+    <li><a href="https://github.com/SuperTux/supertux/wiki">Wiki</a></li>
+    <li><a href="https://github.com/SuperTux/supertux/issues">Bugs</a></li>
+    <li><a href="http://forum.freegamedev.net/viewforum.php?f=66">Forum</a></li>
+    <li><a href="contact.xml">Contact</a></li>
+    <li><a href="authors.xml">The Developers</a></li>
+  </ul>
+</div>

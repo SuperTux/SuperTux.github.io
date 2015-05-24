@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tux:downloads dir="https://github.com/SuperTux/supertux/releases/download/v0.1.3/" xmlns="http://www.w3.org/1999/xhtml" xmlns:tux="http://supertux.github.io/">
+  <tux:download-os os="Windows">
+    <tux:download file="supertux-0.1.3-setup.exe"/>
+  </tux:download-os>
+  <tux:download-os os="Mac OS X">
+    <tux:download file="supertux-0.1.3-macosx-universal.dmg" comment="Universal binary"/>
+    <tux:download file="supertux-0.1.3-macosx.dmg" comment="PPC only"/>
+  </tux:download-os>
+  <tux:download-os os="Linux">
+    <tux:download file="supertux-0.1.3.x86.package" comment="x86 only"/>
+  </tux:download-os>
+  <tux:download-os os="Source Code">
+    <tux:download file="supertux-0.1.3.tar.bz2"/>
+  </tux:download-os>
+</tux:downloads>
