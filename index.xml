@@ -4,7 +4,7 @@
   <div id="sideshot">
     <h3>Screenshots</h3>
     <tux:summarize>bits/screenshots-0.3.5.xml</tux:summarize>
-    <a href="screenshots.xml">More Screenshots</a>
+    <a href="screenshots.html">More Screenshots</a>
   </div>
   <div id="pagebody">
     <h2>Welcome</h2>
