@@ -42,4 +42,14 @@ directories:
 	mkdir -p build/images/
 	mkdir -p build/images/small/
 
+upload: all
+	@if [ -d ../SuperTux.github.io ]; then \
+	    rsync -rtlvP build/ ../SuperTux.github.io/newwebsite2/; \
+	    cd ../SuperTux.github.io/; \
+	    git add .; \
+	    git commit -m "Website updates $$(date -I)"; \
+	fi
+
+.PHONY: all upload directories
+
 # EOF #
