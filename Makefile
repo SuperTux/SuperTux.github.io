@@ -44,10 +44,11 @@ directories:
 
 upload: all
 	@if [ -d ../SuperTux.github.io ]; then \
-	    rsync -rtlvP build/ ../SuperTux.github.io/newwebsite2/; \
+	    rsync -rtlvP build/ ../SuperTux.github.io/; \
 	    cd ../SuperTux.github.io/; \
 	    git add .; \
 	    git commit -m "Website updates $$(date -I)"; \
+	    git push; \
 	fi
 
 .PHONY: all upload directories
