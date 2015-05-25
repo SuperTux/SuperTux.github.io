@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="tux.xslt"?>
-<tux:page title="Screenshots" xmlns="http://www.w3.org/1999/xhtml" xmlns:tux="http://supertux.github.io/">
+<tux:page title="Screenshots" xmlns:tux="http://supertux.github.io/">
   <div id="pagebodyone">
     <h2>Welcome to our screenshot page! Enjoy!</h2>
     <h3>Release 0.3.5 (current beta)</h3>

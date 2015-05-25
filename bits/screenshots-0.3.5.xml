@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<tux:screenshots thumb-width="200" thumb-height="150" cols="3" xmlns="http://www.w3.org/1999/xhtml" xmlns:tux="http://supertux.github.io/">
+<tux:screenshots thumb-width="200" thumb-height="150" cols="3" xmlns:tux="http://supertux.github.io/">
   <tux:screenshot large="images/0_3_5_1.png" small="images/small/1.png"/>
   <tux:screenshot large="images/0_3_5_2.png" small="images/small/2.png"/>
   <tux:screenshot large="images/0_3_5_3.png" small="images/small/3.png"/>

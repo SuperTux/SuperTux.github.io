@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<tux:newsfeed xmlns="http://www.w3.org/1999/xhtml" xmlns:tux="http://supertux.github.io/">
+<tux:newsfeed xmlns:tux="http://supertux.github.io/">
   <!-- arguably this should be split into one file per news entry -->
   <tux:news date="May 21 2015">
     <p>

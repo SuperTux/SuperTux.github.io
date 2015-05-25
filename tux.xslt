@@ -1,8 +1,6 @@
 <?xml version="1.0"?>
 <xsl:stylesheet version="1.0"
     exclude-result-prefixes="tux exslt msxsl"
-    xmlns="http://www.w3.org/1999/xhtml"
-    xmlns:xhtml="http://www.w3.org/1999/xhtml"
     xmlns:tux="http://supertux.github.io/"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:exslt="http://exslt.org/common"
@@ -25,7 +23,7 @@
 
   <xsl:template match="tux:head">
     <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>
         <xsl:text>SuperTux | </xsl:text>
         <xsl:value-of select="@title"/>
@@ -207,7 +205,7 @@
   <msxsl:script language="JScript" implements-prefix="exslt">
     this['node-set'] =  function (x) { return x; }
   </msxsl:script>
-  <xsl:template match="xhtml:div[@class='no-xslt']">
+  <xsl:template match="div[@class='no-xslt']">
     <!-- Remove this. -->
   </xsl:template>
 </xsl:stylesheet>
