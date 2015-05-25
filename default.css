@@ -31,7 +31,7 @@ body {
 
 #page {
   background: rgb(255,255,255);
-  max-width: 1000px;
+  max-width: 960px;
   /* min-width: 250px; */
   /* width: 80%; */
   padding: 0px;
@@ -46,33 +46,36 @@ body {
 }
 
 h1 {
-  display: box;
-  width: 100%;
   margin: 0em;
   padding: 0em;
-  background-image: url("images/title_bg.png");
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  /*background-attachment:fixed;*/
+
+  display: block;
+  width: 100%;
 }
 
 h1 img {
   margin: 0px;
   padding: 0px;
-
-  text-align: left;
   width: 100%;
-  /*box-shadow: 0px 5px 30px rgba(173, 173, 173, 1);*/
-  /*border-radius:5px;*/
+}
+
+#pagebox {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+
+  /*
+  background-image: url("images/topshadow.png");
+  background-repeat: repeat-x;
+  background-position:top;
+  */
 }
 
 #pagebody {
- margin-top: 1em;
- color: black;
- font-family: Sans-Serif;
- margin-left: 5em;
- margin-right: 5em;
+  margin: 1em 5em;
+
+  color: black;
+  font-family: Sans-Serif;
 }
 
 #pagebodyone {
@@ -129,21 +132,16 @@ h2,h3,h4 {
 }
 
 ul.menu {
-  margin: 0px;
   display: block;
+  margin: 0px;
   padding: 8px;
+
+  color: white;
   text-align: center;
-  /*
-  border-color: rgb(45,120,180);
-  border-color:black;
-  border-radius:4px;
-  box-shadow: 0px 0px 20px rgba(172, 172, 172, 0.85);
-  */
   background-color: rgb(25,70,100);
-/*  border-bottom: 2px solid black;
-  border-top:    2px solid black;
-  border-color: rgb(45,120,180);
-  border-width: thin;*/
+
+  position: relative;
+  top: -1px;
 }
 
 ul.menu li {
@@ -153,7 +151,7 @@ ul.menu li {
 
 
 ul.menu li a {
-  padding: 7px;
+  padding: 0.5em 0.75em;
   text-decoration: none;
   font-weight: bold;
   /* color: rgb(45,120,180); */
@@ -161,10 +159,9 @@ ul.menu li a {
 }
 
 ul.menu a:hover {
-    background-color: white;
+  background-color: white;
   color: rgb(25,70,100);
   border-radius:4px 4px 4px 4px;
-  padding:7px;
 }
 
 img.screenshot {

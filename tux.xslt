@@ -51,7 +51,9 @@
           </xsl:variable>
           <xsl:apply-templates select="exslt:node-set($tmp_header)"/>
 
-          <xsl:apply-templates select="node()"/>
+          <div id="pagebox">
+            <xsl:apply-templates select="node()"/>
+          </div>
 
           <xsl:variable name="tmp_footer">
             <tux:include>bits/footer.xml</tux:include>
