@@ -42,6 +42,7 @@ h1 {
 }
 
 h1 img {
+    display: block;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -109,8 +110,6 @@ ul.menu {
     color: rgba(255, 255, 255, 1);
     text-align: center;
     background-color: rgba(25, 70, 100, 1);
-    position: relative;
-    top: -1px;
 }
 
 ul.menu li {
