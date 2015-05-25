@@ -28,7 +28,7 @@
     <head>
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
       <title>
-        <xsl:text>SuperTux - </xsl:text>
+        <xsl:text>SuperTux | </xsl:text>
         <xsl:value-of select="@title"/>
       </title>
       <link rel="stylesheet" type="text/css" href="default.css"/>

@@ -2,11 +2,11 @@
 <div id="title" xmlns="http://www.w3.org/1999/xhtml" xmlns:tux="http://supertux.github.io/">
   <h1><a href="index.html"><img src="images/title.png" alt="SuperTux"/></a></h1>
   <ul class="menu">
-    <li><a href="index.html">About</a></li>
+    <li><a href="index.html">Home</a></li>
     <li><a href="screenshots.html">Screenshots</a></li>
-    <li><a href="download.html">Download</a></li>
+    <li><a href="download.html">Downloads</a></li>
     <li><a href="contact.html">Contact</a></li>
-    <li><a href="authors.html">The Developers</a></li>
+    <li><a href="authors.html">Developers</a></li>
     •
     <!-- <li><a href="https://github.com/SuperTux/supertux/wiki">Wiki</a></li> -->
     <li><a href="http://supertux.lethargik.org/wiki/Main_Page">Wiki</a></li>
