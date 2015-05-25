@@ -118,13 +118,23 @@ h2,h3,h4 {
     padding: 0;
 }
 
-ul.menu {
+nav {
     display: block;
+    width: 100%;
+    background-color: rgba(25, 70, 100, 1);
+    padding: 0.5em;
+}
+
+ul.menu {
+    display: inline-block;
     margin: 0;
-    padding: 8px;
+    padding: 0;
     color: rgba(255, 255, 255, 1);
     text-align: center;
-    background-color: rgba(25, 70, 100, 1);
+}
+
+ul.menu + ul.menu::before {
+    content: "  •  ";
 }
 
 ul.menu li {
@@ -138,6 +148,10 @@ ul.menu li a {
     text-decoration: none;
     font-weight: bold;
     color: rgba(255, 255, 255, 1);
+}
+
+ul.external li a {
+    color: rgb(215, 240, 255);
 }
 
 ul.menu a:hover {
