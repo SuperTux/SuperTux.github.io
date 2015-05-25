@@ -8,7 +8,7 @@
     xmlns:exslt="http://exslt.org/common"
     xmlns:msxsl="urn:schemas-microsoft-com:xslt"
 >
-  <xsl:output method="xml" indent="yes"
+  <xsl:output method="xml" indent="no"
       encoding="utf-8"
       media-type="application/xhtml+xml"
       doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
