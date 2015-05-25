@@ -4,7 +4,6 @@ body {
     background-image: url("images/background.jpg");
     color: rgba(0, 0, 0, 1);
     line-height: 1.5em;
-    padding: 0px;
     max-width: 100%;
 }
 
@@ -27,7 +26,7 @@ body {
     background: rgba(255, 255, 255, 1);
     max-width: 960px;
     margin: 0 auto;
-    box-shadow: 0px 0px 64px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 64px rgba(0, 0, 0, 1);
 }
 
 #title {
@@ -36,22 +35,21 @@ body {
 }
 
 h1 {
-    margin: 0em;
-    padding: 0em;
-
+    margin: 0;
+    padding: 0;
     display: block;
     width: 100%;
 }
 
 h1 img {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     width: 100%;
 }
 
 #pagebox {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     width: 100%;
 }
 
@@ -92,7 +90,7 @@ h1 img {
 }
 
 #pagebody ul {
-    margin-bottom: 0em;
+    margin-bottom: 0;
     margin-top: 0.5em;
     padding: 0 1em 0 1em;
 }
@@ -100,13 +98,13 @@ h1 img {
 h2,h3,h4 {
     color: rgba(45, 120, 180, 1);
     font-family: sans-serif;
-    margin: 0.8em 0px 0px 0px;
-    padding: 0px;
+    margin: 0.8em 0 0 0;
+    padding: 0;
 }
 
 ul.menu {
     display: block;
-    margin: 0px;
+    margin: 0;
     padding: 8px;
     color: rgba(255, 255, 255, 1);
     text-align: center;
@@ -138,7 +136,7 @@ img.screenshot {
     border-style: solid;
     border-width: 5px;
     border-color: rgba(255, 255, 255, 1);
-    margin: 0px;
+    margin: 0;
     padding: 5px;
 }
 
