@@ -9,17 +9,9 @@ CPFLAGS=-pu
 
 OUTFILES=$(patsubst %,build/%,$(HTMLOUT))
 
-all: content menu.xml
+all: content
 
-default.xsl: menu.xml
-
-checkusername:
-	@if [ "$(ST_USERNAME)" = "" ]; then \
-		echo "Please call this script with the ST_USERNAME environment variable set"; \
-		exit 1; \
-	fi
-
-$(OUTFILES): build/%.html: %.xml Makefile default.xsl menu.xml
+$(OUTFILES): build/%.html: %.xml Makefile tux.xslt bits/*.xml
 #	@FILENAME=$<;
 #	SECTION=`dirname $<`;
 #	LASTCHANGE=`date -I`;
@@ -33,13 +25,14 @@ $(OUTFILES): build/%.html: %.xml Makefile default.xsl menu.xml
 	    --stringparam lastchange `ls -la --time-style=long-iso $< | awk '{print $$6}'` \
 	    --stringparam section `dirname $<` \
 	    --stringparam basedir "$$BASEDIR" \
-	    -o $@ default.xsl $<
+	    -o $@ tux.xslt $<
 
 content: directories $(OUTFILES)
 	cp $(CPFLAGS) default.css build/
 	cp $(CPFLAGS) robots.txt build/
 	cp $(CPFLAGS) images/*.jpg build/images/
 	cp $(CPFLAGS) images/*.png build/images/
+	cp $(CPFLAGS) images/small/*.png build/images/small/
 #cp $(CPFLAGS) milestone2/images/*.jpg build/milestone2/images/
 #	cp $(CPFLAGS) milestone2/images/*.png build/milestone2/images/
 #	cp $(CPFLAGS) milestone2/images/*.gif build/milestone2/images/
@@ -47,11 +40,16 @@ content: directories $(OUTFILES)
 directories:
 	mkdir -p build
 	mkdir -p build/images/
+	mkdir -p build/images/small/
 
-upload: checkusername content
-	rsync -crv --chmod=Dg+rwxs,ug+rw,o-w -e ssh --exclude-from=rsync-excludes.txt build/ supertux@supertux.lethargik.org:/home/supertux/supertux.lethargik.org/
+upload: all
+	@if [ -d ../SuperTux.github.io ]; then \
+	    rsync -rtlvP build/ ../SuperTux.github.io/newwebsite2/; \
+	    cd ../SuperTux.github.io/; \
+	    git add .; \
+	    git commit -m "Website updates $$(date -I)"; \
+	fi
 
-clean:
-	rm -rf build/*
+.PHONY: all upload directories
 
 # EOF #

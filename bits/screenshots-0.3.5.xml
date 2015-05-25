@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tux:screenshots thumb-width="200" thumb-height="150" cols="3" xmlns="http://www.w3.org/1999/xhtml" xmlns:tux="http://supertux.github.io/">
+  <tux:screenshot large="images/0_3_5_1.png" small="images/small/1.png"/>
+  <tux:screenshot large="images/0_3_5_2.png" small="images/small/2.png"/>
+  <tux:screenshot large="images/0_3_5_3.png" small="images/small/3.png"/>
+  <tux:screenshot large="images/0_3_5_4.png" small="images/small/4.png"/>
+  <tux:screenshot large="images/0_3_5_5.png" small="images/small/5.png"/>
+  <tux:screenshot large="images/0_3_5_6.png" small="images/small/6.png"/>
+  <tux:screenshot large="images/0_3_5_7.png" small="images/small/7.png" bless="bless"/>
+  <tux:screenshot large="images/0_3_5_8.png" small="images/small/8.png" bless="bless"/>
+  <tux:screenshot large="images/0_3_5_9.png" small="images/small/9.png"/>
+  <tux:screenshot large="images/0_3_5_10.png" small="images/small/10.png"/>
+  <tux:screenshot large="images/0_3_5_11.png" small="images/small/11.png" bless="bless"/>
+</tux:screenshots>
