@@ -30,7 +30,7 @@ body {
 }
 
 #title {
-    font-family: sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Verdana, sans-serif;
     text-align: center;
 }
 
@@ -56,7 +56,7 @@ h1 img {
 #pagebody {
     margin: 1em 5em;
     color: rgba(0, 0, 0, 1);
-    font-family: sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Verdana, sans-serif;
 }
 
 #pagebodyone {
@@ -97,7 +97,7 @@ h1 img {
 
 h2,h3,h4 {
     color: rgba(45, 120, 180, 1);
-    font-family: sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Verdana, sans-serif;
     margin: 0.8em 0 0 0;
     padding: 0;
 }
