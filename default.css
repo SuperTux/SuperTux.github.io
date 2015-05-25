@@ -50,8 +50,12 @@ h1 img {
 
 #pagebox {
     margin: 0;
-    padding: 0;
+    padding: 0 0 1em 0;
     width: 100%;
+    background-image: url("images/topshadow.png"), url("images/bottomshadow.png");
+    background-position: top, bottom;
+    background-repeat: repeat-x, repeat-x;
+    overflow: auto;
 }
 
 #pagebody {
@@ -75,9 +79,6 @@ h1 img {
 
 #footer {
     background-color: rgba(25, 70, 100, 1);
-    border-top-style: solid;
-    border-top-width: thin;
-    border-top-color: rgba(255, 255, 255, 1);
     line-height: 125%;
     font-size: small;
     padding: 0.5em 1em 0.5em 1em;
@@ -102,10 +103,6 @@ h1 img {
     padding: 0;
 }
 
-#copyright a {
-    color: rgba(211, 211, 211, 1) !important;
-}
-
 #pagebody ul {
     margin-bottom: 0;
     margin-top: 0.5em;
@@ -122,7 +119,7 @@ nav {
     display: block;
     width: 100%;
     background-color: rgba(25, 70, 100, 1);
-    padding: 0.5em;
+    padding: 0.5em 0;
 }
 
 ul.menu {
