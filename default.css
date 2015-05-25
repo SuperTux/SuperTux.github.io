@@ -74,7 +74,7 @@ h1 img {
     text-align: left;
 }
 
-#copyright {
+#footer {
     background-color: rgba(25, 70, 100, 1);
     border-top-style: solid;
     border-top-width: thin;
@@ -84,6 +84,23 @@ h1 img {
     padding: 0.5em 1em 0.5em 1em;
     text-align: center;
     color: rgba(211, 211, 211, 1) !important;
+}
+
+#footer a:visited {
+    color: rgb(255, 255, 255);
+}
+
+#footer a:hover {
+    color: rgb(255, 255, 255);
+}
+
+#footer a {
+    color: rgba(45, 120, 180, 1);
+}
+
+#footer p {
+    margin: 0;
+    padding: 0;
 }
 
 #copyright a {
