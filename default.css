@@ -1,8 +1,8 @@
 body {
     margin: 0;
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 1);
     background-image: url("images/background.jpg");
-    color: black;
+    color: rgba(0, 0, 0, 1);
     line-height: 1.5em;
     padding: 0px;
     max-width: 100%;
@@ -14,7 +14,7 @@ body {
     text-align: center;
     margin: 10px;
     border-style: solid;
-    border-color: white;
+    border-color: rgba(255, 255, 255, 1);
     border-radius: 10px;
     border-width: 2px;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 #page {
-    background: rgb(255,255,255);
+    background: rgba(255, 255, 255, 1);
     max-width: 960px;
     margin: 0 auto;
     box-shadow: 0px 0px 64px rgba(0, 0, 0, 1);
@@ -57,14 +57,14 @@ h1 img {
 
 #pagebody {
     margin: 1em 5em;
-    color: black;
+    color: rgba(0, 0, 0, 1);
     font-family: sans-serif;
 }
 
 #pagebodyone {
     margin-top: 1em;
     text-align: center;
-    color: white;
+    color: rgba(255, 255, 255, 1);
 }
 
 #pagebody ul {
@@ -76,19 +76,19 @@ h1 img {
 }
 
 #copyright {
-    background-color: rgb(25,70,100);
+    background-color: rgba(25, 70, 100, 1);
     border-top-style: solid;
     border-top-width: thin;
-    border-top-color: white;
+    border-top-color: rgba(255, 255, 255, 1);
     line-height: 125%;
     font-size: small;
     padding: 0.5em 1em 0.5em 1em;
     text-align: center;
-    color: lightgrey !important;
+    color: rgba(211, 211, 211, 1) !important;
 }
 
 #copyright a {
-    color: lightgrey !important;
+    color: rgba(211, 211, 211, 1) !important;
 }
 
 #pagebody ul {
@@ -98,7 +98,7 @@ h1 img {
 }
 
 h2,h3,h4 {
-    color: rgb(45,120,180);
+    color: rgba(45, 120, 180, 1);
     font-family: sans-serif;
     margin: 0.8em 0px 0px 0px;
     padding: 0px;
@@ -108,9 +108,9 @@ ul.menu {
     display: block;
     margin: 0px;
     padding: 8px;
-    color: white;
+    color: rgba(255, 255, 255, 1);
     text-align: center;
-    background-color: rgb(25,70,100);
+    background-color: rgba(25, 70, 100, 1);
     position: relative;
     top: -1px;
 }
@@ -125,38 +125,38 @@ ul.menu li a {
     padding: 0.5em 0.75em;
     text-decoration: none;
     font-weight: bold;
-    color: white;
+    color: rgba(255, 255, 255, 1);
 }
 
 ul.menu a:hover {
-    background-color: white;
-    color: rgb(25,70,100);
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(25, 70, 100, 1);
     border-radius: 4px;
 }
 
 img.screenshot {
     border-style: solid;
     border-width: 5px;
-    border-color: white;
+    border-color: rgba(255, 255, 255, 1);
     margin: 0px;
     padding: 5px;
 }
 
 a:visited {
-    color: rgb(25,70,100);
+    color: rgba(25, 70, 100, 1);
 }
 
 a:hover {
-    color: rgb(15,40,60);
+    color: rgba(15, 40, 60, 1);
 }
 
 a {
-    color: rgb(45,120,180);
+    color: rgba(45, 120, 180, 1);
 }
 
 .datestamp {
     font-size: 75%;
     float: right;
     text-align: top;
-    color: grey;
+    color: rgba(128, 128, 128, 1);
 }
