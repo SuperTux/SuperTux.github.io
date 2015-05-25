@@ -8,7 +8,8 @@
     <li><a href="contact.html">Contact</a></li>
     <li><a href="authors.html">The Developers</a></li>
     •
-    <li><a href="https://github.com/SuperTux/supertux/wiki">Wiki</a></li>
+    <!-- <li><a href="https://github.com/SuperTux/supertux/wiki">Wiki</a></li> -->
+    <li><a href="http://supertux.lethargik.org/wiki/Main_Page">Wiki</a></li>
     <li><a href="https://github.com/SuperTux/supertux/issues">Bugs</a></li>
     <li><a href="http://forum.freegamedev.net/viewforum.php?f=66">Forum</a></li>
   </ul>
