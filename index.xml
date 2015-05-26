@@ -6,7 +6,7 @@
     <tux:summarize>bits/screenshots-0.3.5.xml</tux:summarize>
     <a href="screenshots.html">More Screenshots</a>
   </aside>
-  <div id="pagebody">
+  <article id="pagebody">
     <h2>Welcome</h2>
     <p>
       SuperTux is a free classic 2D jump'n run sidescroller game in a style
@@ -14,5 +14,5 @@
       the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>.
     </p>
     <tux:include>bits/news.xml</tux:include>
-  </div>
+  </article>
 </tux:page>

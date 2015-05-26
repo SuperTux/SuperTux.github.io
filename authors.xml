@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="tux.xslt"?>
 <tux:page title="Developers" xmlns:tux="http://supertux.github.io/">
-  <div id="pagebody" style="text-align: center">
+  <article id="pagebody" style="text-align: center">
     <!-- Use '' so that nicks can easily be added in "" -->
     <tux:credits for="The Developers">
       <tux:author who='Bill Kendrick' what="Original Developer"/>
@@ -108,5 +108,5 @@
       <tux:special who='Larry Ewing' what="Creator of Tux, the Linux penguin"/>
       <tux:special who='SDL, OpenAL, and OpenGL' what="For making such a great gaming experience possible on Linux"/>
     </tux:credits>
-  </div>
+  </article>
 </tux:page>
