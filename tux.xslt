@@ -66,9 +66,6 @@
   <xsl:template match="tux:screenshots">
     <div>
       <xsl:for-each select="node()">
-        <xsl:if test="position() != 1 and position() mod ../@cols = 1">
-          <br/>
-        </xsl:if>
         <xsl:apply-templates select="."/>
       </xsl:for-each>
     </div>
