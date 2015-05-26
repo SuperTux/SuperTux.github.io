@@ -11,7 +11,7 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Verdana, sans-serif;
 }
 
-#sideshot {
+aside.screenshots {
     float: right;
     width: 210px;
     text-align: center;
