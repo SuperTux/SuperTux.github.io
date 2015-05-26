@@ -59,8 +59,7 @@ h1 img {
     color: rgba(0, 0, 0, 1);
 }
 
-#pagebodyone {
-    margin-top: 1em;
+.screenshotpage {
     text-align: center;
     color: rgba(255, 255, 255, 1);
 }
