@@ -11,7 +11,6 @@
       indent="no"
       encoding="utf-8"
   />
-  <xsl:strip-space elements="*"/>
 
   <!--
     "Interesting" templates. Templates that match, have high
