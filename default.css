@@ -181,7 +181,11 @@ a {
 }
 
 .datestamp {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
     font-size: 75%;
-    float: right;
+    text-align: right;
     color: rgba(128, 128, 128, 1);
 }

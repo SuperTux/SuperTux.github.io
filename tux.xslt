@@ -109,13 +109,13 @@
     <xsl:apply-templates select="node()"/>
   </xsl:template>
   <xsl:template match="tux:news">
-    <br/>
     <hr/>
-    <div class="datestamp">
-      <p><xsl:value-of select="@date"/></p>
-    </div>
-    <br/>
-    <xsl:apply-templates select="*"/>
+    <section class="news">
+      <div class="datestamp">
+        <p><xsl:value-of select="@date"/></p>
+      </div>
+      <xsl:apply-templates select="*"/>
+    </section>
   </xsl:template>
 
   <xsl:template match="tux:credits">
