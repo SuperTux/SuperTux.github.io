@@ -32,14 +32,14 @@
       <p>
         Server:  <a href="irc://irc.freenode.net/#supertux">irc.freenode.net</a><br/>
         Channel: #supertux<br/>
-        <a href="http://webchat.freenode.net/?channels=%23supertux&amp;uio=d4">webchat.freenode.net supertux style</a>
+        <iframe src="http://webchat.freenode.net?channels=%23supertux" width="647" height="400"></iframe>
       </p>
     </section>
 
     <section>
       <h3>Github</h3>
       <p>You can also <a href="https://github.com/SuperTuxTeam/supertux/">find us on Github.</a>
-      </p>
-    </section>
-  </article>
+    </p>
+  </section>
+</article>
 </tux:page>
