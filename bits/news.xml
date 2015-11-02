@@ -8,11 +8,11 @@
       in December. We currently are planning on that month, so right now
       is a crucial time to have people bug testing. If you would like to
       help with bug testing you can find the latest downloads in the
-      <a href="download.xml">Download</a> section. As always, if you
+      <a href="download.html">Download</a> section. As always, if you
       come across a bug ( or what might be one, feel free to report it
       in our <a href="https://github.com/SuperTux/supertux/issues">Bug Tracker.</a>
       If you would like to help us get this release out you can find more
-      information on our <a href="contact.xml">contact section.</a>
+      information on our <a href="contact.html">contact section.</a>
     </p>
   </tux:news>
   <tux:news date="May 20 2015">
@@ -57,7 +57,7 @@
     <p>
       <em>We are excited to bring to you 0.3.5 beta 1 git snapshot!</em>
       We put a ton of changes and improvements into this release.
-      Head over to the <a href="download.xml">Downloads Section</a> to try it out!!
+      Head over to the <a href="download.html">Downloads Section</a> to try it out!!
     </p>
   </tux:news>
   <tux:news date="2003">
