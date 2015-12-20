@@ -41,5 +41,11 @@
       <p>You can also <a href="https://github.com/SuperTuxTeam/supertux/">find us on Github.</a>
     </p>
   </section>
+  <section>
+    <h3>Links</h3>
+    <p>A great guide for the SuprTux 0.3 editor, created by Devyn Collier Johnson can be found here:
+      <a href="http://dcjtech.info/topic/gaming/#supertux">DCJTech Gaming</a>
+    </p>
+  </section>
 </article>
 </tux:page>
