@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <tux:downloads dir="https://github.com/SuperTux/supertux/releases/download/v0.4.0/" xmlns:tux="http://supertux.github.io/">
   <tux:download-os os="Windows">
-    <tux:download file="supertux-0.4.0-setup.exe"/>
+    <tux:download file="SuperTux-0.4.0-win32.msi"/>
   </tux:download-os>
   <tux:download-os os="Mac OS X">
-    <tux:download file="supertux-0.4.0-macosx-universal.dmg" comment="Universal binary"/>
-    <tux:download file="supertux-0.4.0-macosx.dmg" comment="PPC only"/>
+    <tux:download file="SuperTux-0.4.0-Darwin.dmg" comment="Universal binary"/>
   </tux:download-os>
   <tux:download-os os="Source Code">
     <tux:download file="supertux-0.4.0.tar.bz2"/>
