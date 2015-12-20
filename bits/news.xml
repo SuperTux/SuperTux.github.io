@@ -49,6 +49,17 @@
       Merry Christmas everyone, and happy playing!
     </p>
   </tux:news>
+  <tux:news date="December 3 2015">
+    <p>
+      If you want to stay up-to-date with what's going on with SuperTux,
+      you can do so by following us on Twitter.
+    </p>
+    <p>
+      Stay tuned for further updates, especially regarding the upcoming
+      stable release of SuperTux later this year.
+    </p>
+      <a href="https://twitter.com/supertux_team">Follow us on Twitter here.</a>
+  </tux:news>
   <tux:news date="May 21 2015">
     <p>
       We (The SuperTux Development Team) have put our heads together,
