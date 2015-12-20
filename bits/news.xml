@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <tux:newsfeed xmlns:tux="http://supertux.github.io/">
   <!-- arguably this should be split into one file per news entry -->
+  <tux:news date="December 20 2015">
+    <p>
+      After more than a decade of slow, but hard development the SuperTux team is happy to announce the first stable release after 0.1.3 (which was released on 2005-07-09), 0.4.0.
+
+      Compared to 0.1.3, this release features:
+      <br />
+      <ul>
+        <li>a nearly completely rewritten game engine based on OpenGL, OpenAL, SDL2, ...</li>
+        <li>support for translations</li>
+        <li>in-game manager for downloadable add-ons and translations</li>
+        <li>Bonus Island III, a for now unfinished Forest Island and the development levels in Incubator Island</li>
+        <li>a final boss in Icy Island</li>
+        <li>new and improved soundtracks and sound effects</li>
+        <li>new badguys, bonuses and power-ups (air-, earth- and ice-flower)</li>
+        <li>a halloween tilemap</li>
+        <li>new graphic effects (glowing objects, particles, ...)</li>
+        <li>levels and worldmaps are scriptable using squirrel</li>
+        <li>much more game objects: trampolines, switches, portable stones, wind, moving platforms, ... - most of them have scripting APIs</li>
+        <li>improved statistics</li>
+        <li>many invisible changes, like unit tests, efficiency improvements and more bugfixes</li>
+        <li>much more...</li>
+      </ul>
+      <br />
+      And of course we updated the official levels to make use of all the new features.
+
+      Compared to the latest beta, 0.3.5a, this release features:
+      <br />
+      <ul>
+        <li>updated translations</li>
+        <li>reworked add-on manager to support downloadable and updatable localization packs</li>
+        <li>many bugfixes</li>
+        <li>added iced-graphics to some more badguys</li>
+        <li>melting animation for some badguys</li>
+        <li>updated more levels (fix playability, ...)</li>
+        <li>updated build system, featuring unit tests, libraries as git submodules and improved Travis-CI builds to support nightly builds</li>
+        <li>more levels in Incubator Island</li>
+        <li>support for horizontal and vertical gradients that span the length / height of a sector. Add <kbd>(direction "horizontal_sector / vertical_sector")</kbd> to your gradient.</li>
+        <li>much more...</li>
+      </ul>
+      <br />
+      A big thanks also to our translators who worked very hard, even providing translations for strings changed after the announced
+      string freeze. We'll try to not let that happen for the next release.
+
+      Note: Please remember that language packs are now managed via the add-on manager. This means that you need
+      to install language packs if you previously used a localized interface. Moreover, you may want to regularly reinstall the language pack from the add-on manager to keep the localization up-to-date (an update system is planned for the 0.5.0 release: #270).
+      Merry Christmas everyone, and happy playing!
+    </p>
+  </tux:news>
   <tux:news date="May 21 2015">
     <p>
       We (The SuperTux Development Team) have put our heads together,
@@ -21,7 +69,7 @@
       few days re-doing the website and updating its info.
     </p>
     <p>
-    The latest release (0.3.5a) Brought the following improvements over earlier versions:
+      The latest release (0.3.5a) Brought the following improvements over earlier versions:
     </p>
     <ul>
       <li>move to SDL2 for graphics rendering</li>
@@ -39,46 +87,46 @@
       <li>new powerups: air- and earth-flower</li>
       <li>support for horizontal gradients in levels (add
         (direction "vertical|horizontal") to your level)</li>
-      <li>A 64 bit Windows installer</li>
-    </ul>
-    <p>
-      Here is a link to <a href="https://www.youtube.com/playlist?list=PLhVp_BLj959LBm30GjVOQMyGQFOG-yKzm">video footage</a> of SuperTux 0.3.5a courtesy of o11c.
-    </p>
-  </tux:news>
-  <tux:news date="May 2015">
-    <p>
-      Yay! 3 weeks after our 0.3.5 release we bring you release 0.3.5a,
-      which fixes a ton of bugs and we added a <em>64 bit Windows installer</em>!!
-      As always, if you run into bugs, or would like to join us in
-      developing this game, you can find us on <a href="https://github.com/SuperTux/supertux">Github</a>.
-    </p>
-  </tux:news>
-  <tux:news date="April 2015">
-    <p>
-      <em>We are excited to bring to you 0.3.5 beta 1 git snapshot!</em>
-      We put a ton of changes and improvements into this release.
-      Head over to the <a href="download.html">Downloads Section</a> to try it out!!
-    </p>
-  </tux:news>
-  <tux:news date="2003">
-    <p>
-      The <em>Milestone 1</em> release of SuperTux features:
-    </p>
-    <ul>
-      <li>9 enemies</li>
-      <li>26 playable levels</li>
-      <li>Software and OpenGL rendering modes</li>
-      <li>configurable joystick and keyboard input</li>
-      <li>new music</li>
-      <li>completely redone graphics</li>
-    </ul>
-    <p>
-      Together with a little story, we hope to provide a good
-      gaming experience with this first Milestone release.
-    </p>
-    <p>
-      SuperTux is available for Windows, Linux, MacOSX as well as
-      numerous other more exotic systems.
-    </p>
-  </tux:news>
-</tux:newsfeed>
+        <li>A 64 bit Windows installer</li>
+      </ul>
+      <p>
+        Here is a link to <a href="https://www.youtube.com/playlist?list=PLhVp_BLj959LBm30GjVOQMyGQFOG-yKzm">video footage</a> of SuperTux 0.3.5a courtesy of o11c.
+      </p>
+    </tux:news>
+    <tux:news date="May 2015">
+      <p>
+        Yay! 3 weeks after our 0.3.5 release we bring you release 0.3.5a,
+        which fixes a ton of bugs and we added a <em>64 bit Windows installer</em>!!
+        As always, if you run into bugs, or would like to join us in
+        developing this game, you can find us on <a href="https://github.com/SuperTux/supertux">Github</a>.
+      </p>
+    </tux:news>
+    <tux:news date="April 2015">
+      <p>
+        <em>We are excited to bring to you 0.3.5 beta 1 git snapshot!</em>
+        We put a ton of changes and improvements into this release.
+        Head over to the <a href="download.html">Downloads Section</a> to try it out!!
+      </p>
+    </tux:news>
+    <tux:news date="2003">
+      <p>
+        The <em>Milestone 1</em> release of SuperTux features:
+      </p>
+      <ul>
+        <li>9 enemies</li>
+        <li>26 playable levels</li>
+        <li>Software and OpenGL rendering modes</li>
+        <li>configurable joystick and keyboard input</li>
+        <li>new music</li>
+        <li>completely redone graphics</li>
+      </ul>
+      <p>
+        Together with a little story, we hope to provide a good
+        gaming experience with this first Milestone release.
+      </p>
+      <p>
+        SuperTux is available for Windows, Linux, MacOSX as well as
+        numerous other more exotic systems.
+      </p>
+    </tux:news>
+  </tux:newsfeed>
