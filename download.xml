@@ -22,25 +22,5 @@
       </p>
     </section>
     <tux:include>bits/downloads-oldstable.xml</tux:include>
-    <br />
-    <br />
-    <section>
-      <h3>Git Snapshot/Beta Version</h3>
-      <p>
-        The <em>Git snapshot</em> is an <em>beta</em> version of
-        <em>SuperTux</em>. If you run accross any issues
-        please report them in our <a href="https://github.com/SuperTux/supertux/issues">Bug Tracker</a>.
-      </p>
-      <tux:include>bits/downloads-beta.xml</tux:include>
-      <div style="padding-left: 1em; clear: both;">
-        <h4>Other</h4>
-        <p>
-          Other sources of <em>SuperTux</em>, for example the <em>Git repository</em>, are documented on the:
-        </p>
-        <ul>
-          <li><a href="https://github.com/SuperTux/supertux/wiki/Downloads">Wiki Download Page</a></li>
-        </ul>
-      </div>
-    </section>
   </article>
 </tux:page>
