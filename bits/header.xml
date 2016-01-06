@@ -10,8 +10,7 @@
       <li><a href="authors.html">Contributors</a></li>
     </ul>
     <ul class="menu external">
-      <!-- <li><a href="https://github.com/SuperTux/supertux/wiki">Wiki</a></li> -->
-      <li><a href="http://supertux.lethargik.org/wiki/Main_Page">Wiki</a></li>
+      <li><a href="https://github.com/SuperTux/supertux/wiki">Wiki</a></li>
       <li><a href="https://github.com/SuperTux/supertux/issues">Bugs</a></li>
       <li><a href="http://forum.freegamedev.net/viewforum.php?f=66">Forum</a></li>
     </ul>
