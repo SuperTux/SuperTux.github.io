@@ -1,6 +1,5 @@
 HTMLOUT = \
   index.html \
-  authors.html \
   contact.html \
   download.html \
   screenshots.html
@@ -33,6 +32,7 @@ content: directories $(OUTFILES)
 	cp $(CPFLAGS) images/*.jpg build/images/
 	cp $(CPFLAGS) images/*.png build/images/
 	cp $(CPFLAGS) images/small/*.png build/images/small/
+	cp $(CPFLAGS) images/0_4_0/small/*.png build/images/small/
 #cp $(CPFLAGS) milestone2/images/*.jpg build/milestone2/images/
 #	cp $(CPFLAGS) milestone2/images/*.png build/milestone2/images/
 #	cp $(CPFLAGS) milestone2/images/*.gif build/milestone2/images/

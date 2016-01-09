@@ -4,7 +4,12 @@
   <article id="pagebody" class="screenshotpage">
     <h2>Welcome to our screenshot page! Enjoy!</h2>
     <section>
-      <h3>Release 0.3.5 (current beta)</h3>
+      <h3>Release 0.4.0 (current stable)</h3>
+      <tux:include>bits/screenshots-0.4.0.xml</tux:include>
+    </section>
+
+    <section>
+      <h3>Release 0.3.5</h3>
       <tux:include>bits/screenshots-0.3.5.xml</tux:include>
     </section>
 
