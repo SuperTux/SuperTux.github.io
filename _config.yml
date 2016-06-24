@@ -1,0 +1,7 @@
+name: SuperTux
+markdown: kramdown
+highlighter: rouge
+# baseurl: https://supertuxproject.org
+exclude:
+  - README.md
+output: true

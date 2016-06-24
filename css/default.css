@@ -1,10 +1,12 @@
+---
+---
 /* backward compatibility for new HTML5 tags */
 article, aside, figure, footer, header, hgroup, menu, nav, section { display:block; }
 
 body {
     margin: 0;
     background-color: rgba(62, 102, 125, 1);
-    background-image: url("images/background.jpg");
+    background-image: url("{{ site.baseurl }}/images/background.jpg");
     color: rgba(0, 0, 0, 1);
     line-height: 1.5em;
     max-width: 100%;
@@ -48,7 +50,7 @@ h1 img {
     margin: 0;
     padding: 0 0 1em 0;
     width: 100%;
-    background-image: url("images/topshadow.png"), url("images/bottomshadow.png");
+    background-image: url("{{ site.baseurl }}/images/topshadow.png"), url("{{ site.baseurl }}/images/bottomshadow.png");
     background-position: top, bottom;
     background-repeat: repeat-x, repeat-x;
     overflow: auto;
