@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<article id="pagebody">
+  <section class="news">
+    <div class="datestamp">
+      <p>{{ page.date | date: "%b %-d, %Y" }}</p>
+    </div>
+    <h2><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
+    {{ content }}
+  </section>
+</article>

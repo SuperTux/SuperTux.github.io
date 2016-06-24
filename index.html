@@ -15,5 +15,15 @@ title: Home
     similar to the original Super Mario games covered under the
     <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>.
   </p>
-  <!--<tux:include>bits/news.xml</tux:include>-->
+
+  {% for post in site.posts %}
+  <hr/>
+  <section class="news">
+    <div class="datestamp">
+      <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+    </div>
+    <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+    {{ post.content }}
+  </section>
+  {% endfor %}
 </article>
