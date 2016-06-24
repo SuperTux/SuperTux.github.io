@@ -5,3 +5,6 @@ highlighter: rouge
 exclude:
   - README.md
 output: true
+
+permalink: /news/:year/:month/:day/:title
+timezone: UTC
