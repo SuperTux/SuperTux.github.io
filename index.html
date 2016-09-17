@@ -5,7 +5,11 @@ title: Home
 
 <aside class="screenshots">
   <h3>Screenshots</h3>
-  <!--<tux:summarize>bits/screenshots-0.3.5.xml</tux:summarize>-->
+  {% for screenshot in site.data.screenshots["v0.3.5"] %}
+    {% if screenshot.sample %}
+      <a href="{{ site.baseurl }}/{{ screenshot.large }}"><img class="screenshot" alt="{{ site.baseurl }}/{{ screenshot.large }}" src="{{ site.baseurl }}/{{ screenshot.small }}" width="200" height="150"/></a>
+    {% endif %}
+  {% endfor %}
   <a href="screenshots.html">More Screenshots</a>
 </aside>
 <article id="pagebody">
