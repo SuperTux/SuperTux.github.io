@@ -4,7 +4,12 @@ highlighter: rouge
 # baseurl: https://supertuxproject.org
 exclude:
   - README.md
+gems:
+  - jekyll-paginate
 output: true
 
 permalink: /news/:year/:month/:day/:title
 timezone: UTC
+
+paginate: 3
+paginate_path: /news/:num
