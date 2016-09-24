@@ -11,8 +11,7 @@ doubt. Yes, that means stick around IRC longer than 2 minutes.
 
 ### Mailing List
 
-This mailing list is for comments, criticisms and everything development
-related. Feel free to chime in!
+This mailing list is for everything development related. Feel free to chime in!
 
 - [supertux-devel@lists.lethargik.org](mailto:supertux-devel@lists.lethargik.org)
 - [Archive](http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org)
@@ -26,15 +25,18 @@ contributions.
 
 ### IRC
 
-Server: [chat.freenode.net](ircs://chat.freenode.net/#supertux)
-
-Channel: #supertux
+Most development related discussions that need to happen in real time happen on
+IRC. You can find us on [freenode](https://freenode.net/) (server:
+chat.freenode.net) in the [#supertux](ircs://chat.freenode.net/#supertux)
+channel. Please note that people might not be available all day, so wait before
+you leave.
 
 ### GitHub
 
-You can also [find us on GitHub](https://github.com/SuperTux/supertux).
+We're [@SuperTux](https://github.com/SuperTux) on GitHub. This is the place
+where SuperTux's source code and issue tracker is hosted.
 
 ### Links
 
-A great guide for the SuprTux 0.3 editor, created by Devyn Collier Johnson can
-be found here: [DCJTech Gaming](http://dcjtech.info/topic/gaming/#supertux)
+A great guide for the SuperTux 0.3 editor, created by Devyn Collier Johnson can
+be found at [DCJTech Gaming](http://dcjtech.info/topic/gaming/#supertux).
