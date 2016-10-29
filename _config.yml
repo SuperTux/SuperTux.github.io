@@ -6,5 +6,8 @@ exclude:
   - README.md
 output: true
 
+gems:
+  - jekyll-feed
+
 permalink: /news/:year/:month/:day/:title
 timezone: UTC
