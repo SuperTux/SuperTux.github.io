@@ -8,6 +8,7 @@ output: true
 
 gems:
   - jekyll-feed
+  - jekyll-seo-tag
 
 permalink: /news/:year/:month/:day/:title
 timezone: UTC
