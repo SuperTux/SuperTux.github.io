@@ -5,8 +5,7 @@
     <meta charset="utf-8">
     <title>SuperTux | {{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="The SuperTux Team">
-    <meta name="description" content="{% if page.meta-description %}{{ page.meta-description }}{% else %}The SuperTux Team{% endif %}">
+    {% seo title=false %}
 
     <link href="{{ site.baseurl }}/css/default.css" rel="stylesheet">
 

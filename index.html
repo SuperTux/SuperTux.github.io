@@ -23,14 +23,14 @@ title: Home
     <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>.
   </p>
 
-  {% for post in site.posts %}
   <hr/>
   <section class="news">
     <div class="datestamp">
-      <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+      <p>{{ site.posts.first.date | date: "%b %-d, %Y" }}</p>
     </div>
-    <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-    {{ post.content }}
+    <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ site.posts.first.title }}</a></h2>
+    {{ site.posts.first.content }}
   </section>
-  {% endfor %}
+  <hr/>
+  <p>Read more news posts <a href="{{ site.baseurl }}/news/">in the news section</a>.</p>
 </article>
