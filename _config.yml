@@ -4,12 +4,11 @@ highlighter: rouge
 # baseurl: https://supertuxproject.org
 exclude:
   - README.md
-gems:
-  - jekyll-paginate
 output: true
 
 gems:
   - jekyll-feed
+  - jekyll-paginate
   - jekyll-seo-tag
 
 permalink: /news/:year/:month/:day/:title
