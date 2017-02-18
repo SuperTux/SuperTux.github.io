@@ -12,3 +12,13 @@ This is the current stable version of SuperTux.
 - Windows: [SuperTux-v0.5.1-win64.msi (64-bit)](https://github.com/SuperTux/supertux/releases/download/v0.5.1/SuperTux-v0.5.1-win64.msi) [SuperTux-v0.5.1-win32.msi (32-bit)](https://github.com/SuperTux/supertux/releases/download/v0.5.1/SuperTux-v0.5.1-win32.msi)
 - OS X/macOS: [SuperTux-v0.5.1-Darwin.dmg](https://github.com/SuperTux/supertux/releases/download/v0.5.1/SuperTux-v0.5.1-Darwin.dmg)
 - Source Code: [SuperTux-v0.5.1-Source.tar.gz](https://github.com/SuperTux/supertux/releases/download/v0.5.1/SuperTux-v0.5.1-Source.tar.gz)
+
+### SuperTux on Mobile Platforms
+
+Right now, there is no official support for mobile platforms (e.g. Android,
+iOS). However, there are community-provided ports for some of these platforms.
+**Since we do not own or control these, use of them is at your own discretion.**
+Also, it might be possible that these ports are out of date or have a limited
+set of features.
+
+- Android: [Google Play](https://play.google.com/store/apps/details?id=org.lethargik.supertux2&hl=en) [Source Code](https://github.com/pelya/supertux)
