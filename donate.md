@@ -10,6 +10,10 @@ project, you can donate! For now, you can use this page to donate. Later on, we
 might also provide the option of "purchasing" the game via some distributor (it
 would stay free and open source though).
 
+From time to time we will also make available special gift packages to donors,
+usually in the form of add-ons or levels that are sent out to donors before
+being released to the public.
+
 {% include donate.html %}
 
 If you don't want to use the buttons above, you can also use these details when
