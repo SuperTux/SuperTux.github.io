@@ -9,6 +9,16 @@ Here are the many ways you can contact the team. Usually they will answer quite
 quickly, but if they don't please be patient and give them the benefit of the
 doubt. Yes, that means stick around IRC longer than 2 minutes.
 
+### Social Networks
+
+You can follow us on some social networks to receive updates! Also, feel free to
+get in touch with us using them.
+
+- [@supertux\_team](https://twitter.com/supertux_team) on
+  [Twitter](https://twitter.com)
+- [@SuperTux@mastodon.cloud](https://mastodon.cloud/@SuperTux) on
+  [Mastodon](https://github.com/tootsuite/mastodon)/GNU social
+
 ### Mailing List
 
 This mailing list is for everything development related. Feel free to chime in!
