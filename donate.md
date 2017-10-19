@@ -33,7 +33,7 @@ money.
 Donations help us improve the game and keep it alive. Examples of what the money
 could be used for are:
 
-- The [supertuxproject.org](https://supertuxproject.org/) domain
+- The [supertux.org](https://supertux.org/) domain
 - Servers for hosting websites, interactive game content, and development tools
 - Salary for artists that produce improved artwork
 - more…
