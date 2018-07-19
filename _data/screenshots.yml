@@ -76,3 +76,17 @@ v0.4.0:
     small: "images/0_4_0/small/0_4_0_10.png"
   - large: "images/0_4_0/0_4_0_11.png"
     small: "images/0_4_0/small/0_4_0_11.png"
+
+v0.5.1:
+  - large: "images/0_5_1/0_5_1_1.png"
+    small: "images/0_5_1/small/0_5_1_1.png"
+  - large: "images/0_5_1/0_5_1_2.png"
+    small: "images/0_5_1/small/0_5_1_2.png"
+  - large: "images/0_5_1/0_5_1_3.png"
+    small: "images/0_5_1/small/0_5_1_3.png"
+  - large: "images/0_5_1/0_5_1_4.png"
+    small: "images/0_5_1/small/0_5_1_4.png"
+  - large: "images/0_5_1/0_5_1_5.png"
+    small: "images/0_5_1/small/0_5_1_5.png"
+  - large: "images/0_5_1/0_5_1_6.png"
+    small: "images/0_5_1/small/0_5_1_6.png"

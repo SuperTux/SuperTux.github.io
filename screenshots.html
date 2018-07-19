@@ -7,6 +7,15 @@ title: Screenshots
   <h2>Screenshots</h2>
 
   <section>
+    <h3>Release 0.5.1</h3>
+    <div>
+      {% for screenshot in site.data.screenshots["v0.5.1"] %}
+        <a href="{{ site.baseurl }}/{{ screenshot.large }}"><img class="screenshot" alt="{{ site.baseurl }}/{{ screenshot.large }}" src="{{ site.baseurl }}/{{ screenshot.small }}" width="200" height="125"/></a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section>
     <h3>Release 0.4.0</h3>
     <div>
       {% for screenshot in site.data.screenshots["v0.4.0"] %}
