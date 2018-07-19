@@ -7,11 +7,13 @@ title: Download
 
 ### Linux
 
-**Please check the package repositories of your distribution.**
+An official distribution-independend [Flatpak](https://flatpak.org/)
+package for Linux is available via
+[Flathub](https://flathub.org/apps/details/org.supertuxproject.SuperTux):
 
-Right now, we do not provide official binary releases for Linux. This will
-change for the next official release, with which we will ship AppImages. In the
-meantime, please use the packages included in your distribution.
+- [**SuperTux v0.5.1** (.flatpakref)](https://flathub.org/repo/appstream/org.supertuxproject.SuperTux.flatpakref)
+
+SuperTux packages are also available in many Linux distributions.
 
 ### Windows
 
