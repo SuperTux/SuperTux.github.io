@@ -12,6 +12,20 @@ v0.1.3:
   - large: "images/supertux-0.1.3-6.jpg"
     small: "images/supertux-0.1.3-6_small.jpg"
 
+v0.1.4:
+  - large: "images/supertux-0.1.4-1.png"
+    small: "images/supertux-0.1.4-1_small.png"
+  - large: "images/supertux-0.1.3-2.jpg"
+    small: "images/supertux-0.1.3-2_small.jpg"
+  - large: "images/supertux-0.1.3-3.jpg"
+    small: "images/supertux-0.1.3-3_small.jpg"
+  - large: "images/supertux-0.1.3-4.jpg"
+    small: "images/supertux-0.1.3-4_small.jpg"
+  - large: "images/supertux-0.1.3-5.jpg"
+    small: "images/supertux-0.1.3-5_small.jpg"
+  - large: "images/supertux-0.1.3-6.jpg"
+    small: "images/supertux-0.1.3-6_small.jpg"
+
 v0.3.0:
   - large: "images/supertux-0.3.0-1.jpg"
     small: "images/supertux-0.3.0-1_small.jpg"
