@@ -7,26 +7,22 @@ title: Download
 
 ### Linux
 
-An official distribution-independend [Flatpak](https://flatpak.org/)
-package for Linux is available via
-[Flathub](https://flathub.org/apps/details/org.supertuxproject.SuperTux):
-
-- [**SuperTux v0.5.1** (.flatpakref)](https://flathub.org/repo/appstream/org.supertuxproject.SuperTux.flatpakref)
+- [**SuperTux v0.6.0** (.AppImage)](https://github.com/SuperTux/supertux/releases/download/v0.6.0/SuperTux_2-v0.6.0.glibc2.14-x86_64.AppImage)
 
 SuperTux packages are also available in many Linux distributions.
 
 ### Windows
 
-- [**SuperTux v0.5.1** (.msi) 64-bit](https://github.com/SuperTux/supertux/releases/download/v0.5.1/SuperTux-v0.5.1-win64.msi)
-- [**SuperTux v0.5.1** (.msi) 32-bit](https://github.com/SuperTux/supertux/releases/download/v0.5.1/SuperTux-v0.5.1-win32.msi)
+- [**SuperTux v0.6.0** (.msi) 64-bit](https://github.com/SuperTux/supertux/releases/download/v0.6.0/SuperTux-v0.6.0-win64.msi)
+- [**SuperTux v0.6.0** (.msi) 32-bit](https://github.com/SuperTux/supertux/releases/download/v0.6.0/SuperTux-v0.6.0-win32.msi)
 
 ### macOS
 
-- [**SuperTux v0.5.1** (.dmg)](https://github.com/SuperTux/supertux/releases/download/v0.5.1/SuperTux-v0.5.1-Darwin.dmg)
+- [**SuperTux v0.6.0** (.dmg)](https://github.com/SuperTux/supertux/releases/download/v0.6.0/SuperTux-v0.6.0-Darwin.dmg)
 
 ### Source Code
 
-- [**SuperTux v0.5.1** (.tar.gz)](https://github.com/SuperTux/supertux/releases/download/v0.5.1/SuperTux-v0.5.1-Source.tar.gz)
+- [**SuperTux v0.6.0** (.tar.gz)](https://github.com/SuperTux/supertux/releases/download/v0.6.0/SuperTux-v0.6.0-Source.tar.gz)
 
 ### Mobile Platforms
 
