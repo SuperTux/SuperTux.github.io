@@ -8,7 +8,7 @@ title: Download
 ### Linux
 
 - [**SuperTux v0.6.0** (.AppImage)](https://github.com/SuperTux/supertux/releases/download/v0.6.0/SuperTux_2-v0.6.0.glibc2.14-x86_64.AppImage)
-- [**SuperTux v0.6.0**](https://flathub.org/apps/details/org.supertuxproject.SuperTux)) [(.flatpakref)](https://flathub.org/repo/appstream/org.supertuxproject.SuperTux.flatpakref)
+- [**SuperTux v0.6.0**](https://flathub.org/apps/details/org.supertuxproject.SuperTux) [(.flatpakref)](https://flathub.org/repo/appstream/org.supertuxproject.SuperTux.flatpakref)
 
 SuperTux packages are also available in many Linux distributions.
 
