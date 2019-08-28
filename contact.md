@@ -7,7 +7,7 @@ title: Contact
 
 Here are the many ways you can contact the team. Usually they will answer quite
 quickly, but if they don't please be patient and give them the benefit of the
-doubt. Yes, that means stick around IRC longer than 2 minutes.
+doubt. Yes, that means stick around IRC longer than 2 minutes. ;)
 
 ### Social Networks
 
@@ -45,8 +45,3 @@ you leave.
 
 We're [@SuperTux](https://github.com/SuperTux) on GitHub. This is the place
 where SuperTux's source code and issue tracker is hosted.
-
-### Links
-
-A great guide for the SuperTux 0.3 editor, created by Devyn Collier Johnson can
-be found at [DCJTech Gaming](http://dcjtech.info/topic/gaming/#supertux).

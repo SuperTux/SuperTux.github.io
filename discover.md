@@ -1,6 +1,6 @@
 ---
 layout: in-pagebody
-title: Discover
+title: About
 ---
 
 ## Welcome to SuperTux!
@@ -17,8 +17,7 @@ contribute such content by using the integrated level editor.
 ### The Story: Penny Gets Captured!
 
 Tux and Penny were out having a nice picnic on the ice fields of Antarctica.
-Suddenly, a creature jumped from behind an ice bush, there was a flash, and Tux
-fell asleep!
+Suddenly, everything was a blur as Tux was knocked out!
 
 When Tux wakes up, he finds that Penny is missing. Where she lay before now lies
 a letter. "Tux, my arch enemy!" says the letter. "I have captured your beautiful
@@ -27,4 +26,4 @@ with my minions. Give up on the thought of trying to reclaim her, you haven't
 got a chance! -Nolok"
 
 Tux looks and sees Nolok's fortress in the distance. Determined to save his
-beloved Penny, he begins his journey.
+beloved Penny, he begins his journey through the Icy Island and beyond.
