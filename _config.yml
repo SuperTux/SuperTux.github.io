@@ -6,7 +6,7 @@ exclude:
   - README.md
 output: true
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
