@@ -7,7 +7,7 @@ title: Download
 
 Here is the page to download SuperTux in all its many forms!
 
-## Current Stable Release (0.6.0)
+## Current Stable Release (0.6.1)
 
 The main releases of SuperTux are available on Windows, macOS and Linux. Listed
 here are the download links for the current stable release.
