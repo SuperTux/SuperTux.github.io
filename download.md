@@ -14,19 +14,19 @@ here are the download links for the current stable release.
 
 ### Linux
 
-- [**SuperTux v0.6.0** (.AppImage)](https://github.com/SuperTux/supertux/releases/download/v0.6.0/SuperTux_2-v0.6.0.glibc2.14-x86_64.AppImage)
-- [**SuperTux v0.6.0**](https://flathub.org/apps/details/org.supertuxproject.SuperTux) [(.flatpakref)](https://flathub.org/repo/appstream/org.supertuxproject.SuperTux.flatpakref)
+- [**SuperTux v0.6.1** (.AppImage)](https://github.com/SuperTux/supertux/releases/download/v0.6.1/SuperTux_2-v0.6.1.glibc2.14-x86_64.AppImage)
+- [**SuperTux v0.6.1**](https://flathub.org/apps/details/org.supertuxproject.SuperTux) [(.flatpakref)](https://flathub.org/repo/appstream/org.supertuxproject.SuperTux.flatpakref)
 
 SuperTux packages are also available in many Linux distributions.
 
 ### Windows
 
-- [**SuperTux v0.6.0** (.msi) 64-bit](https://github.com/SuperTux/supertux/releases/download/v0.6.0/SuperTux-v0.6.0-win64.msi)
-- [**SuperTux v0.6.0** (.msi) 32-bit](https://github.com/SuperTux/supertux/releases/download/v0.6.0/SuperTux-v0.6.0-win32.msi)
+- [**SuperTux v0.6.1** (.msi) 64-bit](https://github.com/SuperTux/supertux/releases/download/v0.6.1/SuperTux-v0.6.1-win64.msi)
+- [**SuperTux v0.6.1** (.msi) 32-bit](https://github.com/SuperTux/supertux/releases/download/v0.6.1/SuperTux-v0.6.1-win32.msi)
 
 ### macOS
 
-- [**SuperTux v0.6.0** (.dmg)](https://github.com/SuperTux/supertux/releases/download/v0.6.0/SuperTux-v0.6.0-Darwin.dmg)
+- [**SuperTux v0.6.1** (.dmg)](https://github.com/SuperTux/supertux/releases/download/v0.6.1/SuperTux-v0.6.1-Darwin.dmg)
 
 ### Other Downloads
 
@@ -46,7 +46,7 @@ Play at your own risk!
 Do you want the direct source code of the game to do whatever you want with?
 Get it here:
 
-- [**SuperTux v0.6.0** (.tar.gz)](https://github.com/SuperTux/supertux/releases/download/v0.6.0/SuperTux-v0.6.0-Source.tar.gz)
+- [**SuperTux v0.6.1** (.tar.gz)](https://github.com/SuperTux/supertux/releases/download/v0.6.1/SuperTux-v0.6.1-Source.tar.gz)
 
 #### Mobile Platforms (Android)
 
