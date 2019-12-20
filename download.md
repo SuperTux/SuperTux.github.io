@@ -14,7 +14,7 @@ here are the download links for the current stable release.
 
 ### Linux
 
-- [**SuperTux v0.6.1** (.AppImage)](https://github.com/SuperTux/supertux/releases/download/v0.6.1/SuperTux_2-v0.6.1.glibc2.14-x86_64.AppImage)
+- [**SuperTux v0.6.1.1** (.AppImage)](https://github.com/SuperTux/supertux/releases/download/v0.6.1.1/SuperTux_2-v0.6.1.1.glibc2.27-x86_64.AppImage)
 - [**SuperTux v0.6.1**](https://flathub.org/apps/details/org.supertuxproject.SuperTux) [(.flatpakref)](https://flathub.org/repo/appstream/org.supertuxproject.SuperTux.flatpakref)
 
 SuperTux packages are also available in many Linux distributions.
