@@ -16,8 +16,6 @@ get in touch with us using them.
 
 - [@supertux\_team](https://twitter.com/supertux_team) on
   [Twitter](https://twitter.com)
-- [@SuperTux@mastodon.cloud](https://mastodon.cloud/@SuperTux) on
-  [Mastodon](https://github.com/tootsuite/mastodon)/GNU social
 
 ### Mailing List
 
