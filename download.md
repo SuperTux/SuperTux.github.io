@@ -7,26 +7,26 @@ title: Download
 
 Here is the page to download SuperTux in all its many forms!
 
-## Current Stable Release (0.6.1)
+## Current Stable Release (0.6.2)
 
 The main releases of SuperTux are available on Windows, macOS and Linux. Listed
 here are the download links for the current stable release.
 
 ### Linux
 
-- [**SuperTux v0.6.1.1** (.AppImage)](https://github.com/SuperTux/supertux/releases/download/v0.6.1.1/SuperTux_2-v0.6.1.1.glibc2.27-x86_64.AppImage)
+- [**SuperTux v0.6.2** (.AppImage)](https://github.com/SuperTux/supertux/releases/download/v0.6.2/SuperTux_2-v0.6.2.glibc2.27-x86_64.AppImage)
 - [**SuperTux v0.6.1**](https://flathub.org/apps/details/org.supertuxproject.SuperTux) [(.flatpakref)](https://flathub.org/repo/appstream/org.supertuxproject.SuperTux.flatpakref)
 
 SuperTux packages are also available in many Linux distributions.
 
 ### Windows
 
-- [**SuperTux v0.6.1** (.msi) 64-bit](https://github.com/SuperTux/supertux/releases/download/v0.6.1/SuperTux-v0.6.1-win64.msi)
-- [**SuperTux v0.6.1** (.msi) 32-bit](https://github.com/SuperTux/supertux/releases/download/v0.6.1/SuperTux-v0.6.1-win32.msi)
+- [**SuperTux v0.6.2** (.msi) 64-bit](https://github.com/SuperTux/supertux/releases/download/v0.6.2/SuperTux-v0.6.2-win64.msi)
+- [**SuperTux v0.6.2** (.msi) 32-bit](https://github.com/SuperTux/supertux/releases/download/v0.6.2/SuperTux-v0.6.2-win32.msi)
 
 ### macOS
 
-- [**SuperTux v0.6.1** (.dmg)](https://github.com/SuperTux/supertux/releases/download/v0.6.1/SuperTux-v0.6.1-Darwin.dmg)
+- [**SuperTux v0.6.2** (.dmg)](https://github.com/SuperTux/supertux/releases/download/v0.6.2/SuperTux-v0.6.2-Darwin.dmg)
 
 ### Other Downloads
 
@@ -46,7 +46,7 @@ Play at your own risk!
 Do you want the direct source code of the game to do whatever you want with?
 Get it here:
 
-- [**SuperTux v0.6.1** (.tar.gz)](https://github.com/SuperTux/supertux/releases/download/v0.6.1/SuperTux-v0.6.1-Source.tar.gz)
+- [**SuperTux v0.6.2** (.tar.gz)](https://github.com/SuperTux/supertux/releases/download/v0.6.2/SuperTux-v0.6.2-Source.tar.gz)
 
 #### Mobile Platforms (Android)
 
