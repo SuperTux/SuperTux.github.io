@@ -55,17 +55,14 @@ v0.3.5:
     small: "images/small/6.png"
   - large: "images/0_3_5_7.png"
     small: "images/small/7.png"
-    sample: true
   - large: "images/0_3_5_8.png"
     small: "images/small/8.png"
-    sample: true
   - large: "images/0_3_5_9.png"
     small: "images/small/9.png"
   - large: "images/0_3_5_10.png"
     small: "images/small/10.png"
   - large: "images/0_3_5_11.png"
     small: "images/small/11.png"
-    sample: true
 
 v0.4.0:
   - large: "images/0_4_0/0_4_0_1.png"
@@ -110,12 +107,14 @@ v0.6.0:
     small: "images/0_6_0/small/0_6_0_1.png"
   - large: "images/0_6_0/0_6_0_2.png"
     small: "images/0_6_0/small/0_6_0_2.png"
+    sample: true
   - large: "images/0_6_0/0_6_0_3.png"
     small: "images/0_6_0/small/0_6_0_3.png"
   - large: "images/0_6_0/0_6_0_4.png"
     small: "images/0_6_0/small/0_6_0_4.png"
   - large: "images/0_6_0/0_6_0_5.png"
     small: "images/0_6_0/small/0_6_0_5.png"
+    sample: true
   - large: "images/0_6_0/0_6_0_6.png"
     small: "images/0_6_0/small/0_6_0_6.png"
   - large: "images/0_6_0/0_6_0_7.png"
@@ -140,6 +139,7 @@ v0.6.0:
     small: "images/0_6_0/small/0_6_0_16.png"
   - large: "images/0_6_0/0_6_0_17.png"
     small: "images/0_6_0/small/0_6_0_17.png"
+    sample: true
   - large: "images/0_6_0/0_6_0_18.png"
     small: "images/0_6_0/small/0_6_0_18.png"
   - large: "images/0_6_0/0_6_0_19.png"
