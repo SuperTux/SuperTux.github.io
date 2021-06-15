@@ -34,8 +34,8 @@ contributions.
 ### IRC
 
 Most development related discussions that need to happen in real time happen on
-IRC. You can find us on [freenode](https://freenode.net/) (server:
-chat.freenode.net) in the [#supertux](ircs://chat.freenode.net/#supertux)
+IRC. You can find us on [Libera Chat](https://libera.chat/) (server:
+irc.libera.chat) in the [#supertux](ircs://irc.libera.chat/#supertux)
 channel. Please note that people might not be available all day, so wait before
 you leave.
 
