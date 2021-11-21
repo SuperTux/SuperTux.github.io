@@ -163,8 +163,14 @@ img.screenshot {
     border-style: none;
     margin: 8px;
     padding: 0;
-	max-height: 110px;
+	width: 30%;
+    height: 30%;
     transition: 0.5s;
+}
+
+img.screenshot_home {
+    width: 95%;
+    height: 95%;
 }
 
 a:hover img.screenshot {

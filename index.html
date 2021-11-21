@@ -10,7 +10,7 @@ title: Home
   <h3>Screenshots</h3>
   {% for screenshot in site.data.screenshots["v0.6.0"] %}
     {% if screenshot.sample %}
-      <a href="{{ site.baseurl }}/{{ screenshot.large }}"><img class="screenshot" alt="{{ site.baseurl }}/{{ screenshot.large }}" src="{{ site.baseurl }}/{{ screenshot.small }}" width="200" height="150"/></a>
+      <a href="{{ site.baseurl }}/{{ screenshot.large }}"><img class="screenshot screenshot_home" alt="{{ site.baseurl }}/{{ screenshot.large }}" src="{{ site.baseurl }}/{{ screenshot.small }}" width="200" height="150"/></a>
     {% endif %}
   {% endfor %}
   <a href="screenshots.html">More Screenshots</a>
