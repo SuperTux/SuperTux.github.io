@@ -3,6 +3,8 @@ layout: default
 title: Screenshots
 ---
 
+<link href="lightbox/lightbox.css" rel="stylesheet" />
+<script src="lightbox/lightbox-plus-jquery.js"></script>
 <article id="pagebody" class="screenshotpage">
   <h2>Screenshots</h2>
 
@@ -10,7 +12,7 @@ title: Screenshots
     <h3>Release 0.6.0</h3>
     <div>
       {% for screenshot in site.data.screenshots["v0.6.0"] %}
-        <a href="{{ site.baseurl }}/{{ screenshot.large }}"><img class="screenshot" alt="{{ site.baseurl }}/{{ screenshot.large }}" src="{{ site.baseurl }}/{{ screenshot.small }}" width="200" height="125"/></a>
+        <a href="{{ site.baseurl }}/{{ screenshot.large }}" data-lightbox="0.6.0_img"><img class="screenshot" alt="{{ site.baseurl }}/{{ screenshot.large }}" src="{{ site.baseurl }}/{{ screenshot.small }}" width="200" height="125"/></a>
       {% endfor %}
     </div>
   </section>
@@ -19,7 +21,7 @@ title: Screenshots
     <h3>Release 0.5.1</h3>
     <div>
       {% for screenshot in site.data.screenshots["v0.5.1"] %}
-        <a href="{{ site.baseurl }}/{{ screenshot.large }}"><img class="screenshot" alt="{{ site.baseurl }}/{{ screenshot.large }}" src="{{ site.baseurl }}/{{ screenshot.small }}" width="200" height="125"/></a>
+        <a href="{{ site.baseurl }}/{{ screenshot.large }}" data-lightbox="0.5.1_img"><img class="screenshot" alt="{{ site.baseurl }}/{{ screenshot.large }}" src="{{ site.baseurl }}/{{ screenshot.small }}" width="200" height="125"/></a>
       {% endfor %}
     </div>
   </section>
@@ -28,7 +30,7 @@ title: Screenshots
     <h3>Release 0.4.0</h3>
     <div>
       {% for screenshot in site.data.screenshots["v0.4.0"] %}
-        <a href="{{ site.baseurl }}/{{ screenshot.large }}"><img class="screenshot" alt="{{ site.baseurl }}/{{ screenshot.large }}" src="{{ site.baseurl }}/{{ screenshot.small }}" width="200" height="150"/></a>
+        <a href="{{ site.baseurl }}/{{ screenshot.large }}" data-lightbox="0.4.0_img"><img class="screenshot" alt="{{ site.baseurl }}/{{ screenshot.large }}" src="{{ site.baseurl }}/{{ screenshot.small }}" width="200" height="150"/></a>
       {% endfor %}
     </div>
   </section>
@@ -36,21 +38,21 @@ title: Screenshots
   <section>
     <h3>Release 0.3.5</h3>
     {% for screenshot in site.data.screenshots["v0.3.5"] %}
-      <a href="{{ site.baseurl }}/{{ screenshot.large }}"><img class="screenshot" alt="{{ site.baseurl }}/{{ screenshot.large }}" src="{{ site.baseurl }}/{{ screenshot.small }}" width="200" height="150"/></a>
+      <a href="{{ site.baseurl }}/{{ screenshot.large }}" data-lightbox="0.3.5_img"><img class="screenshot" alt="{{ site.baseurl }}/{{ screenshot.large }}" src="{{ site.baseurl }}/{{ screenshot.small }}" width="200" height="150"/></a>
     {% endfor %}
   </section>
 
   <section>
     <h3>Release 0.3.0</h3>
     {% for screenshot in site.data.screenshots["v0.3.0"] %}
-      <a href="{{ site.baseurl }}/{{ screenshot.large }}"><img class="screenshot" alt="{{ site.baseurl }}/{{ screenshot.large }}" src="{{ site.baseurl }}/{{ screenshot.small }}" width="200" height="150"/></a>
+      <a href="{{ site.baseurl }}/{{ screenshot.large }}" data-lightbox="0.3.0_img"><img class="screenshot" alt="{{ site.baseurl }}/{{ screenshot.large }}" src="{{ site.baseurl }}/{{ screenshot.small }}" width="200" height="150"/></a>
     {% endfor %}
   </section>
 
   <section>
     <h3>Release 0.1.4 (Milestone 1)</h3>
     {% for screenshot in site.data.screenshots["v0.1.4"] %}
-      <a href="{{ site.baseurl }}/{{ screenshot.large }}"><img class="screenshot" alt="{{ site.baseurl }}/{{ screenshot.large }}" src="{{ site.baseurl }}/{{ screenshot.small }}" width="200" height="150"/></a>
+      <a href="{{ site.baseurl }}/{{ screenshot.large }}" data-lightbox="0.1.4_img"><img class="screenshot" alt="{{ site.baseurl }}/{{ screenshot.large }}" src="{{ site.baseurl }}/{{ screenshot.small }}" width="200" height="150"/></a>
     {% endfor %}
   </section>
 </article>

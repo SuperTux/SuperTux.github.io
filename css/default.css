@@ -66,6 +66,10 @@ h1 img {
     color: rgba(255, 255, 255, 1);
 }
 
+aside.screenshots h3, article.screenshotpage section h3 {
+    margin-bottom: 10px;
+}
+
 #pagebody ul {
     display:table;
 }
@@ -159,12 +163,20 @@ img.screenshot {
     border-style: none;
     margin: 8px;
     padding: 0;
+	width: 30%;
+    height: 30%;
+    transition: 0.5s;
+}
+
+img.screenshot_home {
+    width: 95%;
+    height: 95%;
 }
 
 a:hover img.screenshot {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     position: relative;
-    top: -4px;
+    transform: scale(1.1);
 }
 
 a:visited {
