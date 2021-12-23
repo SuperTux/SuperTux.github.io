@@ -7,26 +7,27 @@ title: Download
 
 Here is the page to download SuperTux in all its many forms!
 
-## Current Stable Release (0.6.2)
+## Current Stable Release (0.6.3)
 
 The main releases of SuperTux are available on Windows, macOS and Linux. Listed
 here are the download links for the current stable release.
 
 ### Linux
 
-- [**SuperTux v0.6.2** (.AppImage)](https://github.com/SuperTux/supertux/releases/download/v0.6.2/SuperTux_2-v0.6.2.glibc2.27-x86_64.AppImage)
+- [**SuperTux v0.6.3** (.AppImage)](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3.glibc2.29-x86_64.AppImage)
+- [**SuperTux v0.6.3** (Linux 32 bit)](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-Linux-32.tar.gz)
 - [**SuperTux v0.6.2**](https://flathub.org/apps/details/org.supertuxproject.SuperTux) [(.flatpakref)](https://flathub.org/repo/appstream/org.supertuxproject.SuperTux.flatpakref)
 
 SuperTux packages are also available in many Linux distributions.
 
 ### Windows
 
-- [**SuperTux v0.6.2** (.msi) 64-bit](https://github.com/SuperTux/supertux/releases/download/v0.6.2/SuperTux-v0.6.2-win64.msi)
-- [**SuperTux v0.6.2** (.msi) 32-bit](https://github.com/SuperTux/supertux/releases/download/v0.6.2/SuperTux-v0.6.2-win32.msi)
+- [**SuperTux v0.6.3** (.msi) 64-bit](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-win64.msi)
+- [**SuperTux v0.6.3** (.msi) 32-bit](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-win32.msi)
 
 ### macOS
 
-- [**SuperTux v0.6.2** (.dmg)](https://github.com/SuperTux/supertux/releases/download/v0.6.2/SuperTux-v0.6.2-Darwin.dmg)
+- [**SuperTux v0.6.3** (.dmg) for MacOS 10.15 or later](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-Darwin-10.15.dmg)
 
 ### Other Downloads
 
