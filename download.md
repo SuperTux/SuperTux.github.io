@@ -27,7 +27,8 @@ SuperTux packages are also available in many Linux distributions.
 
 ### macOS
 
-- [**SuperTux v0.6.3** (.dmg) for MacOS 10.15 or later](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-Darwin-10.15.dmg)
+- [**SuperTux v0.6.3** (.dmg) for MacOS 10.15](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-Darwin-10.15.dmg)
+- [**SuperTux v0.6.3**] (.dmg) for MacOS 11](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-Darwin-11.dmg)
 
 ### Other Downloads
 
@@ -49,6 +50,11 @@ Get it here:
 
 - [**SuperTux v0.6.2** (.tar.gz)](https://github.com/SuperTux/supertux/releases/download/v0.6.2/SuperTux-v0.6.2-Source.tar.gz)
 
+#### WebAssembly
+
+You can download WebAssembly builds here:
+
+- [**SuperTux v0.6.3** (.zip)](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-WASM.zip)
 #### Mobile Platforms (Android)
 
 Right now, there is no official support for mobile platforms (e.g. Android). 
