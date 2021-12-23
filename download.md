@@ -28,7 +28,7 @@ SuperTux packages are also available in many Linux distributions.
 ### macOS
 
 - [**SuperTux v0.6.3** (.dmg) for MacOS 10.15](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-Darwin-10.15.dmg)
-- [**SuperTux v0.6.3**] (.dmg) for MacOS 11](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-Darwin-11.dmg)
+- [**SuperTux v0.6.3** (.dmg) for MacOS 11](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-Darwin-11.dmg)
 
 ### Other Downloads
 
