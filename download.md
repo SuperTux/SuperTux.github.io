@@ -52,6 +52,10 @@ Get it here:
 
 #### WebAssembly
 
+If you want to add SuperTux to your personal website, you may do so with these files.
+
+Make sure to check the README.txt file inside the archive for instructions on how to setup your server to run SuperTux properly. You may also find the details [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer#security_requirements). If you see an error saying that SharedArrayBuffers are missing, make sure you are using HTTPS and that the two headers are set.
+
 You can download WebAssembly builds here:
 
 - [**SuperTux v0.6.3** (.zip)](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-WASM.zip)
