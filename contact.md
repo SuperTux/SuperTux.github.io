@@ -5,9 +5,9 @@ title: Contact
 
 ## Contact
 
-Here are the many ways you can contact the team. Usually they will answer quite
-quickly, but if they don't please be patient and give them the benefit of the
-doubt. Yes, that means stick around IRC longer than 2 minutes. ;)
+Here are the many ways you can contact the team. Usually we will answer quite
+quickly, but if we don't, please be patient and give us the benefit of the
+doubt. Yes, that means stick around Discord or IRC longer than 2 minutes. ;)
 
 ### Social Networks
 
@@ -17,13 +17,11 @@ get in touch with us using them.
 - [@supertux\_team](https://twitter.com/supertux_team) on
   [Twitter](https://twitter.com)
 
-### Mailing List
+### Discord
 
-This mailing list is for everything development related. Feel free to chime in!
-
-- [supertux-devel@lists.lethargik.org](mailto:supertux-devel@lists.lethargik.org)
-- [Archive](http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org)
-- [Subscribe/Unsubscribe](http://lists.lethargik.org/listinfo.cgi/supertux-devel-lethargik.org)
+The [SuperTux Discord Server](https://discord.gg/AcvtHWz) is a place, where you can showcase
+your SuperTux works, ask the SuperTux Team your questions, keep up to date with new features
+and announcements, and chat with other fans. We are waiting for you!
 
 ### Forum
 
@@ -42,4 +40,4 @@ you leave.
 ### GitHub
 
 We're [@SuperTux](https://github.com/SuperTux) on GitHub. This is the place
-where SuperTux's source code and issue tracker is hosted.
+where SuperTux's source code, its issue tracker and other SuperTux git repositories are hosted.
