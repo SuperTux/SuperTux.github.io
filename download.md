@@ -16,7 +16,7 @@ here are the download links for the current stable release.
 
 - [**SuperTux v0.6.3** (.AppImage)](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3.glibc2.29-x86_64.AppImage)
 - [**SuperTux v0.6.3** (Linux 32 bit)](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-Linux-32.tar.gz)
-- [**SuperTux v0.6.2**](https://flathub.org/apps/details/org.supertuxproject.SuperTux) [(.flatpakref)](https://flathub.org/repo/appstream/org.supertuxproject.SuperTux.flatpakref)
+- [**SuperTux v0.6.3**](https://flathub.org/apps/details/org.supertuxproject.SuperTux) [(.flatpakref)](https://flathub.org/repo/appstream/org.supertuxproject.SuperTux.flatpakref)
 
 SuperTux packages are also available in many Linux distributions.
 
@@ -48,7 +48,7 @@ Play at your own risk!
 Do you want the direct source code of the game to do whatever you want with?
 Get it here:
 
-- [**SuperTux v0.6.2** (.tar.gz)](https://github.com/SuperTux/supertux/releases/download/v0.6.2/SuperTux-v0.6.2-Source.tar.gz)
+- [**SuperTux v0.6.3** (.tar.gz)](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-Source.tar.gz)
 
 #### WebAssembly
 
