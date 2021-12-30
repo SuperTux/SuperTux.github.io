@@ -5,6 +5,7 @@ highlighter: rouge
 exclude:
   - README.md
 output: true
+description: SuperTux is an open-source classic 2D jump'n run sidescroller game in a style similar to the original Super Mario games.
 
 plugins:
   - jekyll-feed
