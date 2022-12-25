@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SuperTux Christmas 2022 Newsletter"
-date: 2022-12-25 20:50:00
+date: 2022-12-25 00:00:00
 ---
 
 Almost every Christmas recently, the SuperTux Team has had an update to release.  However, this year there is unfortunately no update.  It is not because there was no progress made; it’s quite the opposite!  There are so many improvements that have been added, so many more in progress, and so many more that still have to be worked on for the next update, that it was decided best to hold off on an update for this year.
