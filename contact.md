@@ -7,7 +7,7 @@ title: Contact
 
 Here are the many ways you can contact the team. Usually we will answer quite
 quickly, but if we don't, please be patient and give us the benefit of the
-doubt. Yes, that means stick around Discord or IRC longer than 2 minutes. ;)
+doubt. Yes, that means stick around Discord or IRC longer than 10 minutes. ;)
 
 ### Social Networks
 
@@ -36,6 +36,8 @@ IRC. You can find us on [Libera Chat](https://libera.chat/) (server:
 irc.libera.chat) in the [#supertux](ircs://irc.libera.chat/#supertux)
 channel. Please note that people might not be available all day, so wait before
 you leave.
+
+- [Web client](https://kiwiirc.com/nextclient/irc.libera.chat:+6697/?nick=Guest?#supertux)
 
 ### GitHub
 
