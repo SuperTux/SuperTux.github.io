@@ -40,8 +40,8 @@ and the source code exist! You can also get SuperTux for Android!
 Are you interested in playing the most recent development build and trying out
 new features? Look no further than...
 - [**SuperTux Nightly Builds!**](https://download.supertux.org/)
-Note that these builds are highly unstable and might cause damage to your computer! 
-Play at your own risk! 
+
+> **Note**: These builds may be slightly unstable. Make sure to report any issues, experienced on the latest Nightly Builds, [here](https://github.com/SuperTux/supertux/issues/new)!
 
 #### Source Code
 
