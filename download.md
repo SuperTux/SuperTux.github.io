@@ -32,7 +32,7 @@ SuperTux packages are also available in many Linux distributions.
 
 ### Other Downloads
 
-The official releases are the only available releases of SuperTux; Nightly Builds 
+The official releases aren't the only available releases of SuperTux; Nightly Builds 
 and the source code exist! You can also get SuperTux for Android!
 
 #### Nightly Builds
