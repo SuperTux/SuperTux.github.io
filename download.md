@@ -30,10 +30,24 @@ SuperTux packages are also available in many Linux distributions.
 - [**SuperTux v0.6.3** (.dmg) for MacOS 10.15](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-Darwin-10.15.dmg)
 - [**SuperTux v0.6.3** (.dmg) for MacOS 11](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-Darwin-11.dmg)
 
+### WebAssembly
+
+If you want to add SuperTux to your personal website, you may do so with these files.
+
+Make sure to check the README.txt file inside the archive for instructions on how to setup your server to run SuperTux properly. You may also find the details [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer#security_requirements). If you see an error saying that SharedArrayBuffers are missing, make sure you are using HTTPS and that the two headers are set.
+
+You can download WebAssembly builds here:
+
+- [**SuperTux v0.6.3** (.zip)](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-WASM.zip)
+
+### Android
+
+- [**SuperTux v0.6.3** (Google Play)](https://play.google.com/store/apps/details?id=org.lethargik.supertux2&hl=en)
+
 ### Other Downloads
 
 The official releases are the only available releases of SuperTux; Nightly Builds 
-and the source code exist! You can also get SuperTux for Android!
+and the source code exist!
 
 #### Nightly Builds
 
@@ -49,23 +63,3 @@ Do you want the direct source code of the game to do whatever you want with?
 Get it here:
 
 - [**SuperTux v0.6.3** (.tar.gz)](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-Source.tar.gz)
-
-#### WebAssembly
-
-If you want to add SuperTux to your personal website, you may do so with these files.
-
-Make sure to check the README.txt file inside the archive for instructions on how to setup your server to run SuperTux properly. You may also find the details [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer#security_requirements). If you see an error saying that SharedArrayBuffers are missing, make sure you are using HTTPS and that the two headers are set.
-
-You can download WebAssembly builds here:
-
-- [**SuperTux v0.6.3** (.zip)](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-WASM.zip)
-#### Mobile Platforms (Android)
-
-Right now, there is no official support for mobile platforms (e.g. Android). 
-However, there are community-provided ports for some of these platforms.
-**Since we do not own or control these, use of them is at your own discretion.**
-Also, it might be possible that these ports are out of date or have a limited
-set of features. SuperTux is also not available for iOS and most likely never will be.
-
-- [**SuperTux v0.5.1** (Google Play)](https://play.google.com/store/apps/details?id=org.lethargik.supertux2&hl=en)
-- [**SuperTux v0.5.1** (Source Code Repository)](https://github.com/pelya/supertux)
