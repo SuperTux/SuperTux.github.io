@@ -46,7 +46,7 @@ You can download WebAssembly builds here:
 
 ### Other Downloads
 
-The official releases are the only available releases of SuperTux; Nightly Builds 
+The official releases aren't the only available releases of SuperTux; Nightly Builds 
 and the source code exist!
 
 #### Nightly Builds
