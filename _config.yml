@@ -4,6 +4,7 @@ highlighter: rouge
 # baseurl: https://supertuxproject.org
 exclude:
   - README.md
+  - LICENSE.txt
 output: true
 description: SuperTux is an open-source classic 2D jump'n run sidescroller game in a style similar to the original Super Mario games.
 
