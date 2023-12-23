@@ -4,9 +4,7 @@ title: "SuperTux Christmas 2023 Newsletter"
 date: 2023-12-23 00:00:00
 ---
 
-# It's Christmas time!
-
-Here's a summary of the most important aspects of SuperTux development progression, during 2023!
+It's Christmas time! Here's a summary of the most important aspects of SuperTux development progression, during 2023!
 
 ### Worlds
 
