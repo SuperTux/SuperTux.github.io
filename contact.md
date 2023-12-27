@@ -16,6 +16,7 @@ get in touch with us using them.
 
 - [@supertux\_team](https://twitter.com/supertux_team) on
   [Twitter](https://twitter.com)
+- [@supertux@floss.social](https://floss.social/@supertux) on [Mastodon](https://joinmastodon.org/)
 
 ### Discord
 
