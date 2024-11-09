@@ -26,7 +26,7 @@ and announcements, and chat with other fans. We are waiting for you!
 
 ### Forum
 
-We also have a [forum](http://forum.freegamedev.net/viewforum.php?f=66) where
+We also have a [forum](https://groups.f-hub.org/g/8AKEaTgZ) where
 you can discuss the game, ask questions and submit your creations or
 contributions.
 
