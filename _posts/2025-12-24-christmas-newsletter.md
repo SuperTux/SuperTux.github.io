@@ -29,3 +29,4 @@ Here's a summary of the changes present in SuperTux 0.7. Don't forget to check o
 Thank you for playing SuperTux and we're looking forward to another great year of SuperTux development in 2026!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PczyNWV8gI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe title="SuperTux: Development Summary for v0.7.0! (+ Developer Commentary)" width="560" height="315" src="https://peertube.linuxrocks.online/videos/embed/8c252008-b1c8-4551-acc2-b3e9c90539d3" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>

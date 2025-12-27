@@ -41,3 +41,4 @@ Regarding the future after v0.7.0, check out our [Story Mode Roadmap](https://gi
 If you would like to help with development, you can [contact us](https://www.supertux.org/contact.html). Merry Christmas, and Happy SuperTux-ing!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n_Yk1G0DZ1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe title="SuperTux: Development Summary of 2024!" width="560" height="315" src="https://peertube.linuxrocks.online/videos/embed/31f1aab2-74b7-4619-848a-2ee99bcf0203" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>

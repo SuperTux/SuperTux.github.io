@@ -51,3 +51,4 @@ So in short, there is still a lot of progress to be made, alongside the progress
 If you would like to help with development, you can [contact us](https://www.supertux.org/contact.html). Merry Christmas, and Happy SuperTux-ing!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ura_OqMlt9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="SuperTux: Development Summary of 2022!" width="560" height="315" src="https://peertube.linuxrocks.online/videos/embed/723634d0-d03b-4586-97c2-bd82b5a99095" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>

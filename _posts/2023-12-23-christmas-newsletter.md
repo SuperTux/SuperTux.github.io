@@ -36,3 +36,4 @@ Check out our [Story Mode Roadmap](https://github.com/SuperTux/supertux/wiki/Sto
 If you would like to help with development, you can [contact us](https://www.supertux.org/contact.html). Merry Christmas, and Happy SuperTux-ing!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Wcqat_b8ft8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe title="SuperTux: Development Summary of 2023!" width="560" height="315" src="https://peertube.linuxrocks.online/videos/embed/03e538dd-2b00-459b-9d37-00e292d870d0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
