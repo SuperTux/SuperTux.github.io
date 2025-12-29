@@ -46,12 +46,20 @@ SuperTux is no longer available on the Google Play Store as of February 3rd, 202
 
 You can download an APK for SuperTux v0.6.3 [directly](https://sourceforge.net/projects/libsdl-android/files/apk/SuperTux/SuperTux-0.6.3.23.apk/download).
 
-### Other Downloads
+## Current BETA Release (0.7.0-beta.1)
+
+The latest BETA release of SuperTux for the next planned stable release - v0.7.0.
+
+More info and downloads at the [GitHub release page](https://github.com/SuperTux/supertux/releases/tag/v0.7.0-beta.1)!
+
+Please report any issues on [GitHub issues](https://github.com/SuperTux/supertux/issues).
+
+## Other Downloads
 
 The official releases aren't the only available releases of SuperTux; Nightly Builds 
 and the source code exist!
 
-#### Nightly Builds
+### Nightly Builds
 
 Are you interested in playing the most recent development build and trying out
 new features? Look no further than...
@@ -59,7 +67,7 @@ new features? Look no further than...
 
 > **Note**: These builds may be slightly unstable. Make sure to report any issues, experienced on the latest Nightly Builds, [here](https://github.com/SuperTux/supertux/issues/new)!
 
-#### Source Code
+### Source Code
 
 Do you want the direct source code of the game to do whatever you want with?
 Get it here:
