@@ -3,6 +3,8 @@ layout: in-pagebody
 title: Download
 ---
 
+> Did you know you can play SuperTux right in your browser? Head to https://play.supertux.org/ — no installation required!
+
 ## Download
 
 Here is the page to download SuperTux in all its many forms!
