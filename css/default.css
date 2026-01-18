@@ -200,3 +200,10 @@ a {
     text-align: right;
     color: rgba(128, 128, 128, 1);
 }
+
+blockquote {
+    background: rgba(192, 192, 192, 0.2);
+    border-left: 0.5em solid rgba(192, 192, 192);
+    padding: 0.1em 2.5em;
+    margin-left: 0;
+}
