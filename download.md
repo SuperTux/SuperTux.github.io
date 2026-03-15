@@ -9,28 +9,30 @@ title: Download
 
 Here is the page to download SuperTux in all its many forms!
 
-## Current Stable Release (0.6.3)
+## Current Stable Release (0.7.0)
 
-The main releases of SuperTux are available on Windows, macOS and Linux. Listed
-here are the download links for the current stable release.
+The main releases of SuperTux are available on Windows, macOS and Linux. Listed here are the download links for the current stable release. If you can't find the one you want, more may be listed [here](https://github.com/SuperTux/supertux/releases/tag/v0.7.0).
 
 ### Linux
 
-- [**SuperTux v0.6.3** (.AppImage)](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3.glibc2.29-x86_64.AppImage)
-- [**SuperTux v0.6.3** (Linux 32 bit)](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-Linux-32.tar.gz)
-- [**SuperTux v0.6.3**](https://flathub.org/apps/details/org.supertuxproject.SuperTux) [(.flatpakref)](https://flathub.org/repo/appstream/org.supertuxproject.SuperTux.flatpakref)
+- [**SuperTux v0.7.0** (.AppImage)](https://github.com/SuperTux/supertux/releases/download/v0.7.0/SuperTux-v0.7.0.glibc2.38-x86_64.AppImage)
+- [**SuperTux v0.7.0**](https://flathub.org/apps/details/org.supertuxproject.SuperTux) [(.flatpakref)](https://flathub.org/repo/appstream/org.supertuxproject.SuperTux.flatpakref)
 
 SuperTux packages are also available in many Linux distributions.
 
 ### Windows
 
-- [**SuperTux v0.6.3** (.msi) 64-bit](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-win64.msi)
-- [**SuperTux v0.6.3** (.msi) 32-bit](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-win32.msi)
+- [**SuperTux v0.7.0** (.msi) 64-bit](https://github.com/SuperTux/supertux/releases/download/v0.7.0/SuperTux-v0.7.0-win64.msi)
+- [**SuperTux v0.7.0** (.msi) 32-bit](https://github.com/SuperTux/supertux/releases/download/v0.7.0/SuperTux-v0.7.0-win32.msi)
 
 ### macOS
 
-- [**SuperTux v0.6.3** (.dmg) for MacOS 10.15](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-Darwin-10.15.dmg)
-- [**SuperTux v0.6.3** (.dmg) for MacOS 11](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-Darwin-11.dmg)
+- [**SuperTux v0.7.0** (.dmg) for MacOS, arm64](https://github.com/SuperTux/supertux/releases/download/v0.7.0/SuperTux-v0.7.0-Darwin-arm64.dmg)
+- [**SuperTux v0.7.0** (.dmg) for MacOS, x86 64](https://github.com/SuperTux/supertux/releases/download/v0.7.0/SuperTux-v0.7.0-Darwin-x86_64.dmg)
+
+## Other Downloads
+
+The official releases aren't the only available releases of SuperTux; There are a plethora of other downloads you can engage with. Note that some of these may be outdated.
 
 ### WebAssembly
 
@@ -48,19 +50,6 @@ SuperTux is no longer available on the Google Play Store as of February 3rd, 202
 
 You can download an APK for SuperTux v0.6.3 [directly](https://sourceforge.net/projects/libsdl-android/files/apk/SuperTux/SuperTux-0.6.3.23.apk/download).
 
-## Current BETA Release (0.7.0-beta.1)
-
-The latest BETA release of SuperTux for the next planned stable release - v0.7.0.
-
-More info and downloads at the [GitHub release page](https://github.com/SuperTux/supertux/releases/tag/v0.7.0-beta.1)!
-
-Please report any issues on [GitHub issues](https://github.com/SuperTux/supertux/issues).
-
-## Other Downloads
-
-The official releases aren't the only available releases of SuperTux; Nightly Builds 
-and the source code exist!
-
 ### Nightly Builds
 
 Are you interested in playing the most recent development build and trying out
@@ -74,4 +63,4 @@ new features? Look no further than...
 Do you want the direct source code of the game to do whatever you want with?
 Get it here:
 
-- [**SuperTux v0.6.3** (.tar.gz)](https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-Source.tar.gz)
+- [**SuperTux v0.7.0** (.tar.gz)](https://github.com/SuperTux/supertux/releases/download/v0.7.0/SuperTux-v0.7.0-Source.tar.gz)
