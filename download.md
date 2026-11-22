@@ -48,7 +48,7 @@ You can download WebAssembly builds here:
 
 SuperTux is no longer available on the Google Play Store as of February 3rd, 2025, because of a change requiring personal info about a maintainer be made public.
 
-You can instead download an APK for SuperTux v0.7.0.2 here:
+You can instead download an APK for SuperTux v0.7.0.1 here:
 
 - [**SuperTux v0.7.0.1** (.apk) arm64-v8a](https://github.com/SuperTux/supertux/releases/download/v0.7.0.1/SuperTux-v0.7.0.1-arm64-v8a.apk)
 - [**SuperTux v0.7.0.1** (.apk) armebi-v7a](https://github.com/SuperTux/supertux/releases/download/v0.7.0.1/SuperTux-v0.7.0.1-armeabi-v7a.apk)
