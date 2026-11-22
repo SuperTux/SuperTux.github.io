@@ -53,6 +53,9 @@ You can instead download an APK for SuperTux v0.7.0.1 here:
 - [**SuperTux v0.7.0.1** (.apk), arm64-v8a](https://github.com/SuperTux/supertux/releases/download/v0.7.0.1/SuperTux-0.7.0.1-arm64-v8a.apk)
 - [**SuperTux v0.7.0.1** (.apk), armebi-v7a](https://github.com/SuperTux/supertux/releases/download/v0.7.0.1/SuperTux-0.7.0.1-armeabi-v7a.apk)
 
+### Steam
+
+You can get SuperTux 0.7.0.1 from Steam [here](https://store.steampowered.com/app/1572920/SuperTux/)
 
 ### Nightly Builds
 
