@@ -50,8 +50,8 @@ SuperTux is no longer available on the Google Play Store as of February 3rd, 202
 
 You can instead download an APK for SuperTux v0.7.0.1 here:
 
-- [**SuperTux v0.7.0.1** (.apk), arm64-v8a](https://github.com/SuperTux/supertux/releases/download/v0.7.0.1/SuperTux-v0.7.0.1-arm64-v8a.apk)
-- [**SuperTux v0.7.0.1** (.apk), armebi-v7a](https://github.com/SuperTux/supertux/releases/download/v0.7.0.1/SuperTux-v0.7.0.1-armeabi-v7a.apk)
+- [**SuperTux v0.7.0.1** (.apk), arm64-v8a](https://github.com/SuperTux/supertux/releases/download/v0.7.0.1/SuperTux-0.7.0.1-arm64-v8a.apk)
+- [**SuperTux v0.7.0.1** (.apk), armebi-v7a](https://github.com/SuperTux/supertux/releases/download/v0.7.0.1/SuperTux-0.7.0.1-armeabi-v7a.apk)
 
 ## Steam
 
